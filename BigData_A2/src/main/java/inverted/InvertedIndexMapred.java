@@ -1,10 +1,11 @@
 package inverted;
-
+//Hey, this is Meghan trying to make changes!
 import java.io.IOException;
 
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 import org.apache.hadoop.mapreduce.Reducer;
+import org.apache.hadoop.util.GenericOptionsParser;
 
 import util.StringIntegerList;
 import util.StringIntegerList.StringInteger;
@@ -37,5 +38,6 @@ public class InvertedIndexMapred {
 	public static void main(String[] args) {
 		// TODO: you should implement the Job Configuration and Job call
 		// here
+		GenericOptionsParser gop = new GenericOptionsParser(String[] args);
 	}
 }
