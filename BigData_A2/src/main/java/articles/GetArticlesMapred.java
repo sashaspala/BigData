@@ -2,6 +2,7 @@ package articles;
 
 import java.io.File;
 import java.io.IOException;
+import java.net.URI;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -9,6 +10,7 @@ import java.util.Scanner;
 import java.util.Set;
 import java.util.jar.JarFile;
 
+import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.LongWritable;
@@ -63,7 +65,7 @@ public class GetArticlesMapred {
 		}
 	}
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		// TODO: you should implement the Job Configuration and Job call
 		// here
 		Configuration conf = new Configuration();
