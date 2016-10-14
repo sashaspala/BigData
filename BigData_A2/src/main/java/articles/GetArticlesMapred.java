@@ -17,7 +17,8 @@ import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.Mapper;
 
 import edu.umd.cloud9.collection.wikipedia.WikipediaPage;
-import mapreduce.NameCount.Map;
+//import mapreduce.NameCount.Map;
+import mapreduce.NameCount;
 
 /**
  * This class is used for Section A of assignment 1. You are supposed to
