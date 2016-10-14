@@ -1,10 +1,17 @@
 package inverted;
-//Hey, this is Meghan trying to make changes!
-import java.io.IOException;
 
+import java.io.IOException;
+import java.util.ArrayList;
+
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.Mapper;
 import org.apache.hadoop.mapreduce.Reducer;
+import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
+import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.util.GenericOptionsParser;
 
 import util.StringIntegerList;
@@ -17,21 +24,48 @@ import util.StringIntegerList.StringInteger;
  */
 public class InvertedIndexMapred {
 	public static class InvertedIndexMapper extends Mapper<Text, Text, Text, StringInteger> {
-
+		String articleName;
+		String line;
+		int comma;
+		Integer count;
+		Text lemma;
+		StringInteger index;
+		
 		@Override
 		public void map(Text articleId, Text indices, Context context) throws IOException,
 				InterruptedException {
 			// TODO: You should implement inverted index mapper here
+			
+			articleName = articleId.toString(); 
+			line = indices.toString();
+			comma = line.indexOf(',');
+			lemma = new Text(line.substring(1, comma));
+			count = Integer.parseInt(line.substring(comma + 1, line.length() - 1));
+			
+			index = new StringInteger(articleName, count);
+			
+			context.write(lemma, index);
+			
 		}
 	}
 
 	public static class InvertedIndexReducer extends
 			Reducer<Text, StringInteger, Text, StringIntegerList> {
-
+		StringIntegerList indexWritable;
+		
 		@Override
 		public void reduce(Text lemma, Iterable<StringInteger> articlesAndFreqs, Context context)
 				throws IOException, InterruptedException {
 			// TODO: You should implement inverted index reducer here
+			
+			ArrayList<StringInteger> indexList = new ArrayList<StringInteger>();
+			for (StringInteger articleAndFreq : articlesAndFreqs){
+				indexList.add(articleAndFreq);
+			}
+			
+			indexWritable = new StringIntegerList(indexList);
+			
+			context.write(lemma, indexWritable);
 		}
 	}
 
@@ -39,5 +73,16 @@ public class InvertedIndexMapred {
 		// TODO: you should implement the Job Configuration and Job call
 		// here
 		GenericOptionsParser gop = new GenericOptionsParser(String[] args);
+		Configuration conf = new Configuration();
+		Job job = Job.getInstance(conf, "inverted index");
+		
+		job.setJarByClass(InvertedIndexMapred.class);
+		job.setMapperClass(InvertedIndexMapper.class);
+		job.setReducerClass(InvertedIndexReducer.class);
+		
+		FileInputFormat.addInputPath(job, new Path(args[0]));
+		FileOutputFormat.setOutputPath(job, new Path(args[1]));
+		    
+		System.exit(job.waitForCompletion(true) ? 0 : 1);
 	}
 }
