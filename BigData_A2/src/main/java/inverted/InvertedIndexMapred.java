@@ -5,7 +5,6 @@ import java.util.ArrayList;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
-import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.Mapper;
@@ -73,16 +72,25 @@ public class InvertedIndexMapred {
 		// TODO: you should implement the Job Configuration and Job call
 		// here
 		//GenericOptionsParser gop = new GenericOptionsParser(String[] args);
+
 		Configuration conf = new Configuration();
+		GenericOptionsParser gop = new GenericOptionsParser(conf, args);
+		String[] otherArgs = gop.getRemainingArgs();
+		
 		Job job = Job.getInstance(conf, "inverted index");
 		
 		job.setJarByClass(InvertedIndexMapred.class);
 		job.setMapperClass(InvertedIndexMapper.class);
 		job.setReducerClass(InvertedIndexReducer.class);
 		
-		FileInputFormat.addInputPath(job, new Path(args[0]));
-		FileOutputFormat.setOutputPath(job, new Path(args[1]));
-		    
-		System.exit(job.waitForCompletion(true) ? 0 : 1);
+		FileInputFormat.addInputPath(job, new Path(otherArgs[0]));
+		FileOutputFormat.setOutputPath(job, new Path(otherArgs[1]));
+		try{
+			System.exit(job.waitForCompletion(true) ? 0 : 1);
+		}
+		catch (ClassNotFoundException | InterruptedException e){
+			e.printStackTrace();
+		}
+
 	}
 }
