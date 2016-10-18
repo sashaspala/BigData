@@ -2,6 +2,7 @@ package articles;
 
 import java.io.File;
 import java.io.IOException;
+import java.net.URI;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -9,6 +10,7 @@ import java.util.Scanner;
 import java.util.Set;
 import java.util.jar.JarFile;
 
+import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.LongWritable;
@@ -17,7 +19,7 @@ import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.Mapper;
 
 import edu.umd.cloud9.collection.wikipedia.WikipediaPage;
-import mapreduce.NameCount.Map;
+import mapreduce.ProcessPeople.TokenizerMapper;
 
 /**
  * This class is used for Section A of assignment 1. You are supposed to
@@ -62,7 +64,7 @@ public class GetArticlesMapred {
 		}
 	}
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		// TODO: you should implement the Job Configuration and Job call
 		// here
 		Configuration conf = new Configuration();
