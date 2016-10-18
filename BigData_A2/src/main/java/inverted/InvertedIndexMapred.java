@@ -69,10 +69,10 @@ public class InvertedIndexMapred {
 		}
 	}
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException {
 		// TODO: you should implement the Job Configuration and Job call
 		// here
-		GenericOptionsParser gop = new GenericOptionsParser(String[] args);
+		//GenericOptionsParser gop = new GenericOptionsParser(String[] args);
 		Configuration conf = new Configuration();
 		Job job = Job.getInstance(conf, "inverted index");
 		

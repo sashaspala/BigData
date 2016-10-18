@@ -1,0 +1,1000 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.8/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <base>http://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.21wmf2</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Autonomous communities of Spain</title>
+    <ns>0</ns>
+    <id>55002</id>
+    <revision>
+      <id>520901786</id>
+      <parentid>520728375</parentid>
+      <timestamp>2012-11-01T14:28:50Z</timestamp>
+      <contributor>
+        <username>Eumolpo</username>
+        <id>7953109</id>
+      </contributor>
+      <minor />
+      <comment>orthographic</comment>
+      <text xml:space="preserve">{{Infobox subdivision type
+| name             = Autonomous community    
+| alt_name         =  
+| map              = [[File:Blank Spain Map (Autonomous Communities).svg|250px]]             
+| category         = [[Autonomous area|Autonomous entity]]        
+| territory        = [[Spain]]  
+| upper_unit       = 
+| start_date       = 1979-1983
+| legislation_begin= [[Spanish Constitution of 1978|Spanish Constitution]]
+| legislation_end  =
+| end_date         =
+| current_number   = 17 + 2 autonomous cities  
+| number_date      =       
+| type             =
+| status           =
+| exofficio        =
+| population_range = 78,476–8,415,490 
+| area_range       = 4,992–94,222 km²    
+| government       = [[Government of the autonomous communities|Autonomous government]]
+| subdivision      = [[Provinces of Spain|Province]]
+| subdivision2     = [[Municipalities in Spain|Municipality]]{{efn|The Spanish constitution recognizes and guarantees the autonomy of provinces and municipalities. In some autonomous communities, other subdivisions may exist, some of which are merely symbolic or historical, while others may be administrative subdivisions with devolved competences, like the [[comarques of Catalonia]].}}
+}}An '''autonomous community''' (in [[Spanish language|Spanish]]: ''comunidad autónoma'', in [[Basque language|Basque]]: ''autonomia erkidego'', in [[Catalan language|Catalan]]: ''comunitat autònoma'', in [[Galician language|Galician]]: ''comunidade autónoma'') is a first-level [[political divisions of Spain|political and administrative division of Spain]] created in accordance to the [[Spanish constitution]] of 1978 with the aim of guaranteeing the autonomy of the [[nationalities and regions of Spain|nationalities and regions]] that integrate the Spanish nation.&lt;ref name=eso&gt;{{cite web|url=http://recursostic.educacion.es/secundaria/edad/3esohistoria/para_pdf/quincena12.pdf|title=Organización territorial. El Estado de las Autonomías|work=Recursos Educativos|publisher=Instituto Nacional de Tecnologías Educativas y de Formación del Profesorado. Ministerio de Eduación, Cultura y Deporte|accessdate=19 October 2012}}&lt;/ref&gt;&lt;ref name=art2&gt;Article 2. {{cite web|url=http://www.congreso.es/consti/constitucion/indice/titulos/articulos.jsp?ini=1&amp;fin=9&amp;tipo=2|title=Título Preliminar|work=Spanish Constitution of 1978|author=[[Cortes Generales]] (Spanish Parliament)|date=1978|accessdate=29 September 2012}}&lt;/ref&gt;&lt;ref name=art143&gt;Article 143. {{cite web|url=http://www.congreso.es/consti/constitucion/indice/titulos/articulos.jsp?ini=137&amp;fin=158&amp;tipo=2|title=Título VIII. De la Organización Territorial del Estado|work=Spanish Constitution of 1978|author=[[Cortes Generales]] (Spanish Parliament)|date=1978|accessdate=29 September 2012}}&lt;/ref&gt; Since sovereignty resides on the nation as a whole—and represented in the State-wide or central institutions of government—and not in the communities, Spain is not a [[federation]], but a highly decentralized&lt;ref name=sinopsis145&gt;{{cite web|url=http://www.congreso.es/consti/constitucion/indice/sinopsis/sinopsis.jsp?art=145&amp;tipo=2||title=Sinópsis artículo 145|work=Constitución española (con sinópsis) |last=Bacigalupo Sagesse|first=Mariano| publisher=[[Congress of Deputies (Spain)|Congress of the Deputies]]|date=June 2005|accessdate=28 January 2012}}&lt;/ref&gt;&lt;ref name=fiscal/&gt; [[unitary state]],&lt;ref name=eso/&gt; that has [[devolution|devolved]] power to the communities, which in turn, exercise their right to self-government within the limits set forth in the constitution.&lt;ref name=eso/&gt; Currently, there are 17 autonomous communities and 2 autonomous cities that are collectively known as '''autonomies''' (Spanish: ''autonomías''). This unique framework of territorial administration is known as the '''State of autonomies''' (Spanish: ''Estado de las autonomías'').  
+
+The autonomous communities are governed according to the constitution and their own organic laws known as [[Statute of Autonomy|Statutes of Autonomy]], which contain all the competences that they assume. Since devolution was intended to be asymmetrical in nature,&lt;ref name=tanja&gt;{{cite web|url=http://books.google.com/books/about/States_and_Regions_in_the_European_Union.html?id=j1YzvIIiOAYC|title=States and Regions in the European Union|last=Börzel|first=Tanja A|publisher=University Press, Cambridge|pages=93-151|date=2002|accessdate=20 October 2012|isbn=0521008603}}&lt;/ref&gt; the scope of competences vary for each community, but all have the same parliamentary structure.&lt;ref name=eso/&gt;
+
+==Creation of the autonomous communities==
+:''See also: [[Nationalities and regions of Spain]]''
+===Historical background===
+[[File:España1757.jpg|thumb|right|Map of Spain in 1757]]
+[[Spain]] is a diverse country integrated by different contrasting regions that show varying economic and social structures, as well as different languages and historical, political and cultural traditions.&lt;ref name=villar&gt;{{cite web|url=http://www.stormingmedia.us/46/4624/A462453.html|last=Villar|first=Fernando P.|title=Nationalism in Spain: Is It a Danger to National Integrity?|publisher=Storming Media, Pentagon Reports|date=June 1998|accessdate=3 February 2012}}&lt;/ref&gt;&lt;ref name=shabad&gt;{{cite web|url=http://www.jstor.org/pss/421632|title=Language, Nationalism and Political Conflict in Spain|last1=Shabad|first=Goldie|last2=Gunther|first2=Richard|publisher=Comparative Politics Vol 14 No. 4|date=July 1982|accessdate=3 February 2012}}&lt;/ref&gt; While the entire Spanish territory was united under one crown by the 16th century, this was not a process of homogenization or amalgamation; the constituent territories—be it crowns, kingdoms, principalities or dominions—retained much of their former institutional existence,&lt;ref name=morenopaper&gt;{{cite web|url=http://digital.csic.es/bitstream/10261/1679/1/dt-0704.pdf|title=Federalization in Multinational Spain|last=Moreno Hernández|first=Luis Manuel|publisher=Unidad de Políticas Comparadas|accessdate=8 October 2012}}&lt;/ref&gt; including legislative, judicial or fiscal autonomy in limited degrees, and exhibited a variety of customs, laws, languages and currencies.&lt;ref name=morenopaper/&gt; From the 18th century onwards, the Bourbon kings and the government tried to establish a more centralized regime; leading figures of the Spanish Enlightenment advocated for the building of a Spanish nation beyond the internal territorial boundaries.&lt;ref name=morenopaper/&gt; However, and unlike other European countries like France, where regional languages were spoken in rural areas or less developed regions, in Spain, two important regional languages were spoken in some of the most industrialized areas,&lt;ref name=jackson&gt;{{cite web |url=http://books.google.com/books/about/The_Spanish_Republic_and_the_Civil_War_1.html?id=lvoNAQAAMAAJ|title=The Spanish Republic and the Civil War |last=Jackson |first=Gabriel |year=1965 |publisher=[[Princeton University Press]] |location=United States of America|page=15|isbn=0-691-00757-8}}&lt;/ref&gt;   with higher levels of prosperity, which also had their own cultures and historical consciences, namely the Basque Country and Catalonia,&lt;ref name=frans/&gt;&lt;ref name=moreno112 &gt;{{cite web|url=http://books.google.com/books/about/La_Federalizaci%C3%B3n_de_Espa%C3%B1a.html?id=OVzC9t5sxBMC|title=La federalización de España. Poder político y territorio|last=Moreno Fernández|first=Luis Miguel|publisher=Siglo XXI España Editores|isbn=978-8432312939|page=112|date=April 1997; 2nd edition, 2008}}&lt;/ref&gt; giving rise to [[peripheral nationalism]]s along with Spanish nationalism.&lt;ref name=frans/&gt; Therefore, economic and social changes that had produced a national cultural unification in France had the opposite effect in Spain.&lt;ref name=frans/&gt; As such, Spanish history since the late 19th century has been shaped by a dialectical struggle between [[Spanish nationalism]] and [[peripheral nationalism]]s,&lt;ref name=conversi&gt;{{cite web| url=http://easyweb.easynet.co.uk/conversi/smooth.pdf| last=Conversi|first=Daniele|title=The Smooth Transition: Spain’s 1978 Constitution and the Nationalities Question| publisher=Carfax Publishing, Inc.|work=National Identities, Vol 4, No. 3|year=2002|accessdate=28 January 2008}}&lt;/ref&gt;&lt;ref name=moreno98&gt;{{cite web|url=http://books.google.com/books/about/La_Federalizaci%C3%B3n_de_Espa%C3%B1a.html?id=OVzC9t5sxBMC|title=La federalización de España. Poder político y territorio|last=Moreno Fernández|first=Luis Miguel|publisher=Siglo XXI España Editores|isbn=978-8432312939|pages=98, 99|date=April 1997; 2nd edition, 2008}}&lt;/ref&gt; mostly in [[Catalonia]] and the [[Basque Country (greater region)|Basque Country]], and to a lesser degree in [[Galicia (Spain)|Galicia]]. 
+
+In a response to Catalan's demands, limited autonomy was granted to Catalonia in 1913—abolished in 1920—and granted again in 1932 during the [[Second Spanish Republic]], when the [[Generalitat of Catalonia|Generalitat]], Catalonia's medieval institution of government, was restored. In fact, the constitution of 1931 envisaged a territorial division for all Spain in &quot;autonomous regions&quot;, which was never fully attained—only Catalonia, the Basque Country and Galicia had approved &quot;[[Statute of Autonomy|Statutes of Autonomy]]&quot;—the process being thwarted by the [[Spanish Civil War]] that broke out in 1936, and the victory of the rebel national forces under [[Francisco Franco]].  During General [[Francoism|Franco's dictatorial regime]], centralism was most forcefully enforced as a way of preserving the &quot;unity of the Spanish nation&quot;.&lt;ref name=conversi&gt;{{cite web| url=http://easyweb.easynet.co.uk/conversi/smooth.pdf| last=Conversi|first=Daniele|title=The Smooth Transition: Spain’s 1978 Constitution and the Nationalities Question| publisher=Carfax Publishing, Inc.|work=National Identities, Vol 4, No. 3|year=2002|accessdate=28 January 2008}}&lt;/ref&gt; Peripheral nationalism, along with communism and atheism were regarding by his regime as the main threats.&lt;ref name=frans/&gt; His attempts to fight separatism with heavy-handed but sporadic repression,&lt;ref name=shabad/&gt; and his oftentimes severe suppression of language and regional identities&lt;ref name=shabad&gt;{{cite web|url=http://www.jstor.org/pss/421632|title=Language, Nationalism and Political Conflict in Spain|last1=Shabad|first=Goldie|last2=Gunther|first2=Richard|publisher=Comparative Politics Vol 14 No. 4|date=July 1982|accessdate=3 February 2012}}&lt;/ref&gt; backfired: the demands for democracy became intertwined with demands for the recognition of a pluralistic vision of the Spanish nationhood.&lt;ref name=conversi/&gt;&lt;ref name=moreno78&gt;{{cite web|url=http://books.google.com/books/about/La_Federalizaci%C3%B3n_de_Espa%C3%B1a.html?id=OVzC9t5sxBMC|title=La federalización de España. Poder político y territorio|last=Moreno Fernández|first=Luis Miguel|publisher=Siglo XXI España Editores|isbn=978-8432312939|pages=78, 79|date=April 1997; 2nd edition, 2008}}&lt;/ref&gt; 
+
+When Franco died in 1975, Spain entered into a phase of [[Spanish transition to democracy |transition towards democracy]], and the most difficult task of the newly democratically elected [[Cortes Generales]] (the Spanish Parliament) in 1977 acting as a Constituent Assembly was to transition from a unitary centralized State into a decentralized State&lt;ref name=colomer&gt;{{cite web|url=http://www.highbeam.com/doc/1G1-54171792.html|title=The Spanish 'state of autonomies': non-institutional federalism.(Special Issue on Politics and Policy in Democratic Spain: No Longer Different?)|last=Colomer|first=Josep M.|work=[[West European Politics]]|date=1 October 1998|accessdate=7 October 2012}}{{Subscription required|via=[[HighBeam Research]]}}&lt;/ref&gt; in a way that would satisfy the demands of the peripheral nationalists.&lt;ref name=mundo&gt;{{cite web|url=http://www.elmundo.es/especiales/2005/06/espana/estatutos_autonomia/historia.html|title=Café para Todos|work=La España de las Autonomías. Un Especial de elmundo.es|last=Aparicio|first=Sonia|accessdate=29 January 2012}}&lt;/ref&gt;&lt;ref name=portero&gt;{{cite web|url=http://books.google.com/books/about/El_Estado_Auton%C3%B3mico.html?id=eo6ErN5CcUwC|title=El Estado de las Autonomías en Tiempo de Reformas|last=Portero Molina|first=José Antonio|work=El Estado Autonómico: Integración, Solidaridad, Diversidad, Volumen 1|editor1-last=Vidal Beltrán|editor1-first=José María|editor2-last=García Herrera|editor2-first=Miguel Ángel|publisher=Instituto Nacional de Administración Pública|date=2005|page=39-64|isbn=847879977X|accessdate=29 September 2012}}&lt;/ref&gt; The then [[prime minister of Spain]], [[Adolfo Suárez]], met with [[Josep Tarradellas i Joan|Josep Tarradellas]], president of the [[Generalitat of Catalonia]] in exile. An agreement was made so that the Generalitat would be restored and limited competences would be transfered while the constitution was still being written. Shortly after, the government allowed the creation of &quot;assemblies of members of parliament&quot; integrated by deputies and senators of the different territories of Spain, so that they could constitute &quot;pre-autonomic regimes&quot; for their regions as well. 
+
+The [[Fathers of the Constitution]] had to strike a balance between the opposing views of Spain, on the one hand, the centralist view inherited from Franco's regime,&lt;ref name=colomer/&gt; and on the other hand [[federalism]] and a pluralistic view of Spain as a &quot;nation of nations&quot;;&lt;ref name=sinopsis2&gt;{{cite web |url=http://www.congreso.es/consti/constitucion/indice/sinopsis/sinopsis.jsp?art=2&amp;tipo=2|title=Sinópsis artículo 2|work=Constitución española (con sinópsis) |last=Delgado-Ibarren García-Campero|first=Manuel| publisher=[[Congress of Deputies (Spain)|Congress of the Deputies]]|date=June 2005|accessdate=28 January 2012}}&lt;/ref&gt; between a uniform decentralization of entities with the same competences and an asymmetrical structure that would distinguish the nationalities. (Peripheral nationalist parties wanted a multinational State with a federal or confederal model, whereas the governing [[Union of the Democratic Centre (Spain)|Union of the Democratic Center]] and the [[People's Alliance (Spain)|People's Alliance]] wanted minimum decentralization; the [[Spanish Socialist Workers' Party]] was sympathetic to a federal system).&lt;ref name=frans/&gt; In the end, the constitution, published and ratified in 1979, found a balance in recognizing the existence of &quot;nationalities and regions&quot; in Spain, in the &quot;indissoluble unity of the Spanish nation&quot;. While federalism was ruled out, the constitution guaranteed the right to autonomy or self-government of the said &quot;nationalities and regions&quot;, through a process of asymmetric [[devolution]] of power to the &quot;autonomous communities&quot; that were to be created.
+
+===Constitution of 1978===
+The starting point in the territorial organization of Spain was the second article of the constitution,&lt;ref name=perez&gt;{{cite web|url=http://books.google.com/books/about/El_Funcionamiento_Del_Estado_Autonomico.html?id=4SnZBb6pIZkC|work=El Funcionamiento del Estado Autonómico|title=Desarrollo y Evolución del Estado Autonómico: El Proceso Constituyente y el Consenso Constitucional|last=Pérez Royo|first=Javier|editor-last=Hernández Lafuente|editor-first=Adolfo|pages=50-67|publisher=Ministerio de Administraciones Públicas|date=December 1999|accessdate=7 October 2012|isbn=8470886908}}&lt;/ref&gt; which reads:
+{{quotation|The Constitution is based on the indissoluble unity of the Spanish Nation, the common and indivisible homeland of all Spaniards; it recognizes and guarantees the right to self-government of the nationalities and regions of which it is composed and the solidarity among them all.|Second Article of the Spanish Constitution of 1978}}
+The constitution was rather ambiguous on how this was to take place.&lt;ref name=nunez/&gt;&lt;ref name=colomer/&gt; It does not define, detail, or impose the structure of the State;&lt;ref name=perez/&gt;&lt;ref name=portero/&gt; it does not tell the difference between &quot;nation&quot; and &quot;nationality&quot;; and it does not specify which are the &quot;nationalities&quot; and which are the &quot;regions&quot;, or the territories they comprise.&lt;ref name=perez/&gt;&lt;ref name=clavero&gt;{{cite web|url=http://www.fundacioncajamar.es/mediterraneo/revista/me1003.pdf|title=Un balance del Estado de las Autonomías|last=Clavero Arévalo|first=Manuel|work=Colección Mediterráneo Económico, num. 10.|publisher|Fundación Caja Rural Intermediterránea|isbn=4-95531-35-6|date=2006|accessdate=7 October 2012}}&lt;/ref&gt; Rather than imposing, it ''enables'' a process towards a decentralized structure based on the exercise that these &quot;nationalities and regions&quot; would make of the right to self-government that they were granted.&lt;ref name=perez/&gt; As such, the outcome of this exercise was not predictable&lt;ref name=barberia&gt;{{cite web|url=http://sociedad.elpais.com/sociedad/2012/09/30/actualidad/1349028022_631925.html|title=¿Reformamos la Constitución?|last=Barbería|first=José Luis|date=30 September 2012|publisher=[[El País]]|accessdate=23 September 2012}}&lt;/ref&gt; and its construction was deliberately open-ended;&lt;ref name=frans&gt;{{cite web|url=http://books.google.com/books/about/Regionalism_After_Regionalisation.html?id=u8gZklxHTMUC|title=Regionalism after Regionalisation. Spain, France and the United Kingdom|fist=Frans|last=Schrijver|publisher=Vossiupers UvA. Amsterdam University Press|date=30 June 2006|isbn=9056294288|accesdate=14 October 2012}}&lt;/ref&gt; the constitution only created a process for an eventual [[devolution]], but it was voluntary in nature: the &quot;nationalities and regions&quot; themselves had the option of choosing to attain self-government or not.&lt;ref name=sinopsis143&gt;{{cite web |url=http://www.congreso.es/consti/constitucion/indice/sinopsis/sinopsis.jsp?art=143&amp;tipo=2|title=Sinópsis artículo 143|work=Constitución española (con sinópsis) |last=Alonso de Antonio|first=José Antonio| publisher=[[Congress of Deputies (Spain)|Congress of the Deputies]]|date=June 2003|accessdate=29 January 2012}}&lt;/ref&gt;
+
+In order to exercise this right, the constitution established an open process whereby the &quot;nationalities and regions&quot; could be constituted as &quot;autonomous communities&quot;. First, it recognized the pre-existing 50 [[provinces of Spain]], a territorial division of the liberal centralizing regime of the 19th century created for purely administrative purposes. (It also recognized the [[municipalities of Spain|municipalities]] that integrated the provinces). These provinces would serve as the building blocks and constituent parts of the autonomous communities. The constitution stipulated that the following could be constituted as autonomous communities:&lt;ref name=article143&gt;{{cite web|url=http://www.congreso.es/consti/constitucion/indice/titulos/articulos.jsp?ini=143&amp;fin=158&amp;tipo=2|title=Título VIII. De la Organización Territorial del Estado. Capítulo tercero. De las Comunidades Autónomas. Artículos 143 a 158|author=Congreso de los Diputados|work=Constitución española|date=1978|accessdate=22 October 2012}}&lt;/ref&gt;
+* two or more adjacent provinces with common historical, cultural and economic characteristics,
+* insular territories, or
+* a single province with a &quot;historical regional identity&quot;.
+
+It also allowed for exceptions to the above criteria, in that the Spanish Parliament could:&lt;ref name=article143/&gt;
+* authorize, in the nation's interest, the constitution of an autonomous community even if it was a single province without a historical regional identity; and to
+* authorize or grant autonomy to entities or territories that were not provinces.
+
+The constitution also established two &quot;routes&quot; to accede to autonomy. The &quot;fast route&quot; or &quot;fast track&quot;,&lt;ref name=nunez/&gt; also called the &quot;exception&quot;,&lt;ref name=perez/&gt; was established in article 151, and was implicitly reserved for the three &quot;historical nationalities&quot;,&lt;ref name=clavero/&gt;&lt;ref name=sinopsisDT2&gt;{{cite web|url=http://www.congreso.es/consti/constitucion/indice/sinopsis/sinopsis.jsp?art=2&amp;tipo=4|title=Sinópsis Disposición Transitoria 2|publisher=[[Congress of Deputies]]|first=José Antonio|last=Alonso de Antonio|date=December 2003|accessdate=29 September 2012}}&lt;/ref&gt;&lt;ref name=tanja/&gt; in that the very strict requirements to opt for this route were waived via the second transitory disposition for those territories that had approved a &quot;Statute of Autonomy&quot; during the Second Spanish Republic.&lt;ref name=sinopsisDT2/&gt; (Otherwise, the constitution required the approval of three-fourths of the municipalities involved whose population would sum up at least the majority of the electoral census of each province and the ratification through a [[referendum]] with the affirmative vote of the absolute majority of the electoral census of each province—that is, of all registered citizens, not only of those who would vote). The constitution also explicitly established that the institutional framework for these communities would be a [[parliamentary system]], with a Legislative Assembly elected by [[universal suffrage]], a [[cabinet (government)|cabinet]] or &quot;council of government&quot;, a president of such a council, elected by the Assembly, and a Supreme Court of Justice. They were also granted a maximum level of devolved competences. 
+
+The &quot;slow route&quot; or &quot;slow track&quot;,&lt;ref name=nunez/&gt; also called the &quot;norm&quot;,&lt;ref name=perez/&gt; was established in article 143. This route could be taken—via the first transitory disposition—by the &quot;pre-autonomic regimes&quot; that had been constituted in 1978, while the constitution was still being drafted, if approved by two-thirds of all municipalities involved whose population would sum up to at least the majority of the electoral census of each province or insular territory. These communities would assume limited competences during a provisional period of 5 years, after which they could assume further competences, upon negotiation with the central government. However, the constitution did not explicitly establish an institutional framework for these communities. They could have established a parliamentary system, or they could have not assumed any legislative powers and simply established mechanisms for the administration of the competences they were granted.&lt;ref name=clavero/&gt;&lt;ref name=perez/&gt;
+[[File:Constitucion espanola 1978.JPG|thumb|Spanish Constitution of 1978]]
+Once the autonomous communities were created, Article 145 prohibits the &quot;federation of autonomous communities&quot;.  This was understood as any agreement between communities that would produce an alteration to the political and territorial equilibrium that would cause a confrontation between different blocks of communities, an action incompatible with the principle of solidarity and the unity of the nation.&lt;ref name=gonzalez&gt;{{cite web|url=http://congreso.us.es/cidc/Ponencias/federalismo/IgnacioGonzalez.pdf|title=La Prohibición de la Federación entre Territorios Autónomos en el Constitucionalismo Español|last=González García|first=Ignacio|publisher=Congreso Iberoamericano de Derecho Constitucional|accessdate=20 October 2012}}&lt;/ref&gt;
+
+The so-called &quot;additional&quot; and  &quot;transitory&quot; dispositions of the constitution allowed for some exceptions to the above-mentioned framework. In terms of territorial organization, the fifth transitory disposition established that the cities of [[Ceuta]] and [[Melilla]], Spanish exclaves located on the northern coast of [[Africa]], could be constituted as &quot;autonomous communities&quot; if the absolute majority of the members of their city councils would agree on such a motion, and with the approval of the Spanish Parliament, which would exercise its prerogatives to grant autonomy to other entities besides provinces.&lt;ref name=transitorias&gt;{{cite web|url=http://www.congreso.es/consti/constitucion/indice/titulos/articulos.jsp?ini=1&amp;fin=9&amp;tipo=4|title=Disposiciones transitorias|work=Constitución española|author=Congreso de los Diputados|date=1978|accessdate=22 October 2012}}&lt;/ref&gt; In terms of the scope of competences, the first additional disposition recognized the historical rights of the &quot;chartered&quot; territories (in Spanish: ''territorios forales''), namely the Basque-speaking provinces, which were to be updated in accordance to the constitution.&lt;ref name=adicionales&gt;{{cite web|url=http://www.congreso.es/consti/constitucion/indice/titulos/articulos.jsp?ini=1&amp;fin=4&amp;tipo=3|title=Disposiciones transitorias|work=Constitución española|author=Congreso de los Diputados|date=1978|accessdate=22 October 2012}}&lt;/ref&gt;  This recognition would allow them to establish a financial &quot;[[communities of chartered regime|chartered regime]]&quot; whereby they would not only have independence to manage their own finances, like all other communities, but to have their own public financial ministries with the ability to levy and collect all taxes. In the rest of the communities, with a few exceptions, all taxes are collected by the central government and then redistributed.
+
+===The autonomic pacts===
+The Statutes of Autonomy of the Basque Country and Catalonia were sanctioned by the Spanish Parliament on 18 December 1979. The position of the party in government, the [[Union of the Democratic Centre (Spain)|Union of the Democratic Center]], (UCD), was that only the three &quot;historical nationalities&quot; would assume full competences, while the rest would accede to autonomy via article 143, assuming less powers and even not establishing institutions of government. This was firmly opposed by the representatives of [[Andalusia]], who demanded for their region the maximum level of competences granted to the &quot;nationalities&quot;.&lt;ref name=clavero/&gt; After a massive rally in support for autonomy, a referendum was organized for Andalusia to attain autonomy through the very strict requirements of article 151, or the &quot;fast route&quot;—with UCD calling for absention, and the main party in opposition in Parliament, the [[Spanish Socialist Workers' Party]] (PSOE) calling for a vote in favor—&lt;ref name=clavero/&gt; but these requirements were not met, in that in only one of the eight provinces, [[province of Almería|Almería]], votes in favor, although the majority, did not amount to half of the electoral census. Yet, the will of the Andalusian people had been clear and unequivocal.&lt;ref name=perez/&gt; After several months of discussion, the then prime minister of Spain, [[Adolfo Suárez]] and the leader of the opposition, [[Felipe González]], reached an agreement to resolve the Andalusian issue, whereby the Parliament approved an amendment to the law that regulated referendums, and used a prerogative of article 144c of the constitution, both actions which combined would allow Andalusia to take the fast route. They also agreed that no other region would take the &quot;fast route&quot;, but all would establish a parliamentary system with all institutions of government.&lt;ref name=clavero/&gt; This opened a phase that was dubbed as ''café para todos'', &quot;coffee for all&quot;.&lt;ref name=tanja/&gt; This agreement was eventually put into writing in July 1981 in what has been called the &quot;first autonomic pacts&quot;,&lt;ref name=nunez&gt;{{cite web|url=http://books.google.com/books/about/Spanish_History_since_1808.html?id=ogvsITQ0cmwC|title=The awakening of peripheral nationalisms and the State of the Autonomous Communities|last=Núñez Seixas|first=Xosé M|editor1-last=Álvarez Junco|editor1-first=José|editor2-last=Schubert|editor2-first=Adrian|work=Spanish History since 1808|publisher=Arnold Publishers|year=2000|accessdate=9 October 2008|page=315-330|isbn=0340662298}}&lt;/ref&gt; (in Spanish: ''pactos autonómicos'' or ''acuerdos autónomicos''). 
+{{Autonomous communities of Spain|float=right}}
+These &quot;autonomic pacts&quot; filled in the gap left by the open character of the constitution. Among other things:&lt;ref name=perez/&gt;&lt;ref name=acuerdos&gt;{{cite web|url=http://www.idpbarcelona.net/docs/recerca/ccaa/pdf/documentos/acuerd_auton_gob_psoe_1981.pdf|title=Acuerdos Autonómicos firmados por el Gobierno de la Nación y el Partido Socialista Obrero Español el 31 de julio de 1981|date=31 July 1981|accessdate=11 October 2012}}&lt;/ref&gt;
+* they described final outline of the territorial division of Spain, with the specific number and name of the autonomous communities to be created;
+* they restricted the &quot;fast-route&quot; to the &quot;historical nationalities&quot; and Andalusia; all the rest had to take the &quot;slow-route&quot;;
+* they established that all autonomous communities would have institutions of government within a parliamentary system; and 
+* they set up a deadline for all communities to be constituted: 1 February 1983.
+
+In the end, 17 autonomous communities were created:
+* Andalusia, and the three &quot;historical nationalities&quot;—the Basque Country, Catalonia and Galicia—took the &quot;fast-route&quot; and assumed the maximum level of competences immediately; the rest took the &quot;slow route&quot;;
+* [[Aragon]], [[Castile-La Mancha]], [[Castile and León]], [[Extremadura]] and the [[Valencian Community]] acceded to autonomy as communities integrated by two or more provinces with common historical, economic and cultural characteristics;
+* the [[Balearic Islands]] and the [[Canary Islands]] acceded to autonomy as insular territories, the latter integrated by two provinces;
+* [[Asturias]], [[Cantabria]], [[La Rioja (Spain)|La Rioja]] and [[Region of Murcia|Murcia]] acceded to autonomy as &quot;uniprovincial&quot; regions with historical idendity;
+* [[Navarre]] acceded to autonomy through recognition, update and improvement of its historical &quot;charters&quot; (in Spanish: ''fueros''); and 
+* the [[Community of Madrid]] was severed from Castile-La Mancha and constituted as a uniprovincial autonomous community in the nation's interest as the capital of the nation.
+
+Special provisions were made for the Valencian Community and the Canary Islands in that, although they took the &quot;slow route&quot;, through the subsequent approval of specific organic laws, they were to assume the maximum level of competences, since they have started a process towards the &quot;fast route&quot; prior to the approval of the &quot;autonomic pacts&quot;. Cantabria and La Rioja, although historically and culturally part of [[Castile (historical region)|Castile]],&lt;ref name=conversi/&gt;&lt;ref name=clavero&gt;{{cite web|url=http://www.fundacioncajamar.es/mediterraneo/revista/me1003.pdf|title=Un balance del Estado de las Autonomías|last=Clavero Arévalo|first=Manuel|work=Colección Mediterráneo Económico, num. 10.|publisher|Fundación Caja Rural Intermediterránea|isbn=4-95531-35-6|date=2006|accessdate=7 October 2012}}&lt;/ref&gt;&lt;ref name=garciaruiz&gt;{{cite web|url=http://books.google.com/books/about/Estudios_sobre_descentralizaci%C3%B3n_territ.html?id=7eOCDrlpOC0C|work=Estudios sobre descentralización territorial. El caso particular de Colombia|editor1-last=García Ruíz|editor1-first=José Luis|editor2-last=Girón Reguera|editor2-first=Emilia|title=Dos siglos de cuestión territorial: de la España liberal al Estado de las autonomías|last=García Ruíz|first=José Luis|pages=109-126|publisher=Servicio de Publicaciones. Universidad de Cádiz|isbn=8498280370|date=2006|accessdate=21 October 2012}}&lt;/ref&gt;—and both originally included in the &quot;pre-autonomic regime&quot; of Castile and León—were granted autonomy as single provinces with historical identity. The &quot;autonomic pacts&quot;, however, give them the option of being incorporated into Castile and León in the future, and required that the Statutes of Autonomy of all three include such a provision.&lt;ref name=acuerdos/&gt; On the other hand, León, a historical kingdom and historical region of Spain, once joined to [[Old Castile]] to form Castile and León, was denied secession to be constituted as an autonomous community on its own right.&lt;ref name=moreno66&gt;{{cite web|url=http://books.google.com/books/about/La_Federalizaci%C3%B3n_de_Espa%C3%B1a.html?id=OVzC9t5sxBMC|title=La federalización de España. Poder político y territorio|last=Moreno Fernández|first=Luis Miguel|publisher=Siglo XXI España Editores|isbn=978-8432312939|pages=66|date=April 1997; 2nd edition, 2008}}&lt;/ref&gt;
+
+[[File:Congreso de los Diputados (España) 14.jpg|thumb|Spanish Parliament, Congress of Deputies]]
+During the second half of the 1980s, the central government seemed reluctant to transfer all competences to the &quot;slow route&quot; communities.&lt;ref name=mundo/&gt; After the five years set up by the constitution, all &quot;slow route&quot; communities demanded the maximum transfer guaranteed by the constitution. This led to what has been called the &quot;second autonomic pacts&quot; of 1992, between the then prime minister of Spain [[Felipe González]] from PSOE and the leader of the opposition, [[José María Aznar]] from the newly created [[People's Party (Spain)|People's Party]] (PP) successor of the [[People's Alliance (Spain)|People's Alliance party]]. Through these agreements new competences were transfered, with the reforms to many Statutes of Autonomy of the &quot;slow-route&quot; communities with the aim of &quot;equalizing&quot; them to the &quot;fast route&quot; communities.&lt;ref name=mundo/&gt; Finally, in 1995, the cities of Ceuta and Melilla were constituted as &quot;autonomous cities&quot;, with no legislative powers, but with an autonomous assembly not subordinated to any other province or community. 
+
+The creation of the autonomous communities was a diverse process, that started with the constitution, was normalized with the autonomic pacts and was completed with the Statutes of Autonomy.&lt;ref name=perez/&gt; It is, however, an ongoing process; further devolution—or even the return of transferred competences—is always a possibility. This has been evidenced in the 2000s, at the beginning with a wave of approval of new Statutes of Autonomy for many communities, and more recently with many considering the recentralization of some competences in the wake of the economic and financial crisis of 2008. Nonetheless Spain is now a highly decentralized country with a structure unlike any other, similar but not equal to a [[federation]],&lt;ref name=perez/&gt; in what has been called a &quot;State of autonomies&quot;.
+
+===Current state of affairs===
+Peripheral nationalism continues to play a key role in Spanish politics. Some peripheral nationalists view that there is a vanishing practical distinction between the terms &quot;nationalities&quot; and &quot;regions&quot;,&lt;ref name=keatings&gt;{{cite web |url=http://www.oecd.org/dataoecd/61/8/37890628.pdf |title=Federalism and the Balance of power in European States|first=Michael|last=Keatings  |year=2007 |work=Support for Improvement in Governance and Management |publisher=[[Organisation for Economic Co-operation and Development]], Inc.  |accessdate=28 January 2012}}&lt;/ref&gt; as more competences are transferred to all communities in roughly the same degree and as other communities to chose to identify themselves as &quot;nationalities&quot;.  In fact, it has been argued that the establishment of the State of autonomies&quot; has led to the creation of &quot;new regional identities&quot;,&lt;ref name=smith/&gt;&lt;ref name=junco&gt;{{cite web|url=http://elpais.com/elpais/2012/09/28/opinion/1348855849_016658.html|title=El sueño ilustrado y el Estado-nación|last=Junco|first=José Álvarez|publisher=[[El País]]|date=3 October 2012|accessdate=23 October 2012}}&lt;/ref&gt; and &quot;invented communities&quot;.&lt;ref name=junco/&gt; Many in the Basque Country and Catalonia still view their communities as &quot;nations&quot;, not just &quot;nationalities&quot;, and Spain as a &quot;plurinational State&quot; or a &quot;nation of nations&quot;, and they have made more demands for further devolution.  In 2004, the Basque Parliament approved the [[Ibarretxe Plan]], whereby the Basque Country would approve a new Statute of Autonomy containing key provisions such as shared sovereignty with Spain, full independence of the [[judiciary]] and the right to [[self-determination]], and assuming all competences except that of the [[Spanish nationality law]], defense and monetary policy. The Plan was rejected by the Spanish Parliament in 2005. In 2006, the Catalan Parliament approved a new Statute of Autonomy which included an article that defined Catalonia as a &quot;nation&quot;. The Spanish Parliament made revisions to the final approved version, removing the article, but making a reference in the preamble of the document to the fact that the Catalan Parliament had voted by a large majority to define Catalonia as a nation, but that the constitution recognizes its &quot;national reality&quot; as a &quot;nationality&quot;.&lt;ref name=estatut&gt;{{cite web|url=http://www.parlament.cat/porteso/estatut/estatut_angles_100506.pdf|title=Organic Law 6/2006 of the 19th July, on the Reform of the Statute of Autonomy of Catalonia|publisher=[[Generalitat of Catalonia]]|date=2006|accessdate=21 October 2012}}&lt;/ref&gt;
+
+[[File:Manifestació10J-293.JPG|thumb|[[2012 Catalan independence demonstration]]]]
+The severe economic crisis in Spain that started in 2008 has produced different reactions in the different communities. One one hand, politicians in some of the communities that are not &quot;nationalities&quot; and governed by the People's Party (PP) are considering a return of some competences to the central government.&lt;ref name=abc&gt;{{cite web|url=http://www.abc.es/20110729/espana/abcp-varias-autonomias-meditan-devolver-20110729.html|title=Varias autonomías meditan devolver competencias por el bloqueo del gobierno|publisher=[[ABC (Spain)|ABC]]|date=29 July 2011|accessdate=29 January 2012}}&lt;/ref&gt; On the other hand, in Catalonia, the party in power, [[Convergence and Union]] (CiU), views the &quot;unfairness&quot; of the large fiscal deficit—Catalonia,  being one of the largest net contributors in taxes—as one of the main causes of the strenuous fiscal situation that has allegedly forced the government to enact severe austerity measures and defer payments to workers.&lt;ref name=paisindep&gt;{{cite web|url=http://politica.elpais.com/politica/2012/09/14/actualidad/1347653709_791863.html|title=Independentismo de corazón y de conveniencia|last=Pérez Oliva|first=Milagros|publisher=[[El País]]|date=16 September 2012|accessdate=16 September 2012}}&lt;/ref&gt; This, in turn, has led many who are not necessarily separatist but who are enraged by the financial deficit to support secession.&lt;ref name=nextstate&gt;{{cite web|url=http://www.economist.com/node/21563347|title=Catalonia: Europe's next state. A row about money and sovereignty|publisher=[[The Economist]]|date=22 September 2012|accessdate=29 September 2012}}&lt;/ref&gt;&lt;ref name=guardianfabric&gt;{{cite web|url=http://www.guardian.co.uk/world/2012/sep/28/spain-cultural-fabric-tears-austerity-cuts|title=Spain's cultural fabric tearing apart as austerity takes its toll|last1=Tremlett|first1=Giles|last2=Roberts|first2=Martin|publisher=[[The Guardian]]|date=28 September 2012|accessdate=29 September 2012}}&lt;/ref&gt; [[Artur Mas i Gavarró|Artur Mas]], Catalonia's president, requested from the central government a new &quot;fiscal agreement&quot; in September 2012, with the possibility of giving his community powers equal to those of the communities of chartered regime, but prime-minister [[Mariano Rajoy]] refused it. Mas dissolved the Catalan Parliament, called for new elections, and promised to celebrate a referendum on independence within the next four years.&lt;ref&gt;{{cite web|title=Two thirds of the Catalan Parliament approve organising a self-determination citizen vote within the next 4 years|url=http://www.catalannewsagency.com/news/politics/two-thirds-catalan-parliament-approve-organising-self-determination-citizen-vote-withi|publisher=Catalan News Agency|date=28 September 2012|accessdate=29 September 2012}}&lt;/ref&gt; Rajoy's government declared that they will use all &quot;legal instruments&quot;—current legislation requires the central executive government or the [[Congress of Deputies (Spain)|Congress of Deputies]] to call for or sanction a binding referendum—&lt;ref name=ley&gt;{{cite web|url=http://noticias.juridicas.com/base_datos/Admin/lo2-1980.html|title=Ley Orgánica 2/1980, de 18 de enero, sobre Regulación de las Distintas Modalidades de Referéndum|publisher=Congress of the Deputies, Spain|date=18 January 1980|accessdate=29 September 2012}}&lt;/ref&gt; to block any such attempt.&lt;ref name=clash&gt;{{cite web|title=Spain heads towards confrontation with Catalan parliament|url=http://www.guardian.co.uk/world/2012/sep/27/spain-heads-towards-confrontation-catalan?INTCMP=SRCH|publisher=[[The Guardian]]|date=27 September 2012|accessdate=29 September 2012}}&lt;/ref&gt; The Spanish Socialist Workers' Party and its [[Socialist Party of Catalonia|counterpart in Catalonia]] propose to reopen the debate on the territorial organization of Spain, changing the constitution to create a true [[federation|federal system]], to &quot;better reflect the singularities&quot; of Catalonia, as well as to modify the current taxation system.&lt;ref name=estadofederal&gt;{{cite web|url=http://politica.elpais.com/politica/2012/09/24/actualidad/1348472542_065250.html|title=Rubalcaba, a favor de cambiar la Constitución para ir a un Estado federal|publisher=[[El País]]|date=24 September 2012|accessdate=29 September 2012}}&lt;/ref&gt;&lt;ref name=navarro&gt;{{cite web|url=http://www.elperiodico.cat/ca/noticias/politica/navarro-candidatura-psc-eleccions-autonomiques-terrassa-2214254|title=Navarro presenta la seva candidatura aquesta tarda a Terrassa|publisher=El Periódico de Catalunya|date=28 September 2012|accessdate=29 September 2012}}&lt;/ref&gt;
+
+==Constitutional and statutory framework==
+The State of Autonomies, as established in Article 2 of the constitution, has been argued to be based on four principles: willingness to accede to autonomy, unity in diversity, autonomy but not sovereignty of the communities, and solidarity among them all.&lt;ref name=carreras/&gt; The structure of the autonomous communities is determined both by the devolution allowed by the constitution and the competences assumed in their respective Statutes of Autonomy. While the autonomic agreements and other laws have allowed for an &quot;equalization&quot; of all communities, differences still remain. 
+
+===The Statute of Autonomy===
+{{main|Statute of Autonomy}}
+The Statute of Autonomy is the basic institutional law of the autonomous community or city, recognized by the Spanish constitution in article 147. It is approved by a parliamentary assembly representing the community, and then approved by the [[Cortes Generales]], the Spanish Parliament, through an &quot;Organic Law&quot;, requiring the favorable vote of the absolute majority of the [[Congress of Deputies (Spain)|Congress of Deputies]]. For communities that acceded to autonomy through the &quot;fast route&quot;, a [[referendum]] is required before it can be sanctioned by the Parliament. The Statutes of Autonomy must contain, at least, the name of the community, its territorial limits, the names, organization and seat of the institutions of government, the competences they assume and the principles for their bilingual policy, if applicable. 
+
+The constitution establishes that all competences not explicitly assumed by the State—the central government—in the constitution, can be assumed by the autonomous community in their Statutes of Autonomy; but also, all competences not explicitly assumed by the autonomous community in their Statutes of Autonomy are automatically assumed by the State.&lt;ref name=article143/&gt; In case of conflict, the constitution prevails.&lt;ref name=article143/&gt; In case of disagreement, any administration can bring the case before the [[Constitutional Court of Spain]].
+
+===Institutional organization===
+All autonomous communities have a parliamentary system based on a division of powers comprising:
+* a Legislative Assembly, whose members are elected by universal suffrage according to a system of [[proportional representation]], in which all areas that integrate the territory are fairly represented;
+* a Council of Government, with executive and administrative powers, headed by a &quot;president&quot;, elected by the Legislative Assembly—usually the leader of the party or coalition with a majority in the Assembly—and nominated by the [[King of Spain]];
+* a Supreme Court of Justice, hierarchically under the Supreme Court of Justice of Spain.
+
+The majority of the communities have approved regional electoral laws within the limits set up by the laws for the entire country. Despite minor differences, all communities use [[proportional representation]] following [[D'Hondt method]]; all members of regional parliaments are elected for four year terms, but the president of the community has the faculty to dissolve the legislature and call for early elections. Nonetheless in all communities, with the exception of the Basque Country, Catalonia, Galicia and Andalusia, elections are celebrated the last Sunday of May every four years, concurrent with municipal elections in all Spain.&lt;ref name=carreras&gt;{{cite web|url=http://books.google.com/books/about/Descentralizaci%C3%B3n_en_Perspectiva_Compar.html?id=zkclm60b_yoC|first=Francesc|last=de Carreras Serra|title=El Estado de las Autonomías en España|work=Descentralización en Perspectiva Comparada: España, Colombia y Brasil|author=Instituto Latinoamericano de Investigaciones Sociales|publisher=Plural Editores|date=2005|accessdate=12 October 2012|isbn=9990563578}}&lt;/ref&gt; 
+
+The names of the Council of Government and the Legislative Assembly vary between communities. In some autonomous communities, these institutions are restored historical bodies of government or representation of the previous kingdoms or regional entities within the Spanish crown—like the [[Generalitat of Catalonia]]— while others are entirely new creations. In some, both the executive and the legislature, though constituting two separate institutions, are collectively identified with a single specific name. It should be noted, though, that a specific denomination may not refer to the same branch of government in all communities; for example, &quot;Junta&quot; may refer to the executive office in some communities, to the legislature in others, or to the collective name of all branches of government in others.
+
+Given the ambiguity in the constitution that did not specify which territories were nationalities and which were regions, other territories, besides the implicit three &quot;historical nationalities&quot;, have also chosen to identify themselves as nationalities, in accordance to their historical regional identity, such as Andalusia, Aragon, the Balearic Islands, the Canary Islands and the Valencian Community.  
+
+{|class=&quot;wikitable hlist&quot; style=&quot;margin-left: auto; margin-right: auto; text-align: left; font-size: 90%;&quot;
+|+  style=&quot;text-align:center;&quot;| '''Autonomous communities, their institutions of government and their identities'''
+|- 
+! Autonomous community
+! Collective institutions
+! Executive
+! Legislature
+! Identity
+|- 
+| {{flagicon|Andalusia}} [[Andalusia]]
+| [[Junta of Andalusia|Junta of Andalusia]]
+| Council of Government
+| [[Parliament of Andalusia]]
+| Nationality 
+|-
+| {{flagicon|Aragon}} [[Aragon]]
+| 
+| Government
+| [[Cortes of Aragon]]
+| Nationality
+|-
+| {{flagicon|Asturias}} [[Asturias|Principality of Asturias]]
+|
+| Council of Government
+| [[General Junta]]
+| Region{{efn|Also identified as a &quot;historical community&quot; in its Statute of Autonomy}}
+|-
+| {{flagicon|Balearic Islands}} [[Balearic Islands]]
+|
+| Government
+| [[Parliament of the Balearic Islands]]
+| Nationality
+|-
+| {{flagicon|Basque Country}} [[Basque Country (autonomous community)|Basque Country]]
+| 
+| Government
+| [[Basque Parliament]]
+| Nationality
+|-
+| {{flagicon|Canary Islands}} [[Canary Islands]]
+| 
+| Government
+| [[Canarian Parliament|Parliament of Canarias]]
+| Nationality
+|-
+| {{flagicon|Cantabria}} [[Cantabria]]
+|
+| Government
+| [[Parliament of Cantabria]]
+| Region{{efn|Also identified as a &quot;historical community&quot; in its Statute of Autonomy.}}
+|-
+| {{flagicon|Castile-La Mancha}} [[Castile-La Mancha]]
+| [[Junta of Communities]]
+| Council of Government
+| [[Cortes of Castile-La Mancha]]
+| Region
+|-
+| {{flagicon|Castile and León}} [[Castile and León]]
+| 
+| Junta of Castilla and León
+| [[Cortes of Castilla and León]]
+| Region{{efn|Also identified as a &quot;historical and cultural community&quot; in its Statute of Autonomy.}}
+|-
+| {{flagicon|Catalonia}} [[Catalonia]]
+| [[Generalitat of Catalonia|Generalitat]]
+| Government
+| [[Parliament of Catalonia]]
+| Nationality
+|-
+| {{flagicon|Madrid}} [[Community of Madrid]]
+|
+| Government
+| [[Madrid Assembly|Assembly of Madrid]]
+| Community{{efn|The Community of Madrid naturally belongs to the region of [[Castile-La Mancha]], from which it was severed to conform a distinct autonomous community &quot;in the nation's interest&quot; since its capital, Madrid, is also the capital of the Spanish nation, and seat of the State's institutions of government. It is therefore, not referred to neither as a region nor as a nationality in its Statute of Autonomy.}}
+|-
+| {{flagicon|Extremadura}} [[Extremadura]]
+|
+| [[Junta de Extremadura|Junta of Extremadura]]
+| [[Assembly of Extremadura]]
+| Region
+|-
+| {{flagicon|Galicia}} [[Galicia (Spain)|Galicia]]
+| 
+| [[Xunta de Galicia|Xunta of Galicia]]
+| [[Parliament of Galicia]]
+| Nationality 
+|-
+| {{flagicon|La Rioja (Spain)}} [[La Rioja (Spain)|La Rioja]]
+| 
+| Government
+| [[Parliament of La Rioja]]
+| Region 
+|-
+| {{flagicon|Murcia}} [[Region of Murcia]]
+| 
+| Council of Government
+| [[Regional Assembly of Murcia]]
+| Region
+|-
+| {{flagicon|Navarre}} [[Navarre]]
+| Chartered institutions
+| Government
+| [[Parliament of Navarra]]
+| Chartered community{{efn|Navarra acceded to self-government through the &quot;reintegration&quot; and &quot;improvement&quot; of its medieval charters whereby it had some autonomy to manage its internal affairs.}}
+|-
+| {{flagicon|Valencia}} [[Valencian Community]]
+| [[Generalitat Valenciana|Generalitat]]
+| Council of the Generalitat
+| [[Corts Valencianes]]
+| Nationality
+|}
+
+The two autonomous cities have more limited competences than autonomous communities, but more than other municipalities. The executive is exercised by a president, which is also the major of the city. In the same way, limited legislative power is vested in a local assembly in which the deputies are also the city councilors. 
+
+{|class=&quot;wikitable hlist&quot; style=&quot;margin-left: auto; margin-right: auto; width: auto; text-align: left; font-size: 90;&quot;
+|+  style=&quot;text-align:center;&quot;| '''Autonomous cities and their institutions of government'''
+|- 
+!  Autonomous city
+!  Executive
+!  Legislature
+|-
+| {{flagicon|Ceuta}} [[Ceuta]]
+| Council of Government
+| [[Assembly of Ceuta]]
+|- 
+| {{flagicon|Melilla}} [[Melilla]]
+| Council of Government
+| [[Assembly of Melilla]]
+|}
+
+===Competences===
+The autonomic agreements of 1982 and 1992 tried to equalize competences devolved to the 17 autonomous communities,  within the limits of the constitution and the differences guaranteed by it. This has led to an &quot;asymmetrical homogeneity&quot;.&lt;ref name=perez/&gt; In the words of the [[Constitutional Court of Spain]] in its ruling of 5 August 1983, the autonomous communities are characterized by their &quot;homogeneity and diversity [...] equal in their subordination to the constitutional order, in the principles of their representation in the Senate, in their legitimation before the Constitutional Court, and in that the differences between the distinct Statutes [of Autonomy] cannot imply economic or social privileges; however, they can be unequal with respect to the process to accede to autonomy and the concrete determination of the autonomic content of their Statute, and therefore, in their scope of competences. The autonomic regime is characterized by an equilibrium between homogeneity and diversity [...] Without the former there will be no unity or integration in the State's ensemble; without the latter, there would not be [a] true plurality and the capacity of self-government.&quot;&lt;ref name=sinopsis137&gt;{{cite web|url=http://www.congreso.es/consti/constitucion/indice/sinopsis/sinopsis.jsp?art=137&amp;tipo=2|title=Sinópsis artículo 137|first=Julio|last=Castelao|work=Constitución española (con sinópsis)| publisher=[[Congress of Deputies (Spain)|Congress of the Deputies]]|date=June 2005|accessdate=14 October 2012}}&lt;/ref&gt; 
+[[File:Ertzaintza Volkswagen Bilbao.jpg|thumb|[[Ertzaintza]] police car in the Basque Country]]
+
+The asymmetrical devolution is a unique characteristic of the territorial structure of Spain, in that the different constituent territorial entities of the country have different powers. These were based on what has been called in Spanish as ''hechos diferenciales'', &quot;differential facts&quot; or &quot;differential traits&quot;.&lt;ref name=aja&gt;{{cite web|url=http://congreso.us.es/cidc/Ponencias/federalismo/eliseo%20AJA.pdf|title=El Estado Autonómico de España a los 25 años de su constitución|last=Aja|first=Eliseo|publisher=Congreso Ibeoramericano de Derecho Constitucional|date=2003|accessdate=22 October 2012}}&lt;/ref&gt; This expression refers to the idea that some communities have particular traits, with respect to Spain as a whole. In practice these traits are a native &quot;language proper to their own territories&quot; separate from Spanish, a particular financial regime or special civil rights expressed in a code, which generate a distinct political personality.&lt;ref name=aja/&gt; These ''hechos diferenciales'' of their distinct political and historical personality are constitutionally and statutorily (i.e. in their Statutes of Autonomy) recognized in the exceptions granted to some of them and the additional competences they assume.&lt;ref name=aja/&gt;
+
+Competences can be divided into three groups: exclusive to the central State or central government, shared competences, and devolved competences exclusive to the communities. Article 149 states which powers are exclusive to the central government: international relations, defense, administration of justice, commercial, criminal, civil and labor legislation, customs, general finances and State debt, public health, basic legislation and general coordination.&lt;ref name=fiscal/&gt; All autonomous communities have the power to manage their own finances in the way they see fit, and are responsible for the administration of education—school and universities—health and social services and cultural and urban development.&lt;ref name=howmuch&gt;{{cite web|url=http://www.economist.com/node/12501023|title=How much is enough? Devolution has been good for Spain, but it may have gone too far|publisher=[[The Economist]]|date=6 November 2008|accessdate=14 October 2012}}{{subscription required}}&lt;/ref&gt; Yet there are differences as stipulated in their Statutes and the constitution:&lt;ref name=carreras/&gt; Aragon, the Balearic Islands, the Basque Country, Catalonia, Galicia and the Valencian Community have a regional civil code; the Basque Country, Catalonia and Navarre have their own police corps—the [[Ertzaintza]], the [[Mossos d'Esquadra]] and the [[Policía Foral|Nafarroako Foruzainoga]], respectively—; the Canary Islands have a special financial regime in virtue of its location as an overseas territories, while the Basque Country and Navarre have a distinct financial regime called &quot;chartered regime&quot;; and finally, the Balearic Islands, the Basque Country, Catalonia, Galicia, Navarre and the Valencian Community have a co-official language and therefore a distinct linguistic regime.&lt;ref name=carreras/&gt;
+
+===Financial regimes===
+{{see also|Communities of chartered regime}}
+How the communities are financed has been one of the most contentious aspects in their relationship with the central government.&lt;ref name=smith/&gt; The constitution gave all communities significant control over spending, but the central government retained effective control of their financing,&lt;ref name=smith/&gt; that is, the central State is still charge of levying and collecting most taxes, which it then redistributes with the aim of producing &quot;fiscal equalization&quot;&lt;ref name=fiscal&gt;{{cite web|url=http://books.google.com/books/about/Fiscal_Federalism_and_Political_Decentra.html?id=ngoAEwlqMIsC|work=Fiscal Federalism and Political Decentralization: Lessons from Spain, Germany and Canada|editor1-last=Bosch|editor1-first=Núria|editor2-last=Durán|editor2-first=José María|last1=Ruíz-Huerta Carbonell|first1=Jesús|last2=Herrero Alcalde|first2=Ana|title=Fiscal Equalization in Spain|publisher=Edward Elgar Publisher Limited|year=2008|isbn=9781847204677|accessdate=15 October 2012}}&lt;/ref&gt; This applies to all communities, with the exception of the Basque Country and Navarre. This financial scheme is known as the &quot;common regime&quot;. In essence, &quot;fiscal equalization&quot; implies that richer communities become net contributors to the system, while poorer communities become net recipients. The two largest net contributors to the system are the Balearic Islands and the Community of Madrid, in percentage terms, or the Community of Madrid and Catalonia in absolute terms.&lt;ref name=fiscal/&gt;&lt;ref name=cinco&gt;{{cite web|url=http://www.cincodias.com/articulo/economia/madrid-aporta-estado-doble-cataluna/20071129cdscdieco_1/|title=Madrid aporta al Estado más del doble que Cataluña|publisher=Cinco Días|date=29 November 2007|accessdate=1 April 2012}}&lt;/ref&gt;  
+
+Central funding is the main source of revenue for the communities of &quot;common regime&quot;. Redistribution, or transfer payments, is given to the communities of common regime to manage the competences they have assumed and the amount is based on several calculations that take into account, which include a consideration for population, land area, administrative units, dispersal of population, relative poverty, fiscal pressure and insularity.&lt;ref name=tanja/&gt; The central government is committed to returning a specific percentage of taxes to all communities with common regime, within the differences allowed for &quot;fiscal equalization&quot;. The communities of common regime have the ability to add a surcharge to the so-called &quot;ceded taxes&quot;—taxes set at the central level, but collected locally—and they can lower or raise personal income taxes up to a limit.&lt;ref name=smith/&gt;
+
+The Basque Country and Navarre were granted an exception in the fiscal and financial system through the first additional disposition of the constitution that recognizes their the historical &quot;charters&quot; (in Spanish: ''fueros'')—hence they are known as &quot;[[communities of chartered regime]]&quot; or &quot;foral regime&quot;.&lt;ref name=smith/&gt; Through their &quot;chartered regime&quot;, these communities are allowed to levy and collect all so-called &quot;contracted taxes&quot;, including income tax and corporate tax, and they have much more flexibility to lower or raise them.&lt;ref name=smith/&gt; This &quot;chartered&quot; or &quot;foral&quot; contract entails true financial autonomy.&lt;ref name=smith/&gt; Since they collect almost all taxes, they send to the central government a pre-arranged amount known as ''cupo'', &quot;quota&quot; or ''aportación'', &quot;contribution&quot;, and the treaty whereby this system is recognized is known as ''concierto'', &quot;treaty&quot;, or ''convenio'', &quot;pact&quot;.&lt;ref name=hacienda&gt;{{cite web|url=http://www.minhap.gob.es/es-ES/Areas%20Tematicas/Financiacion%20Autonomica/Paginas/Regimen%20foral.aspx|title=Régimen foral|author=Ministerio de Hacienda y Administraciones Públicas (Ministry of the Treasury and Public Administrations)|accessdate=1 April 2012}}&lt;/ref&gt; Hence they are also said to have ''concierto económico'', an &quot;economic treaty&quot;. Since they collect all taxes themselves and only send a prearranged amount to the central government for the competences exclusive to the State, they do not participate in &quot;fiscal equalization&quot;, in that they do not receive any money back. 
+
+As more competences have been assumed by the autonomous communities, such as social welfare, health and education, public expenditure patterns have seen a shift from the central administration towards the communities since the 1980s.&lt;ref name=smith/&gt; In the late 2000s, autonomous communities accounted for 35% of all public expenditure in Spain, a percentage that is even higher than that of states within a federation.&lt;ref name=fiscal/&gt; However, with no legal constraints to balance budgets, and since the cenral government retains control over fiscal revenue in the communities of common regime, these are in a way encouraged to build up debts.&lt;ref name=smith/&gt; The [[Council on Fiscal and Financial Policy]], which includes representatives of the central government and of the autonomous communities, has become one of the most efficient institutions of coordination in matters of public expenditures and revenue.&lt;ref name=toboso&gt;{{cite web|url=http://www.highbeam.com/doc/1P3-870986501.html|title=Un Primer Análisis Cuantitativo de la Organización Territorial de las Tareas de Gobierno en España, Alemania y Suiza|last=Toboso|first=Fernando|publisher=El Trimestre Económico|date=1 April 2001|accessdate=21 October 2012}}{{Subscription required|via=[[HighBeam Research]]}}&lt;/ref&gt; Through the Council several agreements of financing have been agreed, as well as limits to the communities' public debt. The Organic Law of the Financing of Autonomous Communities of 1988 requires that the communities obtain the authorization of the central Ministry of Finance to issue public debt.&lt;ref name=toboso/&gt;
+
+===Linguistic regimes===
+[[File:BilingualSign Spain.svg|thumb|150px|Bilingual sign in Basque and Spanish]]
+The Preamble to the constitution explicitly stated that it is the nation's will to protect &quot;all Spaniards and the peoples of Spain in the exercise of human rights, their cultures and traditions, languages and institutions&quot;.&lt;ref name=preamble&gt;Preamble to the Constitution {{cite web |url=http://www.tribunalconstitucional.es/en/constitucion/Pages/ConstitucionIngles.aspx#i1 |title=Spanish Constitution |author=[[Cortes Generales]] |date=27 December 1978 |work= |publisher=Tribunal Constitucional de España |accessdate=28 January 2012}}&lt;/ref&gt; This is a significant recognition, not only in that it differed drastically from the restrictive linguistic policies during the Franco era, but also because part of the distinctiveness of the &quot;historical nationalities&quot; lies on their own regional languages.&lt;ref name=villar&gt;{{cite web|url=http://www.stormingmedia.us/46/4624/A462453.html|last=Villar|first=Fernando P.|title=Nationalism in Spain: Is It a Danger to National Integrity?|publisher=Storming Media, Pentagon Reports|date=June 1998|accessdate=3 February 2012}}&lt;/ref&gt;&lt;ref name=shabad&gt;{{cite web|url=http://www.jstor.org/pss/421632|title=Language, Nationalism and Political Conflict in Spain|last1=Shabad|first=Goldie|last2=Gunther|first2=Richard|publisher=Comparative Politics Vol 14 No. 4|date=July 1982|accessdate=3 February 2012}}&lt;/ref&gt; The nation is thus openly multilingual,&lt;ref name=conversi/&gt; in which [[Names given to the Spanish language|Castilian]]—that is, Spanish—is the official language in all territories, but the &quot;other Spanish languages&quot; can also be official in their respective communities, in accordance to their Statutes of Autonomy. Article 3 of the constitution ends up declaring that the &quot;richness of the distinct linguistic modalities of Spain represent a patrimony which will be the object of special respect and protection.&quot;&lt;ref name=third&gt;Third article. {{cite web |url=http://www.tribunalconstitucional.es/en/constitucion/Pages/ConstitucionIngles.aspx#i1 |title=Spanish Constitution |author=[[Cortes Generales]] |date=27 December 1978 |work= |publisher=Tribunal Constitucional de España |accessdate=28 January 2012}}&lt;/ref&gt; It must be noted that Spanish remains the only official language of the State; other languages are only co-official with Spanish in the communities that have so regulated. In addition, knowledge of the Spanish language was declared a right and an obligation of all Spaniards.
+
+Spanish legislation, most notably in the Statutes of Autonomy of the bilingual communities, use the term &quot;language proper to a community&quot; (in Spanish: ''lengua propia'', oftentimes translated as &quot;own language&quot;) to refer to a language different from Spanish that originated or had historical roots in that particular territory. The Statutes of Autonomy of the respective autonomous communities have declared [[Basque language|Basque]] the language proper to the Basque Country and Navarre, [[Catalan language|Catalan]] the language proper to Catalonia, the Balearic Islands and the Valencian Community—where it is historically, traditionally and officially known as [[Valencian language|Valencian]]—, and [[Galician language|Galician]] to be the language proper to Galicia. There are other protected regional language in other autonomous communities. As a percentage of total population in Spain, Basque is spoken by 2%, Catalan by 17% and Galician by 7% of all Spaniards.&lt;ref name=cia&gt;{{cite web|https://www.cia.gov/library/publications/the-world-factbook/geos/sp.html|title=Spain|work=The CIA World Factbook|publisher=[[Central Intelligence Agency]]|accessdate=22 October 2012}}&lt;/ref&gt; 
+
+{|class=&quot;wikitable hlist&quot; style=&quot;margin-left: auto; margin-right: auto; width: auto; text-align: left; font-size: 90%;&quot;
+|+  style=&quot;text-align:center;&quot;| '''Co-official or protected languages of Spain'''
+|- 
+! Language
+! Status
+|-
+| [[Aragonese language|Aragonese]]
+| Protected in [[Aragon]]
+|-
+| [[Astur-Leonese languages|Asturian]]
+| Protected in [[Asturias]] and in [[Castile and León]]{{efn|In the Statute of Autonomy of Castile and León, the Astur-Leonese dialect spoken therein is referred to as [[Leonese language|Leonese]].}}
+|-
+| [[Basque language|Basque]]
+| Official in the [[Basque Country (autonomous community)|Basque Country]] and [[Navarre]]
+|-
+| [[Catalan language|Catalan]]
+| Official in [[Catalonia]], [[Balearic Islands]] and the [[Valencian Community]];{{efn|The Catalan dialect spoken in the Valencian Community is historically, traditionally and officially referred to as [[Valencian language|Valencian]].}} protected in [[Aragon]]
+|-
+| [[Galician language|Galician]]
+| Official in [[Galicia (Spain)|Galicia]], protected in [[Castile and León]]
+|}
+
+===Subdivisions===
+{{see also|provinces of Spain|municipalities of Spain|comarques of Catalonia|vegueries}}
+
+The Spanish constitution recognizes the [[municipalities of Spain|municipalities]] and guarantees their autonomy. Town halls (in Spanish: ''ayuntamientos'') are in charge of the municipalities' government and administration, and they are integrated by a major (in Spanish ''alcalde'') and councilors (in Spanish: ''concejales''), the latter elected by universal sufrage, and the former elected either by the councilor or by sufrage. 
+
+Provinces are groups of municipalities and recognized by the constitution. Their competences and institutions of government vary greatly among communities. In all communities integrated by more than province, provinces are governed by &quot;Provincial Deputations&quot; (in Spanish: ''Diputaciones Provinciales''), with a limited scope administrative competences. In the Basque Country, the provinces, renamed as &quot;[[historical territories]]&quot; (in Spanish: ''territorios históricos'', in Basque: ''lurralde historiko''), are governed by &quot;Chartered Deputations&quot; (in Spanish: ''Diputaciones Forales'', in Basque: ''Foru Aldundi'')—with assume the competences of a provincial deputation as well as the fiscal powers of their &quot;[[communities of chartered regime|chartered regime]]—and by &quot;General Juntas&quot; (in Spanish: ''Juntas Generales'', in Basque: ''Biltzar Nagusiak'')—parliaments with legislative powers. In the Canary Islands and the Balearic Islands, each major island is governed by an &quot;Insular Council&quot; (in Spanish: ''Consejo Insular'' or ''Cabildo Insular'', in Catalan: ''Consell Insular''). In Catalonia, the &quot;Provincial Deputations&quot; have very little power,&lt;ref name=smith&gt;{{cite web|url=http://www.ucl.ac.uk/spp/publications/unit-publications/64.pdf|title=Regional Government in France and Spain|last1=Smith|first1=Andy|last2=Heywood|first2=Paul|publisher=University College London|date=August 2000|accessdate=20 October 2012}}&lt;/ref&gt; as other territorial subdivisions have been created. Finally, in those seven autonomous communities formed by a single province, the Provincial Deputations have been replaced by the communities' institutions of government; in fact, the provinces themselves are not only coterminous with the communities, but correspond in essence to the communities themselves. The two-tier territorial organization common to most communities—first province, then municipalities—is therefore non-existent in these &quot;uniprovincial&quot; communities.&lt;ref name=fiscal/&gt; 
+
+{|class=&quot;wikitable hlist&quot; style=&quot;margin-left: auto; margin-right: auto; width: auto; text-align: left; font-size: 90%;&quot;
+|+  style=&quot;text-align:center;&quot;| '''Capitals and provinces that integrate the autonomous communities'''
+|- 
+! Autonomous community
+! Capital
+! Provinces
+|-
+| [[Andalusia]]
+| [[Seville]]
+| [[Province of Almería|Almería]], [[Province of Cádiz|Cádiz]], [[Province of Córdoba (Spain)|Cordova]], [[Province of Granada|Granada]], [[Province of Huelva|Huelva]], [[Province of Jaén|Jaén]], [[Province of Málaga|Málaga]] and [[Province of Seville|Seville]]
+|-
+| [[Aragon]]
+| [[Zaragoza]]
+| [[Province of Huesca|Huesca]], [[Province of Teruel|Teruel]] and [[Province of Zaragoza|Zaragoza]]{{efn|Also spelled &quot;Saragossa&quot; in English.}}
+|-
+| [[Asturias]]
+| [[Oviedo]]
+| (Asturias){{efn|Previously known as Oviedo.}}
+|-
+| [[Balearic Islands]]
+| [[Palma, Majorca|Palma]]
+| (Balearic Islands)
+|-
+| [[Basque Country (autonomous community)|Basque Country]]
+| [[Vitoria-Gasteiz]]
+| [[Álava]], [[Gipuzkoa]] and [[Biscay]]{{efn|Officially known as &quot;historical territories&quot; (in Spanish: ''territorios históricos'', in Basque: ''lurrande historiok'').}}
+|-
+| [[Canary Islands]]
+| [[Las Palmas]] and [[Santa Cruz de Tenerife]]
+| [[Province of Santa Cruz de Tenerife|Santa Cruz de Tenerife]] and [[Province of Las Palmas|Las Palmas]]
+|-
+| [[Cantabria]]
+| [[Santander, Spain|Santander]]
+| (Cantabria){{efn|Previously known as Santander.}}
+|-
+| [[Castile-La Mancha]]
+| [[Toledo, Spain|Toledo]]
+| [[Province of Albacete|Albacete]], [[Province of Ciudad Real|Ciudad Real]], [[Province of Cuenca (Spain)|Cuenca]], [[Province of Guadalajara|Guadalajara]] and [[Province of Toledo|Toledo]]
+|-
+| [[Castile and León]]
+| [[Valladolid]] and [[Burgos]]{{efn|The Statute of Autonomy of Castile and León did not specify which city was to be the capital or the seat of the institutions of government. A separate law established that the seat of the Council of Government and the Parliament (Junta) would be Valladolid, and that the Supreme Court of Justice would be in Burgos, without using the word &quot;capital&quot; to refer to either one.}}
+| [[Province of Ávila|Ávila]], [[Province of Burgos|Burgos]], [[Province of León|León]], [[Province of Palencia|Palencia]], [[Province of Salamanca|Salamanca]], [[Province of Segovia|Segovia]], [[province of Soria|Soria]], [[province of Valladolid|Valladolid]] and [[province of Zamora|Zamora]]
+|-
+| [[Catalonia]]
+| [[Barcelona]]
+| [[Province of Barcelona|Barcelona]], [[Province of Girona|Girona]], [[Province of Lleida|Lleida]] and [[Province of Tarragona|Tarragona]]
+|-
+| [[Community of Madrid]]
+| [[Madrid]]
+| (Madrid)
+|- 
+| [[Extremadura]]
+| [[Mérida, Spain|Mérida]]
+| [[Province of Badajoz|Badajoz]] and [[province of Cáceres|Cáceres]]
+|-
+| [[Galicia (Spain)|Galicia]]
+| [[Santiago de Compostela]]
+| [[Province of A Coruña|A Coruña]], [[Province of Lugo|Lugo]], [[Province of Ourense|Ourense]] and [[Province of Pontevedra|Pontevedra]]
+|-
+| [[La Rioja (Spain)|La Rioja]]
+| [[Logroño]]
+| (La Rioja){{efn|Previously known as Logroño.}}
+|-
+| [[Region of Murcia|Murcia]]
+| [[Murcia]]
+| (Murcia)
+|-
+| [[Navarre]]
+| [[Pamplona]]
+| (Navarre){{efn|Previously known as Pamplona.}}
+|-
+| [[Valencian Community]]
+| [[Valencia]]
+| [[Province of Alicante|Alicante]], [[province of Castellón|Castellón]] and [[province of Valencia|Valencia]]
+|}
+
+The constitution also allows the creation of other territorial entities formed by groups of municipalities. As of 2012, the only community that has created such subdivisions with a legal identity and administrative powers is Catalonia: the [[comarques of Catalonia|comarques]] (sing. ''comarca'') are associations of municipalities, and the [[vegueries]] (sing. ''vegueria'') are associations of comarques. Other communities recognize the existence of &quot;historical&quot; comarcas (sing. ''comarca''), with no administrative powers.
+
+==Notes==
+{{notelist|2}}
+
+==References==
+{{reflist|colwidth=30em}}
+
+==External links==
+*[http://www.rulers.org/spanautc.html Information about Spain's Autonomous Communities from rulers.org]
+*[http://www.citymayors.com/government/spain_government.html Relations between tiers&amp;nbsp;–  CityMayors feature]
+*[http://www.maps.data-spain.com/ Maps of the Autonomous Communities of Spain]
+*[http://www.asiaspain.com/xibanya-ditu.html Maps of the Autonomous Communities of Spain in Chinese]
+*[http://www.chathamhouse.org.uk/pdf/briefing_papers/state_and_region.pdf David Brighty. ''State and region: the Spanish experience''.]
+
+{{Administrative divisions of Spain}}
+{{Provinces of Spain}}
+{{Types of administrative country subdivision}}
+{{Articles on first-level administrative divisions of European countries}}
+{{Lists of country subdivisions}}
+
+{{DEFAULTSORT:Autonomous Communities Of Spain}}
+[[Category:Autonomous communities of Spain| ]]
+[[Category:Subdivisions of Spain]]
+[[Category:Lists of country subdivisions|Spain, Autonomous communities]]
+[[Category:Country subdivisions of Europe|Spain 1]]
+[[Category:First-level administrative country subdivisions|Autonomous communities, Spain]]
+[[Category:Spain-related lists]]
+[[Category:Autonomous country subdivisions]]
+
+[[ar:منطقة حكم ذاتي إسبانية]]
+[[an:Comunidat autonoma]]
+[[ast:Comunidá autónoma]]
+[[be:Адміністрацыйны падзел Іспаніі]]
+[[be-x-old:Аўтаномная Супольнасьць]]
+[[bg:Автономни области в Испания]]
+[[bs:Španske autonomne zajednice]]
+[[br:Kumuniezhioù emren Spagn]]
+[[ca:Comunitat autònoma]]
+[[cs:Autonomní společenství Španělska]]
+[[cy:Cymunedau ymreolaethol Sbaen]]
+[[da:Spaniens autonome regioner]]
+[[de:Autonome Gemeinschaften Spaniens]]
+[[et:Hispaania haldusjaotus]]
+[[el:Αυτόνομες κοινότητες της Ισπανίας]]
+[[es:Comunidad autónoma]]
+[[eo:Aŭtonoma Komunumo de Hispanio]]
+[[ext:Comunidá autónoma]]
+[[eu:Autonomia erkidego]]
+[[fa:بخش‌های خودمختار اسپانیا]]
+[[fr:Communautés autonomes d'Espagne]]
+[[fy:Spaanske regio's]]
+[[ga:Comhphobail fhéinrialaitheacha na Spáinne]]
+[[gl:Comunidade autónoma]]
+[[ko:스페인의 자치 지방]]
+[[hy:Իսպանիայի վարչական բաժանում]]
+[[hi:स्पेनी स्वायत्त समुदाय]]
+[[hr:Španjolske autonomne zajednice]]
+[[io:Autonoma regiono]]
+[[id:Daftar komunitas otonom di Spanyol]]
+[[ia:Communitate autonome]]
+[[it:Comunità autonome della Spagna]]
+[[he:קהילות אוטונומיות של ספרד]]
+[[jv:Wilayah otonomi Spanyol]]
+[[ka:ესპანეთის ავტონომიური გაერთიანებები]]
+[[kk:Испания әкімшілік бөлінісі]]
+[[lad:Komunidad otonoma]]
+[[la:Communitas autonoma]]
+[[lv:Spānijas autonomie apgabali]]
+[[lb:Autonom Gemeinschafte vu Spuenien]]
+[[mr:स्पेनचे स्वायत्त संघ]]
+[[xmf:ესპანეთიშ ავტონომიური აკოართაფეფი]]
+[[arz:اقاليم اسبانيا]]
+[[ms:Komuniti berautonomi di Sepanyol]]
+[[nl:Bestuurlijke indeling van Spanje]]
+[[ja:スペインの地方行政区画]]
+[[no:Spanias autonome regioner]]
+[[nn:Autonome regionar i Spania]]
+[[oc:Comunautat autonòma d'Espanha]]
+[[pl:Wspólnoty autonomiczne Hiszpanii]]
+[[pt:Comunidades autónomas da Espanha]]
+[[ro:Comunitățile autonome ale Spaniei]]
+[[ru:Административное деление Испании]]
+[[sc:Comunidades autònomas de s'Ispagna]]
+[[sco:Autonomous commonties o Spain]]
+[[scn:Cumunità autonumi di Spagna]]
+[[simple:Autonomous communities of Spain]]
+[[sk:Administratívne členenie Španielska]]
+[[sl:Španska avtonomna skupnost]]
+[[sr:Аутономне покрајине Шпаније]]
+[[fi:Espanjan itsehallintoalueet]]
+[[sv:Spaniens autonoma regioner]]
+[[tl:Mga nagsasariling pamayanan at lungsod ng Espanya]]
+[[roa-tara:Comunetate autonome d'a Spagne]]
+[[th:เขตการปกครองของสเปน]]
+[[tr:İspanya'daki özerk topluluklar]]
+[[uk:Адміністративний поділ Іспанії]]
+[[vls:Regio (Spanje)]]
+[[war:Komunidad Autonoma han Espanya]]
+[[zh:西班牙行政區劃]]</text>
+      <sha1>7cqc95aj4ktm5x58yqw61zup4ok1943</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Andalucia (album)</title>
+    <ns>0</ns>
+    <id>55003</id>
+    <revision>
+      <id>503543543</id>
+      <parentid>467526613</parentid>
+      <timestamp>2012-07-22T04:51:21Z</timestamp>
+      <contributor>
+        <username>GoingBatty</username>
+        <id>11555324</id>
+      </contributor>
+      <comment>Help needed: [[Hoover]]</comment>
+      <text xml:space="preserve">{{Unreferenced|date=December 2009}}
+
+{{Infobox album &lt;!-- See Wikipedia:WikiProject_Albums --&gt;
+| Name        = Andalucia
+| Type        = [[Studio album]]
+| Artist      = [[Tito &amp; Tarantula]]
+| Cover       = T+t-andalucia.jpg
+| Released    = [[2002 in music|2002]]
+| Recorded    = [[Malaga, Spain]], at el cortijo studios&lt;br&gt;Eraserhead studios, [[Glendale, California]]&lt;br&gt;Coney Island Studios, [[Glendale, California]]&lt;br&gt;Electromos Studios, [[Osnabrück, Germany]]
+| Genre       = [[Rock music|Rock]]
+| Length      = 51:44
+| Label       = [[BMG]]
+| Producer    = BigDaddyT
+| Reviews     =
+| Last album  = ''[[Little Bitch]]'' &lt;br /&gt; (2000)
+| This album  = '''''Andalucia''''' &lt;br /&gt; (2002)
+| Next album  = ''[[Back into Darkness]]'' &lt;br /&gt; (2008)
+}}
+'''''Andalucia''''' is the fourth studio album by Los Angeles rock band [[Tito &amp; Tarantula]], released in 2002. The album marked several line-up changes in the band, which had previously consisted of lead singer/rhythm guitarist [[Tito Larriva]], lead guitarist [[Peter Atanasoff]], and drummer [[Johnny &quot;Vatos&quot; Hernandez]]. This album featured the debut of lead guitarist [[Steven Hufsteter]] - who had previously played with Larriva in the [[Cruzados]], bassist [[Io Perry]], and keyboardist [[Marcus Praed]].
+
+The band toured promoting the album for several years. They also filmed a music video for the song &quot;California Girl&quot;. However, upon seeing how bad the footage of the video was, Perry threw up, Larriva threatened to quit, and Atanasoff was not seen around for days. So, to compensate, Larriva made his own video for the song using the eight dollars he had in his pocket. In the last 40 seconds of the song &quot;Effortless&quot;, Larriva, Atanasoff, and Perry can be heard laughing while they watch the &quot;California Girl&quot; music video.
+
+The song &quot;La Flor De Mal&quot; is a cover of a Cruzados song that Larriva and Hufsteter wrote when they were in the Cruzados.
+
+==Track listing==
+All songs written by [[Tito Larriva]], [[Peter Atanasoff]], [[Steven Hufsteter]], [[Io Perry]], and [[Johnny &quot;Vatos&quot; Hernandez]] except where noted.
+#&quot;Missed Your Eyes&quot; - 3:06
+#&quot;It's My Mistake&quot; - 3:17
+#&quot;California Girl&quot; - 3:30
+#&quot;You're the One I Love&quot; (Larriva, Atanasoff, Perry, Hernandez) - 3:16
+#&quot;Torn to Pieces&quot; - 2:55
+#&quot;Hey Hey Hey Whada Say&quot; (Larriva, Atanasoff, Hufsteter, Perry, Hernandez, [[Bernie Larsen]]) - 2:13
+#&quot;Bullets from a Gun&quot; (Larriva, Atanasoff, Hufsteter, Perry, Hernandez, [[Mark Goldenberg]]) - 5:30
+#&quot;Make Me&quot; - 4:11
+#&quot;My Power Is in Your Hands&quot; - 4:04
+#&quot;Ready Made&quot; - 3:20
+#&quot;Effortless&quot; - 4:22
+#&quot;In Between&quot; - 3:18
+#&quot;Mexican Sky&quot; - 4:16
+#&quot;La Flor De Mal&quot; (Larriva, Hufsteter) - 4:26
+
+===Bonus tracks===
+#&lt;li value = 15&gt;&quot;You're the One I Love&quot; [Acoustic Version] (Larriva, Atanasoff, Perry, Hernandez)
+#&quot;In Between&quot; [Acoustic Version]
+#&quot;Make Me&quot; [Acoustic Version]
+#&quot;Torn to Pieces&quot; [Acoustic Version] (Larriva, Atanasoff, Hufsteter, Perry, Hernandez, Larsen)
+#&quot;Mexican Sky&quot; [Acoustic Version]
+
+==Personnel==
+*[[Tito Larriva]] - [[singing|lead vocals]], [[rhythm guitar]], [[keyboard instrument|one-finger keyboards&quot;]], assistant engineer
+*[[Peter Atanasoff]] - [[lead guitar]], [[backing vocalist|backing vocals]]
+*[[Steven Hufsteter]] - [[electric guitar|lead guitar]], backing vocals
+*[[Io Perry]] - [[bass guitar|bass]], backing vocals
+*[[Marcus Praed]] - [[piano]], backing vocals, engineer, mixing
+*[[Johnny &quot;Vatos&quot; Hernandez]] - [[drum kit|drums]]
+
+===Additional personnel===
+*[[Hoover]]{{dn|date=July 2012}} - [[guitar|additional guitar]] on &quot;California Girl&quot;, assistant engineer, mixing
+
+===Production===
+*[[Joel Soyfer]] - mixing
+*[[Gavin Lurssen]] - mastering
+{{Use dmy dates|date=January 2011}}
+
+{{DEFAULTSORT:Andalucia (Album)}}
+[[Category:2002 albums]]
+[[Category:BMG albums]]
+[[Category:Tito &amp; Tarantula albums]]</text>
+      <sha1>278dkg2595obj8pgfuptm0offlgk24r</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Battle of Tsushima</title>
+    <ns>0</ns>
+    <id>55004</id>
+    <revision>
+      <id>517808319</id>
+      <parentid>515844695</parentid>
+      <timestamp>2012-10-14T21:38:33Z</timestamp>
+      <contributor>
+        <username>Whoop whoop pull up</username>
+        <id>13157623</id>
+      </contributor>
+      <comment>/* Tsushima Strait */</comment>
+      <text xml:space="preserve">{{Infobox military conflict
+| conflict    = Battle of Tsushima
+| partof      = the [[Russo-Japanese War]]
+| image       = [[File:MIKASAPAINTING.jpg|250px|Admiral Tōgō on the bridge of ''Mikasa'']]
+| caption     = [[Tōgō Heihachirō|Admiral Tōgō]] on the bridge of ''[[Japanese battleship Mikasa|Mikasa]]'', at the beginning of the Battle of Tsushima in 1905. The signal flag being hoisted is the letter &quot;Z&quot;, which was a special instruction to the Fleet.
+| date        = 27–28 May 1905
+| place       = [[Straits of Tsushima]]
+| coordinates = {{Coord|34|33.977|N|130|9.056|E|type:event|display=inline,title}}
+| result      = Decisive Japanese victory
+| combatant1  = {{flag|Empire of Japan}}
+| combatant2  = {{flag|Russian Empire}}
+| commander1  = {{flagicon|Empire of Japan|naval}} [[Tōgō Heihachirō]]&lt;br&gt;{{flagicon|Empire of Japan|naval}}[[Kamimura Hikonojō]]&lt;br&gt;{{flagicon|Empire of Japan|naval}} [[Dewa Shigetō]]
+| commander2  = {{flagicon|Russian Empire|naval}} [[Zinovy Rozhestvensky]] {{POW}}&lt;br&gt; {{flagicon|Russian Empire|naval}} [[Nikolai Nebogatov]]{{POW}}&lt;br&gt;{{flagicon|Russian Empire|naval}} [[Oskar Enkvist]]
+| strength1   = '''total: 89 ships'''&lt;br&gt;4 battleships&lt;br&gt;27 cruisers&lt;br&gt; 21 destroyers&lt;br&gt;37 torpedo boats plus gunboats, and auxiliary vessels
+| strength2   = '''total: 28 ships'''&lt;br&gt;8 battleships&lt;br&gt;3 coastal battleships&lt;br&gt;8 cruisers&lt;br&gt;9 destroyers
+| casualties1 = 117 dead&lt;br&gt;583 injured&lt;br&gt;3 torpedo boats sunk
+| casualties2 = 4,380 dead&lt;br&gt;5,917 captured&lt;br&gt;21 ships sunk (including 7 battleships)&lt;br&gt;7 ships captured&lt;br&gt;6 ships disarmed
+| campaignbox = {{Campaignbox Russo-Japanese War}}
+}}
+[[File:Tsushima battle map-en.svg|thumb|250px|Map showing the routes of both fleets]]
+
+The '''Battle of Tsushima''' ([[Japanese language|Japanese]]: 対馬海戦, ''tsushima-kaisen'', {{lang-ru|Цусимское сражѣніе}}, ''Tsusimskoye srazheniye''), commonly known as the ''“Sea of Japan Naval Battle”'' (Japanese: 日本海海戦, ''nihonkai-kaisen'') in [[Japan]] and the ''“Battle of Tsushima Strait”'', was the major naval battle fought between Russia and Japan during the [[Russo-Japanese War]]. This was naval history's only decisive sea battle fought by modern steel [[battleship]] fleets,&lt;ref&gt;{{cite book|url=http://books.google.com/books?id=RBC2nY1rp5MC&amp;pg=PA459&amp;dq=%22battle+of+tsushima%22+decisive+sea+battle#v=onepage&amp;q=%22battle%20of%20tsushima%22%20decisive%20sea%20battle&amp;f=false|page=459|title= Military communications: from ancient times to the 21st century |first=Christopher H. |last=Sterling |publisher= ABC-CLIO|year= 2008 |isbn= 1-85109-732-5|quote=''The naval battle of Tsushima, the ultimate contest of the 1904–1905 Russo-Japanese War, was one of the most decisive sea battles in history.''}}&lt;/ref&gt;&lt;ref&gt;{{cite book|url= http://books.google.com/books?id=zUP23aBHLOwC&amp;pg=SL22-PA76&amp;dq=%22battle+of+tsushima%22+decisive+sea+battle#v=onepage&amp;q=%22battle%20of%20tsushima%22%20decisive%20sea%20battle&amp;f=false |quote=''In retrospect, the battle of Tsushima in May 1905 was the last &quot;decisive&quot; naval battle in history.''|page= V-76|title=Joint Operational Warfare Theory and Practice and V. 2, Historical Companion|editor= Naval War College Press (U.S.) |publisher= Government Printing Office|year= 2009 |isbn= 1-884733-62-X}}&lt;/ref&gt; the first naval battle in which [[wireless telegraphy]] played a critically important role, and has been characterized as the &quot;dying echo of the old era – for the last time in the history of naval warfare ships of the line of a beaten fleet surrendered on the high seas.&quot;&lt;ref&gt;Brown p. 10&lt;/ref&gt;
+
+It was fought on May 27–28, 1905 (May 14–15 in the [[Julian calendar]] then in use in Russia) in the [[Tsushima Strait]] between [[Korea]] and southern [[Japan]]. In this battle the [[Japan]]ese fleet under Admiral [[Tōgō Heihachirō]] destroyed two-thirds of the [[Russia]]n fleet, under Admiral [[Zinovy Rozhestvensky]], which had traveled over {{convert|18000|nmi|km|lk=in}}  to reach the Far East. In London in 1906, [[Sir George Sydenham Clarke]] wrote, &quot;The battle of Tsu-shima is by far the greatest and the most important naval event since Trafalgar&quot;;&lt;ref&gt;Semenoff (1907) p. ix&lt;/ref&gt; decades later, historian [[Edmund Morris (writer)|Edmund Morris]] maintained that it remained the greatest naval battle since [[Battle of Trafalgar|Trafalgar]].&lt;ref&gt;{{cite book|last=Morris|first=Edmund|authorlink=Edmund Morris (writer)|title=[[Theodore Rex (book)|Theodore Rex]]|isbn=0-394-55509-0|year=2001}}&lt;/ref&gt;
+
+Prior to the [[Russo-Japanese War]], countries constructed their battleships with mixed batteries of mainly 152&amp;nbsp;mm (6-inch), 203&amp;nbsp;mm (8-inch), 254&amp;nbsp;mm (10-inch) and 305&amp;nbsp;mm (12-inch) guns, with the intent that these battleships fight on the battle line in a close-quarter, decisive fleet action. The Battle of Tsushima demonstrated that battleship speed and big guns&lt;ref&gt;Massie p. 470-480&lt;/ref&gt; with longer ranges were more advantageous in naval battles than mixed batteries of different sizes.&lt;ref&gt;Semenoff (1907) p. 124, 135&lt;/ref&gt;
+
+The [[wireless telegraph]] was invented in the last half of the 1890s, and by the turn of the century all major navies were adopting this improved communications technology. Although [[Alexander Stepanovich Popov]] of the Naval Warfare Institute had built and demonstrated a wireless telegraphy set in 1900, equipment from the firm [[Telefunken]] in Germany was initially adopted by the Imperial Russian Navy. In Japan, Professor Shunkichi Kimura was commissioned into the Imperial Navy to develop their own wireless system, and this was in place on many of the Japanese warships before 1904. Although both sides had early wireless telegraphy, the Russians were using German sets and had difficulties in their use and maintenance, while the Japanese had the advantage of using their own equipment. It is recognized today that this battle was the beginning of [[electronic warfare]].&lt;ref&gt;{{cite book|last=Sarkar|first=Tapan K.|authorlink=Tapan Sarkar (writer)|title=[[History of Wireless (book)|History of Wireless]]|isbn=0-471-71814-9|year=2006}} p. 459&lt;/ref&gt;
+
+==Background==
+
+===Conflict in the Far East===
+On 8 February 1904 destroyers of the [[Imperial Japanese Navy]] launched a surprise attack on the Russian Far East Fleet anchored in [[Lüshunkou|Port Arthur]]; 3 ships—2 battleships and a cruiser—were damaged in the attack. The Russo-Japanese war had thus begun. Japan's first objective was to secure its lines of communication and supply to the Asian mainland, enabling it to conduct a ground war in Manchuria. To achieve this, it was necessary to neutralise Russian naval power in the Far East. At first, the Russian naval forces remained inactive and did not engage the Japanese, who staged unopposed landings in Korea. However, the Russians were revitalised by the arrival of Admiral [[Stepan Makarov]] and were able to achieve some degree of success against the Japanese. Admiral Makarov's flagship, the battleship ''[[Russian battleship Petropavlovsk (1897)|Petropavlovsk]]'' struck a mine, and Makarov was among the dead. His successors failed to challenge the Japanese Navy, and the Russians were effectively bottled up in their base at Port Arthur.
+
+By May, the Japanese had landed forces on the [[Liaodong Peninsula]] and in August began the [[siege of Port Arthur|siege of the naval station]]. On 9 August, Admiral [[Wilgelm Vitgeft]], commander of the 1st Pacific Squadron, was ordered to sortie his fleet to Vladivostok,&lt;ref&gt;Forczyk p. 48&lt;/ref&gt; link up with the Squadron stationed there, and then engage the [[Imperial Japanese Navy|IJN]] in decisive battle.&lt;ref&gt;Forczyk p. 26 &amp; 54&lt;/ref&gt; Both squadrons of the [[Russian Pacific Fleet]] would ultimately become dispersed during the battles of the [[Battle of the Yellow Sea|Yellow Sea]] on 10 August and the [[Battle off Ulsan|Ulsan]] on 14 August 1904. What remained of Russian naval power would eventually be sunk in [[Lüshunkou|Port Arthur]].
+
+===''The Second Pacific Squadron''===
+[[File:Battle of Japan Sea (Route of Baltic Fleet) NT.PNG|thumb|300px|The long voyage by the Russian Baltic Fleet]]
+{{More footnotes|section|date=May 2010}}
+With the inactivity of the First Pacific Squadron after the death of Admiral Makarov and the tightening of the Japanese noose around Port Arthur, the Russians considered sending part of their [[Baltic Fleet]] to the Far East. The plan was to relieve Port Arthur by sea, link up with the First Pacific Squadron, overwhelm the Imperial Japanese Navy, and then delay the Japanese advance into Manchuria until Russian reinforcements could arrive via the [[Trans-Siberian railroad]] and overwhelm the Japanese land forces in Manchuria. As the situation in the Far East deteriorated, the Tsar (encouraged by his cousin [[Kaiser Wilhelm II]]), agreed to the formation of the ''Second Pacific Squadron''. It would consist of five divisions of the Baltic Fleet, including 11 of its 13 battleships. The squadron departed on 15 October 1904 under the command of Admiral [[Zinovy Rozhestvensky]].
+
+The Second Pacific Squadron sailed through the North Sea. As there were rumours of Japanese torpedo boats in the North Sea, several Russian ships fired upon British fishing trawlers off [[Dogger Bank incident|Dogger Bank]], causing the Royal Navy to shadow the Russian fleet until a diplomatic agreement was reached. Barred by Britain from using the [[Suez Canal]], the Russians sailed around Africa, and by April and May 1905 had anchored at [[Cam Ranh Bay]] in French Indochina. The voyage was long and arduous, and the [[morale]] of the crews plummeted. The Russians had been ordered to break the blockade of Port Arthur, but the city had already fallen on 2 January, so the Russian port of [[Vladivostok]] became the objective.
+
+===Tsushima Strait===
+[[File:TsuShima Strait.png|thumb|Korea and Tsushima Straits and Tsushima Islands]]
+The Russians could have sailed through any one of three possible straits to reach Vladivostok: [[La Perouse Strait|La Perouse]], [[Tsugaru Strait|Tsugaru]], and Tsushima. Admiral Rozhestvensky chose Tsushima in an effort to simplify his route. Admiral Tōgō, based at [[Busan]], also believed Tsushima would be the preferred Russian course. Tsushima Strait is the body of water eastward of the [[Tsushima Island]] group, located midway between the Japanese island of Kyushu and the Korean Peninsula, the shortest and most direct route from Indochina. The other routes would have required the fleet to sail east around Japan. The Japanese Combined Fleet and the Russian Second and Third Pacific Squadrons, sent from Europe, would fight in the straits between Korea and Japan near the Tsushima Islands.
+
+==Prelude==
+{{Main|Tsushima Strait order of battle}}
+
+Because of the 18,000-mile journey, the Russian fleet was in relatively poor condition for battle. Apart from the four newest [[Borodino class battleship|''Borodino'' class battleships]], Admiral Nebogatov's 3rd Division&lt;ref&gt;Forczyk p. 66&lt;/ref&gt; consisted of older and poorly-maintained warships. Overall neither side had a significant maneuverability advantage.&lt;ref name=&quot;Forczyk p. 33&quot;&gt;Forczyk p. 33&lt;/ref&gt; The long voyage, combined with a lack of opportunity for maintenance, meant Russian ships were heavily [[biofouling|fouled]], significantly reducing their speed.&lt;ref&gt;Forczyk, p. 32&lt;/ref&gt; The Japanese ships could reach {{convert|15|kn|km/h|lk=in}}, but the Russian fleet could reach just {{convert|14|kn|km/h}}, only in short bursts.&lt;ref name=&quot;Forczyk p. 33&quot;/&gt;
+
+Tōgō was able to use the superior maneuverability of his fleet to advantage, &quot;[[crossing the T]]&quot; twice. Additionally, there were significant deficiencies in the Russian naval fleet's equipment and training. Russian naval tests with their torpedoes exposed major technological failings.&lt;ref&gt;In one such trial, of the seven torpedoes fired, one jammed in the tube, two veered ninety degrees to port, one went ninety degrees to starboard, two kept a steady course but went wide of the mark, and the last went round in circles 'popping up and down like a porpoise', causing panic throughout the fleet.&quot; Regan, Geoffrey; ''The Guiness Book of Decisive Battles'', 'The Battle of Tsushima 1905', p.176&lt;/ref&gt; Tōgō's greatest advantage was that of experience, being the only active admiral in any navy with combat experience aboard battleships.&lt;ref&gt;Forczyk 8, 43, 73 &amp; back cover&lt;/ref&gt; (The others were Russian Admirals [[Oskar Victorovich Stark]], who had been relieved of command following his humiliating loss in the [[Battle of Port Arthur]], and [[Wilgelm Vitgeft]], who had been killed in the [[Battle of the Yellow Sea]].)
+
+==Battle==
+&lt;!--===Japanese plans=== --&gt;
+
+===Naval tactics===
+Battleships, cruisers, and other vessels were arranged into divisions, each division being commanded by a Flag Officer (Admiral). At the battle of Tsushima, Admiral Tōgō was the officer commanding in ''[[Japanese battleship Mikasa|Mikasa]]'' (the other divisions being commanded by Vice Admirals, Rear Admirals, Commodores, Captains and Commanders for the destroyer divisions). Next in line after ''Mikasa'' came the battleships ''[[Japanese battleship Shikishima|Shikishima]]'', ''[[Japanese battleship Fuji|Fuji]]'' and ''[[Japanese battleship Asahi|Asahi]]''. Following them were two armoured cruisers.
+[[File:MIKASAGUNS.jpg|thumb|upright|The battleship ''[[Japanese battleship Mikasa|Mikasa]]'', Admiral [[Tōgō Heihachirō|Tōgō]]'s flagship at the battle of Tsushima, preserved as a memorial in Yokosuka, Japan]]
+
+Admiral Tōgō, by using reconnaissance and choosing his position well, &quot;secured beyond reasonable hazard his strategic objective of bringing the Russian fleet to battle, irrespective of speeds.&quot;&lt;ref&gt;Mahan p. 456&lt;/ref&gt;  When Tōgō decided to execute a turn to port in sequence, he did so to preserve the sequence of his battleline, with the flagship ''Mikasa'' still in the lead (which could indicate that Admiral Tōgō wanted his more powerful units to enter action first).
+
+Turning in sequence meant that each ship would turn one after the other whilst still following the ship in front. Effectively each ship would turn over the same piece of sea (this being the danger in the maneuver as it gives the enemy fleet the opportunity to target that area). Tōgō could have ordered his ships to turn &quot;together&quot;, that is, each ship would have made the turn at the same time and reversed course. This manoeuvre, the same effected by the French-Spanish fleet in [[Battle of Trafalgar|Trafalgar]], would be quicker but would have disrupted the sequence of the battleline and caused confusion by altering the battle plans and placing the cruisers in the lead. This was something Tōgō wished to avoid.
+
+[[File:Japanese Fleet Proceeding Toward The Baltic Fleet.jpg|thumb|left|250px|Departure of the Combined Fleet]]
+
+===First contact===
+Because the Russians desired to slip undetected into [[Vladivostok]], as they approached Japanese waters they steered outside regular shipping channels to reduce the chance of detection. On the night of 26/27 May, the Russian fleet approached [[Tsushima Strait]].
+
+In the misty night, a thick fog blanketed the straits, giving the Russians an advantage. At 2:45 AM [[Japan Standard Time|JST]], the Japanese [[auxiliary cruiser]] ''[[Shinano Maru (1904)|Shinano Maru]]'' observed three lights on what appeared to be a vessel in the distant horizon and closed in to investigate. These were lights of the Russian hospital ship ''Oryol'', who in compliance with the [[rules of war]], had continued to burn them.&lt;ref&gt;Watts p. 22&lt;/ref&gt; At 4:30 AM, ''Shinano Maru'' approached the vessel, noting that the vessel carried no guns and appeared to be an auxiliary. The ''Oryol'' mistook the ''Shinano Maru'' for another Russian vessel and did not attempt to notify the fleet. Instead, she signaled to inform the Japanese ship that there were other Russian vessels nearby. The ''Shinano Maru'' then sighted the shapes of ten other Russian vessels in the mist. The Russian fleet had been discovered, and any chance of reaching Vladivostok undetected had disappeared.
+
+Wireless telegraphy played an important role from the start. At 4:55am, Captain Narukawa of the ''Shinano Maru'' sent a wireless message to Admiral Tōgō in [[Masampo]] that &quot;Enemy is in square 203&quot;. By 5 AM, intercepted wireless signals informed the Russians that they had been discovered and that Japanese scouting cruisers were shadowing them. Admiral Tōgō received his message at 5:05 AM, and immediately began to prepare his battle fleet for a sortie.
+
+===Beginning of the battle===
+[[File:Zulu flag.svg|thumb|Z flag]]
+At 6.34 AM, before departing with the [[Combined Fleet]], Admiral Tōgō wired a confident message to the navy minister in [[Tokyo]]:
+{{bquote|I have just received news [via wireless] that the enemy fleet has been sighted. Our fleet will proceed forthwith to sea to attack the enemy and destroy him. Today's weather is fine but waves are high.&lt;ref&gt;Koenig, William, ''Epic Sea Battles'', p. 140.&lt;/ref&gt;}}
+At the same time the entire Japanese fleet put to sea, with Admiral Tōgō from his flagship ''[[Japanese battleship Mikasa|Mikasa]]'' leading over forty vessels to meet the Russians. Meanwhile, the shadowing Japanese scouting vessels sent wireless reports every few minutes as to the formation and course of the Russian fleet. There was mist which reduced visibility and the weather was poor. Wireless gave the Japanese an advantage; in his report on the battle, Admiral Tōgō noted the following:
+{{bquote|Though a heavy fog covered the sea, making it impossible to observe anything at a distance of over five miles, [through wireless messaging] all the conditions of the enemy were as clear to us, who were 30 or 40 miles distant, as though they had been under our very eyes.&lt;ref&gt;Admiral Togo’s report on the Battle of Tsushima, as published by the Japanese Imperial Naval Headquarters Staff, Sept. 1905; http://www.russojapanesewar.com/togo-aar3.html&lt;/ref&gt;}}
+
+At around 1:40 PM, both fleets sighted each other and prepared to engage. Also at 1:55 PM, Admiral Tōgō ordered the hoisting of the [[International maritime signal flags|Z flag]]:
+{{bquote|The Empire's fate depends on the result of this battle, let every man do his utmost duty.&lt;ref&gt;Koenig, ''Epic Sea Battles'', p. 141.&lt;/ref&gt;}}
+
+At 2:45 PM, Tōgō  [[Crossing the T|crossed the Russian 'T']]&lt;ref&gt;Semenoff (1907) p. 70&lt;/ref&gt; enabling him to fire broadsides, while the Russians could only reply with their forward turrets.&quot;&lt;ref&gt;Mahan p. 457, 458&lt;/ref&gt;&lt;ref&gt;Regan; ''The Guiness Book of Decisive Battles-The Battle of Tsushima 1905'', pp.176-177&lt;/ref&gt;&lt;ref name=&quot;Regan, p.177&quot;&gt;Regan; ''The Guiness Book of Decisive Battles-The Battle of Tsushima 1905'', p.177&lt;/ref&gt;
+
+===Daylight battle===
+[[File:Battle of Tsushima (Chart 1-3) J.PNG|thumb|200px|right|Crossing the T: Japanese (white) and Russian (red)]]
+[[File:Battle of Tsushima (Chart 4-6) J.PNG|thumb|200px|right|The ''Knyaz Suvorov'', ''Oslyabya'', ''Imperator Aleksander III'', and ''Sisoy Veliki'' breaking off from the main battle]]
+[[File:Battle of Tsushima (Chart 7-9) J.PNG|thumb|200px|right|The first and second Japanese fleets sandwiching the Russian fleet]]
+[[File:Battle of Tsushima (Chart 10) J.PNG|thumb|200px|right|The Russian ships fleeing]]
+The Russians sailed from south-southwest to north-northeast; the Japanese fleet from west to northeast &quot;continuing to a point of intersection which allowed only their bow guns to bear; enabling him to throw most of the Russian batteries successively out of bearing.&quot;&lt;ref name=&quot;Mahan p. 458&quot;&gt;Mahan p. 458&lt;/ref&gt; Admiral Tōgō ordered the fleet to turn in sequence, which enabled his ships to take the same course as the Russians, though risking each battleship in turn. This U-turn was successful.  Rozhestvensky had only two alternatives, &quot;a charge direct, in line abreast&quot;, or to commence &quot;a formal pitched battle.&quot;&lt;ref name=&quot;Mahan p. 458&quot;/&gt;  He chose the latter, and at 1408 hours (2:08 PM), the Japanese flagship ''[[Japanese battleship Mikasa|Mikasa]]'' was hit at about 7,000 metres, with the Japanese replying at 6,400 metres. Superior Japanese gunnery then took its toll&lt;ref&gt;Sondhaus, Lawrence, ''Naval Warfare, 1815-1914'', P.191&lt;/ref&gt; with most of the Russian battleships being crippled. As naval engagements traditionally began at a considerably closer range, Tōgō immediately gained the advantage of surprise.
+
+Commander Vladimir Semenoff, a Russian staff officer aboard the flagship ''Suvorov'', noted that &quot;It seemed impossible even to count the number of projectiles striking us. Shells seemed to be pouring upon us incessantly one after another.&lt;ref&gt;Semenoff (1907) p. 62, 63&lt;/ref&gt; The steel plates and superstructure on the upper decks were torn to pieces, and the splinters caused many casualties. Iron ladders were crumpled up into rings, and guns were literally hurled from their mountings. In addition to this, there was the unusually high temperature and liquid flame of the explosion, which seemed to spread over everything. I actually watched a steel plate catch fire from a burst.&quot;&lt;ref name=&quot;Regan, p.177&quot;/&gt;
+
+A direct hit on the ''Borodino'''s magazines by the Japanese battleship ''Fuji'' caused her to explode, which sent smoke thousands of feet into the air and trapped all of her crew on board as the ''Borodino'' slid under the sea.&lt;ref name=&quot;Regan, p.177&quot;/&gt; The Japanese ships suffered only light damage. Admiral Rozhestvensky was knocked out of action by a shell fragment that struck his skull. In the evening, [[Nikolai Nebogatov|Rear Admiral Nebogatov]] took over command of the Russian fleet. The Russians lost the [[battleship]]s ''[[Russian battleship Knyaz Suvorov|Knyaz Suvorov]]'', ''[[Russian battleship Oslyabya|Oslyabya]]'', ''[[Russian battleship Imperator Aleksander III (1901)|Imperator Aleksander III]]'' and ''[[Russian battleship Borodino|Borodino]]''.
+
+===Night attacks===
+
+At night, around 8 PM, 37 Japanese [[torpedo boat]]s and 21 [[destroyer]]s were thrown against the Russians. The destroyers attacked from the vanguard while the torpedo boats attacked from the east and south of the Russian fleet. The Japanese were aggressive, continuing their attacks for three hours without intermission, and as a result during the night there were a number of collisions between the small craft and Russian warships. The Russians were now dispersed in small groups trying to break northwards. By 11 PM, it appeared that the Russians had vanished, but they revealed their positions to their pursuers by turning on their searchlights — ironically, the searchlights had been turned on to spot the attackers. The old battleship ''[[Russian battleship Navarin (1891)|Navarin]]'' struck a mine and was compelled to stop, and consequently was torpedoed four times and sunk. Out of a crew of 622, only three survived to be rescued by the Japanese.
+
+The battleship ''[[Russian battleship Sissoi Veliky (1894)|Sisoy Veliki]]'' was heavily damaged by a torpedo in the stern, and was scuttled the next day. Two old [[armoured cruiser]]s — ''[[Russian armoured cruiser Admiral Nakhimov|Admiral Nakhimov]]'' and ''[[Russian armoured cruiser Vladimir Monomakh|Vladimir Monomakh]]'' — were heavily damaged, the former by a torpedo hit to the bow, and the latter by colliding with a Japanese destroyer. They were both [[scuttling|scuttled]] by their crews the next morning, the ''Admiral Nakhimoff'' off [[Tsushima Island]], where she headed while taking on water. The night attacks had put a great strain on the Russians, as they had lost two battleships and two armoured cruisers, while the Japanese only lost three torpedo boats.
+
+===''XGE'' signal and Russian surrender===
+During the night action, Admiral Tōgō was able to rest his main fleet of armoured ships. At 9:30 AM on 27 May, what remained of the Russian fleet was sighted heading northwards. Admiral Tōgō's battleships proceeded to surround Nebogatov's remaining squadron south of the island of [[Takeshima]].&lt;ref name=&quot;Regan, p.177&quot;/&gt; At 10:34 AM, realising that his situation was hopeless, Admiral Nebogatov ordered the six ships remaining under his command to surrender. ''XGE'', an international signal of surrender, was hoisted; at 10:53 AM the Japanese agreed to accept the surrender. Realising the battle had become futile, Nebogatov was unwilling to sacrifice the lives of his sailors simply to save his own honour.&lt;ref name=&quot;Regan, p.177&quot;/&gt; He decided instead to accept the shame of surrender, knowing full well he might be shot when he returned to Russia.&lt;ref name=&quot;Regan, p.177&quot;/&gt; He said to his men:
+{{bquote|You are young, and it is you who will one day retrieve the honour and glory of the Russian Navy. The lives of the two thousand four hundred men in these ships are more important than mine.&lt;ref name=&quot;Regan, p.177&quot;/&gt;}}
+
+The wounded Admiral Rozhestvensky was a prisoner in a Japanese hospital. The victorious Admiral Tōgō would later visit him, comforting him with kind words:
+{{bquote|Defeat is a common fate of a soldier. There is nothing to be ashamed of in it. The great point is whether we have performed our duty.&lt;ref name=&quot;Regan, p.178&quot;/&gt;}}
+
+Neither Nebogatov nor Rozhestvensky were shot when they returned home to Russia. However, both were placed on trial. Rozhestvensky claimed full responsibility for the fiasco; as he had been wounded and unconscious during the last part of the battle, the Tsar commuted his death sentence. Nebogatov, having actually surrendered the fleet at the end of the naval engagement, was imprisoned for several years and eventually pardoned by the Tsar. Both men's reputations were ruined.
+
+Until the evening of 28 May, single Russian ships were pursued by the Japanese until almost all were destroyed or captured. Three Russian warships reached Vladivostok. The cruiser ''Izumrud'', which escaped from the Japanese despite being included in Nebogatov's surrender, was scuttled by her crew after running aground near the Siberian coast. Some ships returned to Russia or were interned in neutral ports.
+
+==Contributing factors==
+
+The Japanese fleets had practised gunnery regularly since the beginning of the war, using [[sub-caliber round|sub-calibre]] adapters for their cannon. The Japanese had experienced gunners. Furthermore, the Japanese used mostly high-explosive shells with ''[[shimose powder|shimose]]'' ([[melinite]]), which was designed to explode on contact and wreck the upper structures of ships.&lt;ref&gt;Semenoff (1907) p. 63&lt;/ref&gt; The Russians used armour-piercing rounds with small guncotton bursting charges and unreliable fuses.&lt;ref&gt;Semenoff (1907) p. 56&lt;/ref&gt; Japanese hits caused more damage to Russian ships relative to Russian hits on Japanese ships, setting the superstructures, the paintwork and the large quantities of [[coal]] stored on the decks on fire. (The Russian fleet often bought low-quality coal at sea from merchant vessels on most of their long voyage due to the lack of friendly fuelling ports).
+
+Japanese fire was also more accurate because they were using the latest issued (1903) [[Barr &amp; Stroud]] FA3 [[coincidence rangefinder]], which had a range of {{convert|6000|yd}}, while the Russian battleships were equipped with Liuzhol [[rangefinder]]s from the 1880s, which only had a range of about {{convert|4000|yd}}.&lt;ref&gt;Forczyk p. 56, 57&lt;/ref&gt;  And finally, by 27 May 1905, Admiral Tōgō and his men had two battleship fleet actions under their belts, which amounted to over 4 hours of [[combat]] [[experience]] in battleship to battleship combat at [[Battle of Port Arthur|Port Arthur]] and the [[Battle of the Yellow Sea|Yellow Sea]]&lt;ref&gt;Forczyk p. 43 &amp; 73&lt;/ref&gt;—experience which would eliminate the miscalculations and rash decisions made during those battles, while applying the learned lessons from those sea engagements with both [[finesse]] and ruthlessness at ''Tsushima''.&lt;ref&gt;Forczyk p. 22 &amp; 77&lt;/ref&gt;
+
+==Aftermath==
+
+[[File:Zemtchug.jpg|thumb|Battle damage to the cruiser ''Zhemchug''. Note the shell hole in stack.]]
+[[File:Oleg-cruiser.jpg|thumb|Battle damage to the cruiser ''Oleg'', in Manila Bay]]
+
+===Russian losses===
+The battle was a devastating loss for Russia, which lost all of its battleships, most of its cruisers and destroyers, and effectively ended the Russo-Japanese war in Japan's favor.  The Russians suffered 4,380 killed and 5,917 captured, including two admirals, with 1,862 interned.&lt;ref name=&quot;Regan, p.178&quot;&gt;Regan; ''The Guiness Book of Decisive Battles-The Battle of Tsushima 1905'', p.178&lt;/ref&gt;
+
+;Battleships
+The Russians lost all eight battleships and all three of their smaller coastal battleships in the battle, either sunk or captured by the Japanese, or scuttled by their crews to prevent capture. Four ships were lost to enemy action during the daylight battle on 27 May: ''[[Russian battleship Knyaz Suvorov|Knyaz Suvorov]]'', ''[[Russian battleship Imperator Aleksander III (1901)|Imperator Aleksander III]]'', ''[[Russian battleship Borodino|Borodino]]'' and the ''[[Russian battleship Oslyabya|Oslyabya]]''. The ''[[Russian battleship Navarin (1891)|Navarin]]'' was lost during the night action, on 27–28 May, while the ''[[Russian battleship Sissoi Veliky (1894)|Sissoi Veliky]]'', ''[[Russian armoured cruiser Admiral Nakhimov|Admiral Nakhimov]]'' and ''[[Russian battleship Admiral Ushakov|Admiral Ushakov]]'' were either scuttled or sunk the next day. Four other battleships under Rear Admiral Nebogatov were forced to surrender and would end up as [[prize of war|prizes of war]]. This group consisted of only one modern battleship, ''[[Russian battleship Orel|Oryol]]'', along with the old battleship ''[[Japanese battleship Iki|Imperator Nikolai I]]'' and the two small [[Coastal defence ship|coastal battleships]] ''[[Japanese battleship Okinoshima|General-Admiral Graf Apraksin]]'' and ''[[Japanese battleship Mishima|Admiral Senyavin]]''. The small coastal battleship ''[[Russian battleship Admiral Ushakov|Admiral Ushakov]]'' refused to surrender and was scuttled by her crew.
+
+;Cruisers
+The Russian Navy lost four of its eight cruisers during the battle, three were interned by the Americans, with just one reaching Vladivostok. The ''[[Russian armoured cruiser Vladimir Monomakh|Vladimir Monomakh]]'' and ''[[Russian cruiser Svetlana (1896)|Svetlana]]'' were sunk the next day, after the daylight battle. The cruiser ''[[Russian armoured cruiser Dmitrii Donskoi|Dmitri Donskoy]]'' fought against six Japanese cruisers and survived; however, due to heavy damage she was scuttled. The ''[[Russian cruiser Izumrud|Izumrud]]'' ran aground near the Siberian coast. Three Russian [[protected cruiser]]s, ''[[Russian cruiser Aurora|Aurora]]'', ''[[Russian cruiser Zhemchug|Zhemchug]]'', and ''[[Russian cruiser Oleg|Oleg]]'' escaped to the [[United States Navy|US Naval]] base at [[Manila]] in what was then American-controlled [[Philippines]], where they were interned. The armed yacht classified as a cruiser, ''[[Russian cruiser Almaz|Almaz]]'', alone was able to reach [[Vladivostok]].
+
+;Destroyers and Auxiliaries
+Imperial Russia lost six of its nine destroyers in the battle, had one interned by the Chinese, with two escaping to Vladivostok. Five destroyers—the ''Buiny'', ''Buistry'', ''Bezupreshchny'', ''Gromky'' and ''Blestyashchy''—were sunk on 28 May, and the ''Byedovy'' surrendered that day. ''Bodry'' was interned in [[Shanghai]]. The ''Grosny'' and ''Bravy'' reached [[Vladivostok]].
+
+Of the auxiliaries, the ''Kamchatka'', ''Ural'' and ''Rus'' were sunk on 27 May, ''Irtuish'' ran aground on 28 May, ''Koreya'' and ''Svir'' were interned in [[Shanghai]] and the ''Anadyr'' escaped to [[Madagascar]]. The [[hospital ship]]s ''Oryol'' and ''Kostroma'' were captured, with the ''Kostroma'' released afterwards.
+
+===Japanese losses===
+The Japanese lost only three torpedo boats (Nos. ''34'', ''35'' and ''69''), with 117 killed men and 500 wounded.&lt;ref name=&quot;Regan, p.178&quot;/&gt;
+
+===Political consequences===
+Imperial Russia's prestige was badly damaged and the defeat was a severe blow to the [[House of Romanov|Romanov dynasty]]. Nearly the entire Russian fleet was lost in a single battle; the fast armed yacht ''Almaz'' (classified as a cruiser of the 2nd rank) and the destroyers ''Grozny'' and ''Bravy'' were the only Russian ships to make it through to [[Vladivostok]]. In ''[[The Guns of August]]'', [[Barbara Tuchman]] argued that Russia's loss destabilized the balance of power in Europe, emboldening the [[Central Powers]] and contributing to [[World War I|their decision to go to war in 1914]].
+
+The battle had a profound cultural and political impact upon Japan. It was the first defeat of a European power by an Asian nation,&lt;ref&gt;Forczyk back cover&lt;/ref&gt;&lt;ref&gt;Pleshakov p. XVI&lt;/ref&gt; using the full breadth of then-modern industrial technology. It also weakened the notion of white superiority, widely accepted in Western society before that.&lt;ref&gt;{{cite web | title=the Impact of the Russo-Japanese War in Asia | url=http://www.globaled.org/vietnamandcambodia/lessons/russojapanesewar.php | publisher=The American Forum for Global Education | accessdate=2010-04-25}}&lt;/ref&gt; The victory established Japan as the sixth greatest naval power&lt;ref name=&quot;Sondhaus p.192&quot;&gt;Sondhaus, Lawrence, ''Naval Warfare, 1815-1914,'' P.192&lt;/ref&gt; while the Russian navy declined to one barely stronger than that of [[Austria-Hungary]].&lt;ref name=&quot;Sondhaus p.192&quot;/&gt;
+
+In ''The Guiness Book of Decisive Battles'', [[Geoffrey Regan]] argues that the victory bolstered Japan's increasingly aggressive political and military establishment. According to Regan, the lopsided Japanese victory at Tsushima:&lt;blockquote&gt;...created a legend that was to haunt Japan's leaders for forty years. A British admiral once said, 'It takes three years to build a ship, but 300 years to build a tradition.' Japan thought that the victory had completed this task in a matter of a few years ... It had all been too easy. Looking at Tōgō's victory over one of the world's great powers convinced some Japanese military men that with more ships, and bigger and better ones, similar victories could be won throughout the Pacific. Perhaps no power could resist the Japanese navy, not even Britain and the United States.&lt;ref name=&quot;Regan, p.178&quot;/&gt;&lt;/blockquote&gt;
+
+Regan believes the victory contributed to the Japanese road to later disaster, &quot;because the result was so misleading. Certainly the Japanese navy had performed well, but its opponents had been weak, and it was not invincible... Tōgō's victory [helped] set Japan on a path that would eventually lead her&quot; to the Second World War.&lt;ref name=&quot;Regan, p.178&quot;/&gt;
+
+===Dreadnought arms race===
+{{Main|Dreadnought}}
+Britain's [[First Sea Lord]] [[Admiral Fisher]] argued the Japanese victory at Tsushima confirmed the importance of large guns and speed on modern battleships,&lt;ref&gt;Massie, p. 471, 474, 480&lt;/ref&gt; and in October 1905 the British began construction of [[HMS Dreadnought (1906)|HMS ''Dreadnought'']], which upon her launching in 1906 began a dreadnought naval arms race between Britain and Germany in the years before 1914. The British and German fleets met in only one major action in [[World War I]], the indecisive [[Battle of Jutland]].&lt;ref&gt;''The Rivalry of [[Germany]] and [[England]]'', Edward Raymond Turner, The Sewanee Review, Vol. 21, No. 2  (Apr., 1913), pp. 129-147&lt;/ref&gt;
+
+==Time line==
+27 May 1905 (JST)
+* 04:45 The ''Shinano Maru'' (Japan) locates the [[Russian Baltic Fleet]] and sends a wireless signal.
+* 05:05 The Japanese Combined Fleet leaves port and sends a wireless signal to Imperial Headquarters: &quot;Today's weather is fine but waves are high. (Japanese: 本日天気晴朗なれども波高し)&quot;.
+*13:39 The Japanese Combined Fleet gains visual contact with the [[Russian Baltic Fleet]], and sends up the battle flag.
+* 13:55 Distance (Range): 12,000 meters. The ''Mikasa'' sends up Z flag. (Z flag's meaning: The Empire's fate depends on the result of this battle, let every man do his utmost duty.).
+* 14:05 Distance (Range): 8,000 meters. The Japanese Combined Fleet turns to helm aport (i.e. start U-turn).
+* 14:07 Distance (Range): 7,000 meters. The ''Mikasa'' completes its turn. The [[Russian Baltic Fleet]] opens fire with their main batteries.
+* 14:10 Distance (Range): 6,400 meters. All Japanese warships complete their turns.
+* 14:12 Distance (Range): 5,500 meters. The ''Mikasa'' receives her first hit from the Russian guns.
+* 14:16 Distance (Range): 4,600 meters. The Japanese Combined Fleet begins concentrating their return fire on the Russian flagship, the ''[[Russian battleship Knyaz Suvorov|Knyaz Suvorov]]''
+* 14:43 The ''[[Russian battleship Oslyabya|Oslyabya]]'' and ''[[Russian battleship Knyaz Suvorov|Knyaz Suvorov]]'' are set ablaze and fall  away from the battle line.
+* 14:50 The ''[[Russian battleship Imperator Aleksander III (1901)|Emperor Alexander III]]'' starts turning to the north and attempts to leave the battle line.
+* 15:10 The ''[[Russian battleship Oslyabya|Oslyabya]]'' sinks, and the ''[[Russian battleship Knyaz Suvorov|Knyaz Suvorov]]'' attempts to withdraw.
+* 18:00 The two fleets counterattack each other (distance (range): 6,300 m), and begin exchanging main battery fire again.
+* 19:03 The ''[[Russian battleship Imperator Aleksander III (1901)|Emperor Alexander III]]'' sinks.
+* 19:20 The ''[[Russian battleship Knyaz Suvorov|Knyaz Suvorov]]'', ''[[Russian battleship Borodino|Borodino]]'', and ''[[Sissoi Veliky (1894)|Sisoy Veliki]]'' are sunk.
+
+28 May 1905 (JST)
+* 09:30 The Japanese Combined Fleet locates the [[Russian Baltic Fleet]] again.
+* 10:34 The Russian commander signals &quot;XGE&quot;, which is &quot;I surrender&quot; in the [[International Code of Signals]] used at the time.
+* 10:53 Admiral Tōgō accepts the surrender.
+
+==See also==
+* [[Naval history of Japan]]
+* [[Nicholas II of Russia]]
+
+==Notes==
+{{Reflist|colwidth=30em}}
+
+==References==
+{{refbegin}}
+*Brown, David (1990). ''Warship Losses of World War Two.'' Arms and Armor Press, Great Britain.  ISBN 0-85368-802-8.
+*Forczyk, Robert (2009).  ''Russian Battleship vs Japanese Battleship, Yellow Sea 1904-1905.''  Osprey. ISBN 978-1-84603-330-8.
+*{{cite book| last = Koenig| first = William| year = 1977, 2004 revised edition| title = Epic Sea Battles
+| publisher = Octopus Publishing Group Ltd. | location = London| isbn = 0-7537-1062-5}}
+*[[Mahan, Alfred Thayer]] (1906). ''Reflections, Historic and Other, Suggested by the Battle of the Japan Sea.'' (Article) US Naval ''Proceedings'' magazine, June 1906, Volume XXXVI, No. 2; US Naval Institute, Heritage Collection.
+*Massie, Robert K (1991). ''Dreadnaught; Britain, Germany, and the Coming of the Great War.''  Random House, NY. ISBN 0-394-52833-6.
+*Pleshakov, Constantine (2002).  ''The Tsar's Last Armada; The Epic Voyage to the Battle of Tsushima.''  ISBN 0-465-05792-6.
+* Regan, Geoffrey (1992) 'The Battle of Tsushima 1905' in ''The Guinness Book of Decisive Battles'', Guinness Publishing.
+* Semenoff, Vladimir Captain (1907). ''The Battle of Tsushima.'' Translated by Captain A. B. Lindsay; Preface by Sir George Sydenham Clarke, G.C.M.G., F.R.S., John Murray, London, second edition 1907.
+*{{cite book|last=Sondhaus|first=Lawrence|title=Naval Warfare, 1815-1914|location=New York|publisher=Funk &amp; Wagnall’s|year=2001}}
+{{refend}}
+*Watts, Anthony J. ''The Imperial Russian Navy.'' Arms and Armour Press, Villiers House, 41-47 Strand, London, 1990.  ISBN 0-85368-912-1.
+
+==Further reading==
+{{refbegin}}
+*{{cite book|last=Busch|first=Noel F.|title=The Emperor's Sword: Japan vs. Russia in the Battle of Tsushima|location=New York|publisher=Funk &amp; Wagnall’s|year=1969}}
+*{{cite book|last=Corbett|first=Julian|title=Maritime Operations In The Russo-Japanese War 1904-1905|year=1994|isbn=1-55750-129-7}}
+*{{cite book|last=Grant|first=R.|title=Before Port Arthur in a Destroyer, The Personal Diary of a Japanese Naval Officer|location=London|publisher=John Murray|year=1907}}
+*{{cite book|last=Hailey|first=Foster|coauthors=Milton Lancelot|title=Clear for Action: The Photographic Story of Modern Naval Combat, 1898-1964|location=New York|publisher=Duell, Sloan and Pierce|year=1964}}
+*{{cite book|last=Hough|first=Richard Alexander|title=The Fleet That Had to Die|location=New York|publisher=Ballantine Paperbacks|year=1960}}
+*{{cite book|last=Jentschura|first=Hansgeorg|coauthors=Dieter Jung, Peter Mickel|title=Warships of the Imperial Japanese Navy 1869-1945|location=Annapolis, Maryland|publisher=United States Naval Institute|year=1977|isbn=0-87021-893-X}}
+*{{cite book|last=Novikoff-Priboy|first=A|title=Tsushima|location=London|publisher=George Allen &amp; Unwin|year=1936}}
+*{{cite book|last=Olender|first=Piotr|title=Russo-Japanese Naval War 1904-1905, Vol. 2, Battle of Tsushima|location=Sandomierz, Poland|publisher=Stratus s.c.|year=2010|isbn=978-83-61421-02-3}}
+*{{cite book|last=Seager|first=Robert|title=Alfred Thayer Mahan: The Man And His Letters|year=1977|isbn=0-87021-359-8}}
+*{{cite book|last=Semenoff, Vladimir|title=Rasplata (The Reckoning)|location=London|publisher=John Murray|year=1910}}
+*{{cite book|last=Semenoff|first=Vladimir|title=The Battle of Tsushima|location=New York|publisher=E.P. Dutton &amp; Co.|year=1912}}
+*{{cite book|last=Tomitch|first=V. M.|title=Warships of the Imperial Russian Navy|publisher=Battleships|year=1968}}
+*{{cite book|last=Warner, Denis and Peggy|title=The Tide at Sunrise. A History of the Russo-Japanese War 1904-1905|year=1975|isbn=0-7146-5256-3}}
+*{{cite book| last = Wilson| first = H. W.| year = 1969, 1999 revised edition| title = Battleships in Action
+| publisher = Scholarly Press| isbn = 0-85177-642-6}}
+*{{cite book|last=Woodward|first=David|title=The Russians at Sea: A History of the Russian Navy|location=New York|publisher=Praeger Publishers|year=1966}}
+{{refend}}
+
+==External links==
+{{Commons category}}
+*''[http://www.youtube.com/watch?v=Sr5foWKctuI 1969 Film Battle of the Japan Sea]''—directed by Seiji Maruyama
+**''[http://www.youtube.com/watch?v=-4gMgWIfMnQ&amp;mode=related&amp;search=/ Part 1]''—''Film Battle of the Japan Sea''
+**''[http://www.youtube.com/watch?v=vf1EA0rzxvA&amp;NR=1/ Part 2]''—''Film Battle of the Japan Sea''
+*[http://www.history.com/this-day-in-history.do?action=Article&amp;id=5039 History.com]— This Day In History: The Battle of Tsushima Strait
+*[http://www.wtj.com/games/battlefleet_1900/ Battlefleet 1900]—Free naval wargame rules covering the pre-dreadnought era, including the Russo-Japanese War.
+*[http://www.russojapanesewar.com Russojapanesewar.com]—Contains a complete order of battle of both fleets. It also contains Admiral Tōgō's post-battle report and the account of Russian ensign Sememov.
+
+{{DEFAULTSORT:Tsushima, Battle Of}}
+[[Category:Conflicts in 1905]]
+[[Category:1905 in Japan]]
+[[Category:Naval battles of the Russo-Japanese War]]
+[[Category:Battles involving Japan]]
+[[Category:Battles involving Russia]]
+
+{{Link GA|ja}}
+[[ar:معركة تسوشيما]]
+[[az:Tsusima döyüşü]]
+[[bg:Битка при Цушима]]
+[[ca:Batalla de Tsushima]]
+[[cs:Bitva u Cušimy]]
+[[da:Slaget ved Tsushima]]
+[[de:Seeschlacht bei Tsushima]]
+[[et:Tsushima lahing]]
+[[es:Batalla de Tsushima]]
+[[eo:Batalo de Tsushima]]
+[[fr:Bataille de Tsushima]]
+[[ko:쓰시마 해전]]
+[[io:Cushima-batalio]]
+[[id:Pertempuran Tsushima]]
+[[it:Battaglia di Tsushima]]
+[[he:קרב צושימה]]
+[[lt:Cušimos mūšis]]
+[[hu:Csuzimai csata]]
+[[nl:Slag bij Tsushima]]
+[[ja:日本海海戦]]
+[[no:Slaget ved Tsushima]]
+[[pl:Bitwa pod Cuszimą]]
+[[pt:Batalha de Tsushima]]
+[[ro:Bătălia din strâmtoarea Tsushima]]
+[[ru:Цусимское сражение]]
+[[sk:Bitka pri Cušime]]
+[[sr:Битка код Цушиме]]
+[[fi:Tsushiman meritaistelu]]
+[[sv:Slaget vid Tsushima]]
+[[tr:Tsushima Muharebesi]]
+[[uk:Цусімська битва]]
+[[vi:Hải chiến Tsushima]]
+[[zh:对马海峡海战]]</text>
+      <sha1>icblk8wavsgtdxa9jovyaned6g5cin6</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Bishounen</title>
+    <ns>0</ns>
+    <id>55007</id>
+    <redirect title="Bishōnen" />
+    <revision>
+      <id>17743349</id>
+      <parentid>15949304</parentid>
+      <timestamp>2005-06-28T07:47:40Z</timestamp>
+      <contributor>
+        <username>Evil Monkey</username>
+        <id>140548</id>
+      </contributor>
+      <minor />
+      <comment>Bishōnen</comment>
+      <text xml:space="preserve">#REDIRECT [[Bishōnen]]</text>
+      <sha1>bv0n1umowhjun0fzhpsp9yjemlq22sx</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Solar Power Satellite</title>
+    <ns>0</ns>
+    <id>55008</id>
+    <redirect title="Space-based solar power" />
+    <revision>
+      <id>272043124</id>
+      <parentid>177714293</parentid>
+      <timestamp>2009-02-20T10:29:13Z</timestamp>
+      <contributor>
+        <username>Equazcion</username>
+        <id>2813350</id>
+      </contributor>
+      <comment>[[WP:AES|←]]Redirected page to [[Space-based solar power]]</comment>
+      <text xml:space="preserve">#REDIRECT [[Space-based solar power]] {{R from other capitalisation}}</text>
+      <sha1>4z45ly16l0ogao8a10kjb0zideo1ote</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Ablative Heat Shield</title>
+    <ns>0</ns>
+    <id>55010</id>
+    <redirect title="Atmospheric entry" />
+    <revision>
+      <id>411091934</id>
+      <parentid>33370954</parentid>
+      <timestamp>2011-01-31T03:24:32Z</timestamp>
+      <contributor>
+        <username>EmausBot</username>
+        <id>11292982</id>
+      </contributor>
+      <minor />
+      <comment>Bot: Fixing double redirect to [[Atmospheric entry]]</comment>
+      <text xml:space="preserve">#REDIRECT [[Atmospheric entry]]</text>
+      <sha1>8tn70d5dq9c4scq2hus4ztitm4f4gah</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Abenaki people</title>
+    <ns>0</ns>
+    <id>55012</id>
+    <revision>
+      <id>520622893</id>
+      <parentid>520616805</parentid>
+      <timestamp>2012-10-30T18:10:16Z</timestamp>
+      <contributor>
+        <username>Ost316</username>
+        <id>6289403</id>
+      </contributor>
+      <comment>Filling in 3 references using [[WP:REFLINKS|Reflinks]]</comment>
+      <text xml:space="preserve">{{Infobox ethnic group
+|group=Abenaki
+|image=[[Image:Flag of Western Abenaki.svg|200px|Flag of the Western Abenaki]]
+|caption=Flag of St. Francis/Sokoki Band of Abenaki
+|poptime= 12,000 (US and Canada)
+|popplace=[[United States]] ([[Maine]], [[New Hampshire]], [[Vermont]])&lt;br&gt;[[Canada]] ([[New Brunswick]], [[Quebec]])
+|rels=
+|langs=[[English language|English]], [[French language|French]], [[Abenaki language|Abenaki]]
+|religions=largely [[Roman Catholic]]
+|related=[[Algonquian peoples]]
+}}
+
+The '''Abenaki''' (''or '''Abnaki''''') are a [[tribe]] of [[Native Americans in the United States|Native American]] and [[First Nations]] people, one of the [[Algonquian languages|Algonquian]]-speaking peoples of northeastern [[North America]]. The Abenaki live in the [[New England]] region of the United States and [[Quebec]] and the [[Maritimes]] of Canada, a region called ''Wabanaki'' (&quot;Dawn Land&quot;) in the [[Eastern Algonquian languages]].  The Abenaki are one of the five members of the [[Wabanaki Confederacy]]. &quot;Abenaki&quot; is a linguistic and geographic grouping; historically there was not a strong central authority, but as listed below a large number of smaller bands and tribes who shared many cultural traits.&lt;ref name=&quot;Sultzman&quot;&gt;{{cite web| url=http://tolatsga.org/aben.html| author=Lee Sultzman| title=Abenaki History| date=July 21, 1997| accessdate=March 20, 2010| archiveurl= http://web.archive.org/web/20100411025556/http://www.tolatsga.org/aben.html| archivedate= 11 April 2010 &lt;!--DASHBot--&gt;| deadurl= no}}&lt;/ref&gt;
+
+==Name==
+The word ''Abenaki'' means “people of the dawnlands&quot;.&lt;ref name=UXL&gt;&quot;Abenaki.&quot; U*X*L Encyclopedia of Native American Tribes. U*X*L. 2008. Retrieved August 14, 2012 from HighBeam Research: http://www.highbeam.com/doc/1G2-3048800002.html&lt;/ref&gt; The Abenaki people call themselves '''''Alnôbak''''', meaning &quot;Real People&quot; (c.f., [[Lenape language]]: ''[[Lenape]]k''). They also use the [[Endonym|autonym]] '''''Alnanbal''''', meaning &quot;men&quot;.&lt;ref name=&quot;Sultzman&quot;/&gt;  In addition, when compared to the more interior [[Algonquian peoples]], they call themselves '''''Wôbanuok''''', meaning &quot;Easterners&quot; (c.f. [[Massachusett language]]: [[Wampanoag people|Wôpanâak]]).  They also refer to themselves as '''''Abenaki''''' or with [[Syncope (phonetics)|syncope]]: '''''Abnaki'''''.  Both forms are derived from '''Wabanaki''' or the [[Wabanaki Confederacy]], as they were once a member of this confederacy they called '''''Wôbanakiak''''', meaning &quot;People of the Dawn Land&quot; in the [[Abenaki language]] — from ''wôban'' (&quot;dawn&quot; or &quot;east&quot;) and ''aki'' (&quot;land&quot;)&lt;ref&gt;Snow, Dean R. 1978. &quot;Eastern Abenaki&quot;. In ''Northeast'', ed. Bruce G. Trigger. Vol. 15 of ''Handbook of North American Indians'', ed. William C. Sturtevant. Washington, D.C.: Smithsonian Institution, pg. 137. Cited in Campbell, Lyle (1997). ''American Indian Languages: The Historical Linguistics of Native America''. Oxford: Oxford University Press, pg. 401. Campbell uses the spelling ''wabánahki''.&lt;/ref&gt; (compare [[Proto-Algonquian language|Proto-Algonquian]] ''*wa·pan'' and ''*axkyi'')—the aboriginal name of the area broadly corresponding to [[New England]] and the [[Maritimes]].  It is sometimes used to refer to all the Algonquian-speaking peoples of the area — Western Abenaki, Eastern Abenaki, [[Maliseet|Wolastoqiyik]]-[[Passamaquoddy]], and [[Mi'kmaq language|Mi'kmaq]] — as a single group.
+
+==Subdivisions==
+Historically, ethnologists have classified the Abenaki as groups: [[Western Abenaki]] and [[Eastern Abenaki]].  Within these groups are the Abenaki bands:{{col-begin}}{{col-2}}
+*'''Western Abenaki'''
+** '''[[Amoskeay]]'''
+** '''[[Arsigantegok]]''' (also ''Arrasaguntacook'', ''Ersegontegog'', ''Assagunticook'', ''Anasaguntacook''), lived along the [[Saint-François River|St. Francis River]] in Québec. Principal village: St. Francis (Odanak), therefore called ''St. Francis River Abenakis'' and came to be applied to all Western Abenakis.&lt;ref&gt;Colin G. Calloway: ''The Western Abenakis of Vermont, 1600-1800:'' War, Migration, and the Survival of an Indian People, University of Oklahoma Press, 1994, ISBN 978-0806125688&lt;/ref&gt;
+** '''[[Cocheco]]'''
+** '''[[Cowasuck]]''' (also ''Cohass, Cohasiac, Koasek, Koasek, Coos''- &quot;People of the Pines&quot;), lived in the upper [[Connecticut River]] Valley. Principal village: ''Cowass'', near [[Newbury (village), Vermont|Newbury, Vermont]].
+** '''[[Missiquoi]]''' (also ''Masipskwoik'', ''Mazipskikskoik'', ''Missique'', ''Misiskuoi'', ''Missisco'', ''Missiassik'' - &quot;People of the Flint&quot;), lived in the [[Missisquoi River|Missisquoi Valley]], from [[Lake Champlain]] to the headwaters. Principal village around [[Swanton (village), Vermont|Swanton, Vermont]]). Also known as Sokoki.&lt;ref name=&quot;Abenaki Nation&quot;&gt;{{cite web| url=http://www.abenakination.org/whoweare.html| title=Who We Are| publisher=Abenaki Nation| accessdate=March 22, 2010| archiveurl= http://web.archive.org/web/20100210185748/http://www.abenakination.org/whoweare.html| archivedate= 10 February 2010 &lt;!--DASHBot--&gt;| deadurl= no}}&lt;/ref&gt;
+** '''[[Nashaway|Nashua]]'''
+** '''[[Ossipee]]''', lived along the shores of [[Ossipee Lake]] in east-central New Hampshire. Often classed as ''Eastern Abenakis''.
+** '''[[Pemigewasset]]'''
