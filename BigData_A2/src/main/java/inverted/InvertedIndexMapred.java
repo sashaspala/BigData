@@ -2,6 +2,7 @@ package inverted;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.regex.*;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
@@ -37,13 +38,18 @@ public class InvertedIndexMapred {
 			
 			articleName = articleId.toString(); 
 			line = indices.toString();
-			comma = line.indexOf(',');
-			lemma = new Text(line.substring(1, comma));
-			count = Integer.parseInt(line.substring(comma + 1, line.length() - 1));
 			
-			index = new StringInteger(articleName, count);
+			Integer count = -1;
 			
-			context.write(lemma, index);
+			Pattern r = Pattern.compile("<(\\w+), (\\d+)>");
+			Matcher m = r.matcher(line);
+
+			while (m.find()){
+				lemma = new Text(m.group(1));
+				count = Integer.parseInt(m.group(2));
+				index = new StringInteger(articleName, count);
+				context.write(lemma, index);
+			}
 			
 		}
 	}
@@ -71,7 +77,6 @@ public class InvertedIndexMapred {
 	public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException {
 		// TODO: you should implement the Job Configuration and Job call
 		// here
-		//GenericOptionsParser gop = new GenericOptionsParser(String[] args);
 
 		Configuration conf = new Configuration();
 		GenericOptionsParser gop = new GenericOptionsParser(conf, args);
