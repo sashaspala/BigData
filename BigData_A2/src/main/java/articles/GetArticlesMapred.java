@@ -25,6 +25,7 @@ import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
 import edu.umd.cloud9.collection.wikipedia.WikipediaPage;
+import edu.umd.cloud9.collection.wikipedia.WikipediaPageInputFormat;
 //import mapreduce.NameCount.Map;
 import mapreduce.NameCount;
 import mapreduce.NameCount.NameFreqsCombiner;
@@ -53,11 +54,13 @@ public class GetArticlesMapred {
 		public static Set<String> peopleArticlesTitles = new HashSet<String>();
 		private final static IntWritable one = new IntWritable(1);	//is this just here out of habit?
 		private Text fullName = new Text();
-		private HashMap<String, ArrayList<String>> names;
+		//private HashMap<String, ArrayList<String>> names;
+		private ArrayList<String> names;
 
 		@Override
 		protected void setup(Mapper<LongWritable, WikipediaPage, Text, Text>.Context context)
 				throws IOException, InterruptedException {
+//		protected void setup(Context context) throws IOException, InterruptedException {
 			// TODO: You should implement people articles load from
 			// DistributedCache here
 			
@@ -69,11 +72,13 @@ public class GetArticlesMapred {
 			File wikiFile = new File(files[0].getPath());	
 //			Scanner scan = new Scanner(wikiFile);
 			BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(files[0].getPath()), "UTF-8"));
-			names = new HashMap<String, ArrayList<String>>();
+			//names = new HashMap<String, ArrayList<String>>(1000000);	//expecting ~700k keys, 0.75 default load factor
+			names = new ArrayList<String>();
 			
 			String line = reader.readLine();
 			while(line != null){
-				names.put(line, new ArrayList<String>());	//there are about 60k repeats but who cares
+				//names.put(line, new ArrayList<String>());	//there are about 60k repeats but who cares
+				names.add(line);	//it's unimportant that there are some repeats
 				line = reader.readLine();				
 			}
 			reader.close();
@@ -86,19 +91,19 @@ public class GetArticlesMapred {
 			// TODO: You should implement getting article mapper here
 			System.out.println("entering map");
 			
-			if(names.containsKey(inputPage.getTitle())){
-				System.out.println("found a name:" + inputPage.getTitle());
-				ArrayList<String> articles = names.get(inputPage.getTitle());
-				articles.add(inputPage.getContent());
-				names.put(inputPage.getTitle(), articles);
-			}
-			
-			for(String name : names.keySet()){
-				System.out.println("writing some stuff");
-				ArrayList<String> articles = names.get(name);
-				for(int i=0; i<articles.size(); i++)
-					context.write(new Text(name), new Text(articles.get(i)));
-			}
+//			if(names.containsKey(inputPage.getTitle())){
+//				System.out.println("found a name:" + inputPage.getTitle());
+//				ArrayList<String> articles = names.get(inputPage.getTitle());
+//				articles.add(inputPage.getContent());
+//				names.put(inputPage.getTitle(), articles);
+//			}
+//			
+//			for(String name : names.keySet()){
+//				System.out.println("writing some stuff");
+//				ArrayList<String> articles = names.get(name);
+//				for(int i=0; i<articles.size(); i++)
+//					context.write(new Text(name), new Text(articles.get(i)));
+//			}
 			
 			System.out.println("exiting map");
 		}
@@ -117,6 +122,7 @@ public class GetArticlesMapred {
 		
 		job.setJarByClass(GetArticlesMapred.class);
 		job.setMapperClass(GetArticlesMapper.class);
+		//job.setInputFormatClass(WikipediaPageInputFormat.class);	//why doesn't this work?
 		job.setMapOutputKeyClass(Text.class);
 		job.setMapOutputValueClass(Text.class);
 		//job.setCombinerClass(GetArticlesCombiner.class);
