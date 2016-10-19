@@ -81,7 +81,6 @@ public class InvertedIndexMapred {
 		// here
 
 		Configuration conf = new Configuration();
-		conf.set("textinputformat.record.delimiter", "$");
 		
 		GenericOptionsParser gop = new GenericOptionsParser(conf, args);
 		String[] otherArgs = gop.getRemainingArgs();
