@@ -11,7 +11,9 @@ import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.Mapper;
 import org.apache.hadoop.mapreduce.Reducer;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
+import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
+import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 import org.apache.hadoop.util.GenericOptionsParser;
 
 import util.StringIntegerList;
@@ -79,6 +81,8 @@ public class InvertedIndexMapred {
 		// here
 
 		Configuration conf = new Configuration();
+		conf.set("textinputformat.record.delimiter", "$");
+		
 		GenericOptionsParser gop = new GenericOptionsParser(conf, args);
 		String[] otherArgs = gop.getRemainingArgs();
 		
@@ -88,8 +92,15 @@ public class InvertedIndexMapred {
 		job.setMapperClass(InvertedIndexMapper.class);
 		job.setReducerClass(InvertedIndexReducer.class);
 		
+		job.setOutputKeyClass(Text.class);
+		job.setOutputValueClass(StringIntegerList.class);
+		
+		job.setInputFormatClass(TextInputFormat.class);
+		job.setOutputFormatClass(TextOutputFormat.class);
+		
 		FileInputFormat.addInputPath(job, new Path(otherArgs[0]));
 		FileOutputFormat.setOutputPath(job, new Path(otherArgs[1]));
+		
 		try{
 			System.exit(job.waitForCompletion(true) ? 0 : 1);
 		}
