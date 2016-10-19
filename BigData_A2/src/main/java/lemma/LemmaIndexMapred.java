@@ -36,7 +36,7 @@ public class LemmaIndexMapred {
 		public void map(LongWritable offset, WikipediaPage page, Context context) throws IOException,
 				InterruptedException {
 			// Get content of page - comes from WikiPage from GetArticlesMapred
-			Text title = page.getTitle();
+			Text title = new Text(page.getTitle());
 			String text = page.getWikiMarkup();
 			// Tokenize
 			Tokenizer tokenizer = new Tokenizer();
