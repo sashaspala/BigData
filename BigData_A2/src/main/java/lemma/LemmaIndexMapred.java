@@ -1,15 +1,26 @@
 package lemma;
 
 import java.io.IOException;
+import java.io.FileNotFoundException
 
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.mapreduce.Job;
+import org.apache.hadoop.mapreduce.Reducer;
+import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
+import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
+import org.apache.hadoop.util.GenericOptionsParser;
 
 import util.StringIntegerList;
 import edu.umd.cloud9.collection.wikipedia.WikipediaPage;
 
 import java.util.HashMap;
+import java.util.Map;
 import java.util.List;
 
 import lemma.Tokenizer;
@@ -29,9 +40,9 @@ public class LemmaIndexMapred {
 			String text = page.getWikiMarkup();
 			// Tokenize
 			Tokenizer tokenizer = new Tokenizer();
-			List lemmas = tokenizer.tokenize(text);
+			List<String> lemmas = tokenizer.tokenize(text);
 			// Count lemmas
-			Map<String, Integer> freqs = new HashMap<String, Integer>;
+			Map<String, Integer> freqs = new HashMap<String, Integer>();
 			for (String lemma : lemmas){
 				if (freqs.containsKey(lemma)) {
 					freqs.put(lemma, freqs.get(lemma) + 1);
@@ -48,14 +59,14 @@ public class LemmaIndexMapred {
 	public static void main(String[] args) throws FileNotFoundException, IOException, ClassNotFoundException, InterruptedException{
 
 		// Load Class with ClassLoader
-		ClassLoader cl = FindNames.class.getClassLoader();
+		ClassLoader cl = LemmaIndexMapred.class.getClassLoader();
+
+		// Get configuration to set up job
+		Configuration conf = new Configuration();
 
 		// Get args
 		GenericOptionsParser gop = new GenericOptionsParser(conf, args);
 		String[] otherArgs = gop.getRemainingArgs();
-
-		// Get configuration to set up job
-		Configuration conf = new Configuration();
 
 		// Get job and set variables
 		Job job = Job.getInstance(conf, "Lemma Index");
