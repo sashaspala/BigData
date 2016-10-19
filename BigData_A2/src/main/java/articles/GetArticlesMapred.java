@@ -50,7 +50,7 @@ public class GetArticlesMapred {
 	 *
 	 */
 	//@formatter:on
-	public static class GetArticlesMapper extends Mapper<LongWritable, WikipediaPage, Text, Text> {
+	public static class GetArticlesMapper extends Mapper<LongWritable, WikipediaPage, LongWritable, WikipediaPage> {
 		public static Set<String> peopleArticlesTitles = new HashSet<String>();
 		private final static IntWritable one = new IntWritable(1);	//is this just here out of habit?
 		private Text fullName = new Text();
@@ -58,7 +58,7 @@ public class GetArticlesMapred {
 		private ArrayList<String> names;
 
 		@Override
-		protected void setup(Mapper<LongWritable, WikipediaPage, Text, Text>.Context context)
+		protected void setup(Mapper<LongWritable, WikipediaPage, LongWritable, WikipediaPage>.Context context)
 				throws IOException, InterruptedException {
 //		protected void setup(Context context) throws IOException, InterruptedException {
 			// TODO: You should implement people articles load from
@@ -123,8 +123,8 @@ public class GetArticlesMapred {
 		job.setJarByClass(GetArticlesMapred.class);
 		job.setMapperClass(GetArticlesMapper.class);
 		//job.setInputFormatClass(WikipediaPageInputFormat.class);	//why doesn't this work?
-		job.setMapOutputKeyClass(Text.class);
-		job.setMapOutputValueClass(Text.class);
+		job.setMapOutputKeyClass(LongWritable.class);
+		job.setMapOutputValueClass(WikipediaPage.class);
 		//job.setCombinerClass(GetArticlesCombiner.class);
 		//job.setReducerClass(GetArticlesReducer.class);
 		//job.setOutputKeyClass(Text.class);
