@@ -113,7 +113,10 @@ public class InvertedIndexMapred {
 		try{
 			System.exit(job.waitForCompletion(true) ? 0 : 1);
 		}
-		catch (ClassNotFoundException | InterruptedException e){
+		catch (ClassNotFoundException e){
+			e.printStackTrace();
+		}
+		catch (InterruptedException e){
 			e.printStackTrace();
 		}
 

@@ -1,7 +1,7 @@
 package lemma;
 
 import java.io.IOException;
-import java.io.FileNotFoundException
+import java.io.FileNotFoundException;
 
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
