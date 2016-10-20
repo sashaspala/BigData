@@ -38,17 +38,23 @@ public class InvertedIndexMapred {
 				InterruptedException {
 			// TODO: You should implement inverted index mapper here
 			
+			//load article name
 			articleName = articleId.toString(); 
+			//load lemma, count pairs
 			line = indices.toString();
 			
 			Integer count = -1;
 			
+			//create regex to extract lemmas and counts from the indices
 			Pattern r = Pattern.compile("<(\\w+), (\\d+)>");
 			Matcher m = r.matcher(line);
 
+			//read lemma, count pairs from indices
 			while (m.find()){
 				lemma = new Text(m.group(1));
 				count = Integer.parseInt(m.group(2));
+				
+				//construct inverted index entry and write to context
 				index = new StringInteger(articleName, count);
 				context.write(lemma, index);
 			}
@@ -65,13 +71,14 @@ public class InvertedIndexMapred {
 				throws IOException, InterruptedException {
 			// TODO: You should implement inverted index reducer here
 			
+			//load list of articles and frequencies, and add to the final index for the key lemma
 			ArrayList<StringInteger> indexList = new ArrayList<StringInteger>();
 			for (StringInteger articleAndFreq : articlesAndFreqs){
 				indexList.add(articleAndFreq);
 			}
 			
+			//turn final index into writable obj and write to context
 			indexWritable = new StringIntegerList(indexList);
-			
 			context.write(lemma, indexWritable);
 		}
 	}
@@ -81,22 +88,25 @@ public class InvertedIndexMapred {
 		// here
 
 		Configuration conf = new Configuration();
-		
+		//create generic options parser to read from hadoop
 		GenericOptionsParser gop = new GenericOptionsParser(conf, args);
 		String[] otherArgs = gop.getRemainingArgs();
 		
 		Job job = Job.getInstance(conf, "inverted index");
 		
+		//tell hadoop where to find jar, mapper, and reducer
 		job.setJarByClass(InvertedIndexMapred.class);
 		job.setMapperClass(InvertedIndexMapper.class);
 		job.setReducerClass(InvertedIndexReducer.class);
 		
+		//set input and output classes
 		job.setOutputKeyClass(Text.class);
 		job.setOutputValueClass(StringIntegerList.class);
 		
 		job.setInputFormatClass(TextInputFormat.class);
 		job.setOutputFormatClass(TextOutputFormat.class);
 		
+		//tell hadoop where to find input and where to print output
 		FileInputFormat.addInputPath(job, new Path(otherArgs[0]));
 		FileOutputFormat.setOutputPath(job, new Path(otherArgs[1]));
 		
