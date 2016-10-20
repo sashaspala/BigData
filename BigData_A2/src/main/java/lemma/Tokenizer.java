@@ -44,12 +44,15 @@ public class Tokenizer {
 		for(int i = 0; i < sentences.length; i++){
 			String[] whitespaceSplit = sentences[i].split("\\s+");
 				//remove important special characters
-			if(!removeToken(whitespaceSplit[i])){
-				//add to finalTokens
-				System.out.println(whitespaceSplit[i]);
-				tokens.add(whitespaceSplit[i]);
+			for(int j = 0; j < whitespaceSplit.length; j++){
+				if(!removeToken(whitespaceSplit[j])){
+					//add to finalTokens
+					if(!whitespaceSplit[j].equals("\\s")){
+						ArrayList<String> cleanedTokens = fileCleaner(whitespaceSplit[j]);
+						tokens.addAll(cleanedTokens);
+					}
+				}
 			}
-		
 		}
 		//note: this will overgenerate but is the best solution for right now
 		
@@ -81,11 +84,12 @@ public class Tokenizer {
 		}
 		else{
 			//got all complex categories, now split by simple special chars:
-			String[] specialCharSplit = token.split("\\W");
-			Pattern pattern = Pattern.compile("\\W");
+			String[] specialCharSplit = token.split("\\W+");
+			Pattern pattern = Pattern.compile("\\W+");
 			for(int i = 0; i < specialCharSplit.length; i++){
 				Matcher matcher = pattern.matcher(specialCharSplit[i]);
 				if (!matcher.find()){
+					//System.out.println("Special char split: " + specialCharSplit[i]);
 					finalTokens.add(specialCharSplit[i]);
 				}
 			}
@@ -93,10 +97,18 @@ public class Tokenizer {
 		return finalTokens;
 	}
 	private boolean removeToken(String token){
-		String fileTag = "[[File:(.+)]]";
-		String refTag = ",&lt;(.+)";
+		String fileTag = "\\[\\[File:(.+)";
+		String refTag = ",&lt;{1}(.+)";
 		String numeralTag = "\\d+";
-		if(token.contains(fileTag) || token.contains(refTag) || token.contains(numeralTag)){
+		Pattern fPattern = Pattern.compile(fileTag);
+		Pattern rPattern = Pattern.compile(refTag);
+		Pattern nPattern = Pattern.compile(numeralTag);
+		
+		Matcher fMatcher = fPattern.matcher(token);
+		Matcher rMatcher = rPattern.matcher(token);
+		Matcher nMatcher = nPattern.matcher(token);
+		if(fMatcher.find() || rMatcher.find() || nMatcher.find()){
+			System.out.println("removal: " + token);
 			return true;
 		}
 		return false;
@@ -150,7 +162,6 @@ public class Tokenizer {
 
 	public static void main(String[] args){
 		//sorry for chunks of nothing here:
-		ArrayList<String> content = new ArrayList<String>();
 		String totalContent = "";
 		try {
 			BufferedReader br = new BufferedReader(new FileReader("wiki_example.txt"));
