@@ -3,6 +3,7 @@ package lemma;
 import java.io.IOException;
 import java.io.FileNotFoundException;
 
+
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
@@ -56,10 +57,7 @@ public class LemmaIndexMapred {
 		}
 	}
 
-	public static void main(String[] args) throws FileNotFoundException, IOException, ClassNotFoundException, InterruptedException{
-
-		// Load Class with ClassLoader
-		ClassLoader cl = LemmaIndexMapred.class.getClassLoader();
+	public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException{
 
 		// Get configuration to set up job
 		Configuration conf = new Configuration();
@@ -74,8 +72,8 @@ public class LemmaIndexMapred {
 		job.setMapperClass(LemmaIndexMapper.class);
 		job.setOutputKeyClass(Text.class);
 		job.setOutputValueClass(StringIntegerList.class);
-		FileInputFormat.addInputPath(job, new Path(args[0]));
-		FileOutputFormat.setOutputPath(job, new Path(args[1]));
+		FileInputFormat.addInputPath(job, new Path(otherArgs[0]));
+		FileOutputFormat.setOutputPath(job, new Path(otherArgs[1]));
 
 		// Submit job and wait until it's completed to end program
 		System.exit(job.waitForCompletion(true) ? 0 : 1);
