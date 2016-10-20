@@ -6,9 +6,17 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class Tokenizer {
-	
+import org.json.JSONException;
+import org.json.JSONObject;
 
+import com.mashape.unirest.http.HttpResponse;
+import com.mashape.unirest.http.JsonNode;
+import com.mashape.unirest.http.Unirest;
+import com.mashape.unirest.http.exceptions.UnirestException;
+
+
+public class Tokenizer { 
+	
 	public Tokenizer() {
 		// TODO Auto-generated constructor stubA
 		//not used right now
@@ -21,9 +29,10 @@ public class Tokenizer {
 	}
 
 	public ArrayList<String> tokenize(String content) {
+		ArrayList<String> tokens = new ArrayList<String>();
 		ArrayList<String> finalTokens = new ArrayList<String>();
 		String[] sentences = sentenceTokenizer(content);
-
+	
 		// TODO implement your tokenizing code here
 		//assuming all these items are already split by sentence
 		
@@ -35,13 +44,14 @@ public class Tokenizer {
 				//remove important special characters
 				if(!removeToken(whitespaceSplit[i])){
 					//add to finalTokens
-					finalTokens.add(whitespaceSplit[i]);
+					tokens.add(whitespaceSplit[i]);
 				}
 			}
 		}
 		//note: this will overgenerate but is the best solution for right now
 		
 		//now normalize and remove stopwords
+		finalTokens = normalizer(tokens);
 		return finalTokens;
 	}
 	public ArrayList<String> fileCleaner(String token){
@@ -67,12 +77,14 @@ public class Tokenizer {
 			}
 		}
 		else{
-			//got all complex categories, now split by simple chars:
+			//got all complex categories, now split by simple special chars:
 			String[] specialCharSplit = token.split("\\W");
 			Pattern pattern = Pattern.compile("\\W");
 			for(int i = 0; i < specialCharSplit.length; i++){
 				Matcher matcher = pattern.matcher(specialCharSplit[i]);
-				
+				if (!matcher.find()){
+					finalTokens.add(specialCharSplit[i]);
+				}
 			}
 		}
 		return finalTokens;
@@ -105,20 +117,33 @@ public class Tokenizer {
 			//to lowercase
 			String temp = tokens.get(i).substring(0, tokens.get(i).length()).toLowerCase();
 			//call lemmatizer here
-			
-			
 			if (!stopwords.contains(temp)){
-				
+				try {
+					String finalLemma = lemmatizer(temp);
+					normalizedStrings.add(finalLemma);
+				} catch (UnirestException | JSONException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
 			}
-			
 		}
 		return normalizedStrings;
 	}
 	
-	private String lemmatizer(String token){
-		return null;
+	private String lemmatizer(String token) throws UnirestException, JSONException{
+		//using twinword hosted lemmatizer at https://market.mashape.com/twinword/lemmatizer-free
+		HttpResponse<JsonNode> response = Unirest.post("https://twinword-lemmatizer1.p.mashape.com/extract/")
+				.header("X-Mashape-Key", "<required>")
+				.header("Content-Type", "application/x-www-form-urlencoded")
+				.header("Accept", "application/json")
+				.field("text", token)
+				.asJson();
+		//deal with the returned jsonnode
+		//this is unnecessarily complicated....
+		JSONObject lemmaObject = response.getBody().getObject();
+		String lemma = lemmaObject.getString("lemma");
+		return lemma;
 	}
-		
 
 	public static void main(String[] args){
 		
