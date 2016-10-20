@@ -29,6 +29,11 @@
   		<artifactId>bliki-core</artifactId>
   		<version>3.0.19</version>
   	</dependency>
+	<dependency>
+		<groupId>org.apache.httpcomponents</groupId>
+		<artifactId>httpcore</artifactId>
+		<version>4.0-alpha6</version>
+	</dependency>
   </dependencies>
   <build>
   	<plugins>

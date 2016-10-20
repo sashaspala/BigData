@@ -1,5 +1,9 @@
 package lemma;
 
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -32,21 +36,20 @@ public class Tokenizer {
 		ArrayList<String> tokens = new ArrayList<String>();
 		ArrayList<String> finalTokens = new ArrayList<String>();
 		String[] sentences = sentenceTokenizer(content);
-	
+		
 		// TODO implement your tokenizing code here
 		//assuming all these items are already split by sentence
 		
 		//split on whitespace first
 		for(int i = 0; i < sentences.length; i++){
 			String[] whitespaceSplit = sentences[i].split("\\s+");
-			//cast toList to make life easier:
-			for(int j = 0; j < whitespaceSplit.length; i++){
 				//remove important special characters
-				if(!removeToken(whitespaceSplit[i])){
-					//add to finalTokens
-					tokens.add(whitespaceSplit[i]);
-				}
+			if(!removeToken(whitespaceSplit[i])){
+				//add to finalTokens
+				System.out.println(whitespaceSplit[i]);
+				tokens.add(whitespaceSplit[i]);
 			}
+		
 		}
 		//note: this will overgenerate but is the best solution for right now
 		
@@ -146,7 +149,27 @@ public class Tokenizer {
 	}
 
 	public static void main(String[] args){
-		
+		//sorry for chunks of nothing here:
+		ArrayList<String> content = new ArrayList<String>();
+		String totalContent = "";
+		try {
+			BufferedReader br = new BufferedReader(new FileReader("wiki_example.txt"));
+			
+			String line;
+			while((line = br.readLine()) != null){
+				totalContent = totalContent.concat(line);
+			}
+			br.close();
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		//send content to tokenizer
+		Tokenizer tokenizer = new Tokenizer();
+		tokenizer.tokenize(totalContent);
 	}
 }
 
