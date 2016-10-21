@@ -18,6 +18,7 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.util.GenericOptionsParser;
 
 import util.StringIntegerList;
+import util.WikipediaPageInputFormat;
 import edu.umd.cloud9.collection.wikipedia.WikipediaPage;
 
 import java.util.HashMap;
@@ -70,12 +71,23 @@ public class LemmaIndexMapred {
 		Job job = Job.getInstance(conf, "Lemma Index");
 		job.setJarByClass(LemmaIndexMapred.class);
 		job.setMapperClass(LemmaIndexMapper.class);
-		job.setOutputKeyClass(Text.class);
-		job.setOutputValueClass(StringIntegerList.class);
+		
+		job.setInputFormatClass(WikipediaPageInputFormat.class);
+		
+		job.setMapOutputKeyClass(Text.class);
+		job.setMapOutputValueClass(StringIntegerList.class);
 		FileInputFormat.addInputPath(job, new Path(otherArgs[0]));
 		FileOutputFormat.setOutputPath(job, new Path(otherArgs[1]));
 
 		// Submit job and wait until it's completed to end program
-		System.exit(job.waitForCompletion(true) ? 0 : 1);
+		try{
+			System.exit(job.waitForCompletion(true) ? 0 : 1);
+		}
+		catch (ClassNotFoundException e){
+			e.printStackTrace();
+		}
+		catch (InterruptedException e){
+			e.printStackTrace();
+		}
 	}
 }
