@@ -2,6 +2,8 @@ package inverted;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.regex.*;
 
 import org.apache.hadoop.conf.Configuration;
@@ -47,7 +49,7 @@ public class InvertedIndexMapred {
 			Integer count = -1;
 			
 			//create regular expression to extract lemmas and counts from the indices
-			Pattern r = Pattern.compile("<(\\w+),(\\d+)>");
+			Pattern r = Pattern.compile("<([^>]+),(\\d+)>");
 			Matcher m = r.matcher(line);
 
 			//read lemma, count pairs from indices
@@ -66,6 +68,10 @@ public class InvertedIndexMapred {
 	public static class InvertedIndexReducer extends
 			Reducer<Text, StringInteger, Text, StringIntegerList> {
 		StringIntegerList indexWritable;
+		HashMap<String, Integer> indexMap;
+		String article;
+		int count;
+		int freq;
 		
 		@Override
 		public void reduce(Text lemma, Iterable<StringInteger> articlesAndFreqs, Context context)
@@ -73,13 +79,24 @@ public class InvertedIndexMapred {
 			// TODO: You should implement inverted index reducer here
 			
 			//load list of articles and frequencies, and add to the final index for the key lemma
-			ArrayList<StringInteger> indexList = new ArrayList<StringInteger>();
+			indexMap = new HashMap<String, Integer>();
 			for (StringInteger articleAndFreq : articlesAndFreqs){
-				indexList.add(articleAndFreq);
+				
+				count = 0;
+				
+				article = articleAndFreq.getString();
+				freq = articleAndFreq.getValue();
+				
+				if (indexMap.keySet().contains(article)){
+					count = indexMap.get(article);
+				}
+				
+				count += freq;
+				indexMap.put(article, count);
 			}
 			
 			//turn final index into writable obj and write to context
-			indexWritable = new StringIntegerList(indexList);
+			indexWritable = new StringIntegerList(indexMap);
 			context.write(lemma, indexWritable);
 		}
 	}
