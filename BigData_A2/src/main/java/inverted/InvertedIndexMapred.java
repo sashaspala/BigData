@@ -11,6 +11,7 @@ import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.Mapper;
 import org.apache.hadoop.mapreduce.Reducer;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
+import org.apache.hadoop.mapreduce.lib.input.KeyValueTextInputFormat;
 import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
@@ -45,7 +46,7 @@ public class InvertedIndexMapred {
 			
 			Integer count = -1;
 			
-			//create regex to extract lemmas and counts from the indices
+			//create regular expression to extract lemmas and counts from the indices
 			Pattern r = Pattern.compile("<(\\w+), (\\d+)>");
 			Matcher m = r.matcher(line);
 
@@ -88,6 +89,7 @@ public class InvertedIndexMapred {
 		// here
 
 		Configuration conf = new Configuration();
+		conf.set("mapreduce.input.keyvaluelinerecordreader.key.value.separator", "\t");
 		//create generic options parser to read from hadoop
 		GenericOptionsParser gop = new GenericOptionsParser(conf, args);
 		String[] otherArgs = gop.getRemainingArgs();
@@ -103,7 +105,7 @@ public class InvertedIndexMapred {
 		job.setOutputKeyClass(Text.class);
 		job.setOutputValueClass(StringIntegerList.class);
 		
-		job.setInputFormatClass(TextInputFormat.class);
+		job.setInputFormatClass(KeyValueTextInputFormat.class);
 		job.setOutputFormatClass(TextOutputFormat.class);
 		
 		//tell hadoop where to find input and where to print output
