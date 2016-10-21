@@ -89,7 +89,6 @@ public class Tokenizer {
 			for(int i = 0; i < specialCharSplit.length; i++){
 				Matcher matcher = pattern.matcher(specialCharSplit[i]);
 				if (!matcher.find()){
-					//System.out.println("Special char split: " + specialCharSplit[i]);
 					finalTokens.add(specialCharSplit[i]);
 				}
 			}
@@ -108,7 +107,6 @@ public class Tokenizer {
 		Matcher rMatcher = rPattern.matcher(token);
 		Matcher nMatcher = nPattern.matcher(token);
 		if(fMatcher.find() || rMatcher.find() || nMatcher.find()){
-			System.out.println("removal: " + token);
 			return true;
 		}
 		return false;
@@ -128,11 +126,15 @@ public class Tokenizer {
 				"wasn't","we","we'd","we'll","we're","we've","were","weren't","what","what's","when","when's","where","where's",
 				"which","while","who","who's","whom","why","why's","with","won't","would","wouldn't","you","you'd","you'll",
 				"you're","you've","your","yours","yourself","yourselves"));
+		ArrayList<String> junkwords = new ArrayList<String>(Arrays.asList("wikipedia", "namespace", "http", "org", 
+				"com", "main_page", "mediawiki", "namespaces", "xml", "lang", "en", "siteinfo", "sitename", "deadurl", "gt",
+				"dashbot", "archivedate", "archiveurl", "accessdate"));
 		for(int i = 0; i < tokens.size(); i++){
 			//to lowercase
 			String temp = tokens.get(i).substring(0, tokens.get(i).length()).toLowerCase();
+			
 			//call lemmatizer here
-			if (!stopwords.contains(temp)){
+			if (!stopwords.contains(temp) & !junkwords.contains(temp) && !temp.isEmpty()){
 				try {
 					String finalLemma = lemmatizer(temp);
 					normalizedStrings.add(finalLemma);
@@ -147,20 +149,41 @@ public class Tokenizer {
 	
 	private String lemmatizer(String token) throws UnirestException, JSONException{
 		//using twinword hosted lemmatizer at https://market.mashape.com/twinword/lemmatizer-free
-		HttpResponse<JsonNode> response = Unirest.post("https://twinword-lemmatizer1.p.mashape.com/extract/")
-				.header("X-Mashape-Key", "<required>")
+		/*HttpResponse<JsonNode> response = Unirest.post("https://twinword-lemmatizer1.p.mashape.com/extract/")
+				.header("X-Mashape-Key", "hD7gJXJlSnmshMf5WnWoqqs9ACnhp1X1WvYjsnJ3Pty5qiGv0H")
 				.header("Content-Type", "application/x-www-form-urlencoded")
 				.header("Accept", "application/json")
 				.field("text", token)
 				.asJson();
+		
+		System.out.println("completed post");
+		
 		//deal with the returned jsonnode
 		//this is unnecessarily complicated....
 		JSONObject lemmaObject = response.getBody().getObject();
-		String lemma = lemmaObject.getString("lemma");
-		return lemma;
+		//String lemma = lemmaObject.getString("lemma");
+		 * 
+		 This runs too slowly :( :( :( :(*/
+		//Pattern pattern = Pattern.compile("(ize\\Z)|(ed\\Z)|(ing\\Z)|s\\Z");
+		Pattern pattern = Pattern.compile("ed\\Z|(ing)\\Z|s\\Z");
+		Matcher matcher = pattern.matcher(token);
+		if(matcher.find()){
+			//System.out.println("token: " + token);
+			token = token.substring(0,matcher.start());
+			if(!matcher.group().equals("s")){
+				Pattern cPattern = Pattern.compile("[aeiou][^aeiou]\\Z");
+				Matcher consonantMatcher = cPattern.matcher(token);
+				if(consonantMatcher.find()){
+					//ends with a VC (shar from shared, retriev from retrieved)
+					token = token.concat("e");
+				}
+			}
+			
+		}
+		return token;
 	}
 
-	public static void main(String[] args){
+	/*public static void main(String[] args){
 		//sorry for chunks of nothing here:
 		String totalContent = "";
 		try {
@@ -182,6 +205,7 @@ public class Tokenizer {
 		Tokenizer tokenizer = new Tokenizer();
 		tokenizer.tokenize(totalContent);
 	}
+	*/
 }
 
 
