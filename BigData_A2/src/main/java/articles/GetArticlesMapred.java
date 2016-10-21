@@ -21,6 +21,7 @@ import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.Mapper;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
+import org.apache.hadoop.util.GenericOptionsParser;
 
 import edu.umd.cloud9.collection.wikipedia.WikipediaPage;
 //import edu.umd.cloud9.collection.wikipedia.WikipediaPageInputFormat;
@@ -92,6 +93,8 @@ public class GetArticlesMapred {
 		// TODO: you should implement the Job Configuration and Job call
 		// here
 		Configuration conf = new Configuration();
+		GenericOptionsParser gop = new GenericOptionsParser(conf, args);
+		String[] otherArgs = gop.getRemainingArgs();
 		Job job = Job.getInstance(conf, "get articles");
 		
 //		job.addCacheFile(new Path(args[2]).toUri());	//people.txt is 3rd argument
@@ -108,8 +111,17 @@ public class GetArticlesMapred {
 		//job.setReducerClass(GetArticlesReducer.class);
 		//job.setOutputKeyClass(Text.class);
 		//job.setOutputValueClass(Text.class);
-		FileInputFormat.addInputPath(job, new Path(args[0]));
-		FileOutputFormat.setOutputPath(job, new Path(args[1]));
-		System.exit(job.waitForCompletion(true) ? 0 : 1);
+		FileInputFormat.addInputPath(job, new Path(otherArgs[0]));
+		FileOutputFormat.setOutputPath(job, new Path(otherArgs[1]));
+		try{
+			System.exit(job.waitForCompletion(true) ? 0 : 1);
+		}
+		catch (ClassNotFoundException e){
+			e.printStackTrace();
+		}
+		catch (InterruptedException e){
+			e.printStackTrace();
+		}
+
 	}
 }
