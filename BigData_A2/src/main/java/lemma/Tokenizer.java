@@ -138,7 +138,10 @@ public class Tokenizer {
 				try {
 					String finalLemma = lemmatizer(temp);
 					normalizedStrings.add(finalLemma);
-				} catch (UnirestException | JSONException e) {
+				} catch (UnirestException e){
+					e.printStackTrace();
+						
+				} catch (JSONException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
