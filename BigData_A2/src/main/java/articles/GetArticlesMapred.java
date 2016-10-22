@@ -101,7 +101,7 @@ public class GetArticlesMapred {
 		//couldn't get the above to work: "URI is not absolute" or some bs
 //		ClassLoader cl = GetArticlesMapred.class.getClassLoader();
 //		job.addCacheFile(cl.getResource("people.txt").toURI());		//just going to include this as a resource like in assignment 1
-		job.addCacheFile(new URI("people.txt"));
+		job.addCacheFile(new URI("people.txt"));	//this probably isn't the most efficient solution, but I got it to work on the cluster -- Meghan
 		
 		job.setJarByClass(GetArticlesMapred.class);
 		job.setMapperClass(GetArticlesMapper.class);
