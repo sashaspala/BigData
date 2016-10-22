@@ -29,6 +29,8 @@ import util.StringIntegerList.StringInteger;
  */
 public class InvertedIndexMapred {
 	public static class InvertedIndexMapper extends Mapper<Text, Text, Text, StringInteger> {
+		//Still get Class Cast exceptions saying that InvertedIndexMapper can't be cast to Hadoop mapper
+		//Mapreduce job still completes about 75% of the time
 		String articleName;
 		String line;
 		int comma;
@@ -107,7 +109,7 @@ public class InvertedIndexMapred {
 
 		Configuration conf = new Configuration();
 		conf.set("mapreduce.input.keyvaluelinerecordreader.key.value.separator", "	");
-		//create generic options parser to read from hadoop
+		//create generic options parser to read from command line in hadoop
 		GenericOptionsParser gop = new GenericOptionsParser(conf, args);
 		String[] otherArgs = gop.getRemainingArgs();
 		
@@ -125,7 +127,7 @@ public class InvertedIndexMapred {
 		job.setOutputValueClass(StringIntegerList.class);
 		
 		job.setInputFormatClass(KeyValueTextInputFormat.class);
-//		job.setOutputFormatClass(TextOutputFormat.class);
+		job.setOutputFormatClass(TextOutputFormat.class); 
 		
 		//tell hadoop where to find input and where to print output
 		FileInputFormat.addInputPath(job, new Path(otherArgs[0]));
