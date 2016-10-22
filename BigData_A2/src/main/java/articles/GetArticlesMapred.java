@@ -99,8 +99,9 @@ public class GetArticlesMapred {
 		
 //		job.addCacheFile(new Path(args[2]).toUri());	//people.txt is 3rd argument
 		//couldn't get the above to work: "URI is not absolute" or some bs
-		ClassLoader cl = GetArticlesMapred.class.getClassLoader();
-		job.addCacheFile(cl.getResource("people.txt").toURI());		//just going to include this as a resource like in assignment 1
+//		ClassLoader cl = GetArticlesMapred.class.getClassLoader();
+//		job.addCacheFile(cl.getResource("people.txt").toURI());		//just going to include this as a resource like in assignment 1
+		job.addCacheFile(new URI("people.txt"));
 		
 		job.setJarByClass(GetArticlesMapred.class);
 		job.setMapperClass(GetArticlesMapper.class);
