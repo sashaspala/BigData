@@ -55,12 +55,7 @@ public class GetArticlesMapred {
 
 		@Override
 		protected void setup(Mapper<LongWritable, WikipediaPage, Text, Text>.Context context)
-				throws IOException, InterruptedException {
-//		protected void setup(Context context) throws IOException, InterruptedException {
-			// TODO: You should implement people articles load from
-			// DistributedCache here
-			
-			//System.out.println("entered setup");
+				throws IOException, InterruptedException {			
 			
 			super.setup(context);
 			
@@ -79,7 +74,6 @@ public class GetArticlesMapred {
 		@Override
 		public void map(LongWritable offset, WikipediaPage inputPage, Context context)
 				throws IOException, InterruptedException {
-			// TODO: You should implement getting article mapper here
 			
 			String title = inputPage.getTitle();
 			String xml = inputPage.getRawXML();
@@ -90,8 +84,6 @@ public class GetArticlesMapred {
 	}
 
 	public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException, URISyntaxException {
-		// TODO: you should implement the Job Configuration and Job call
-		// here
 		Configuration conf = new Configuration();
 		GenericOptionsParser gop = new GenericOptionsParser(conf, args);
 		String[] otherArgs = gop.getRemainingArgs();
