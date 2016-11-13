@@ -12,11 +12,6 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import org.json.JSONException;
-import org.json.JSONObject;
-
-import com.mashape.unirest.http.HttpResponse;
-import com.mashape.unirest.http.JsonNode;
-import com.mashape.unirest.http.Unirest;
 import com.mashape.unirest.http.exceptions.UnirestException;
 
 
@@ -63,34 +58,32 @@ public class Tokenizer {
 	}
 	public ArrayList<String> fileCleaner(String token){
 		String quoteTag = "\\&quot;(.+)\\&quot;";
-		String linkTag = "{{(.+)}}";
+		String linkTag = "\\{\\{(.+)\\|(.+)\\}\\}";
+
+		Pattern qPattern = Pattern.compile(quoteTag);
+		Pattern lPattern = Pattern.compile(linkTag);
+		
+		Matcher qMatcher = qPattern.matcher(token);
+		Matcher lMatcher = lPattern.matcher(token);
 		
 		ArrayList<String> finalTokens = new ArrayList<String>();
-		if(token.contains(quoteTag)){
+		if(qMatcher.find()){
 			String[] quotesTokens = token.split("\\&quot;");
-			finalTokens.add(quotesTokens[0]);
+			//finalTokens.add(quotesTokens[0]);
+			//System.out.println("Removed quote tag: " + quotesTokens[0]);
 		}
-		else if(token.contains(linkTag)){
-			//first remove markers
-			String newToken = token.replace("{{", "");
-			newToken = newToken.replace("{{", "");
-			
-			//now split on |
-			String[] linksTokens = newToken.split("\\|");
-			for (int i = 0; i < linksTokens.length; i++){
-				if(i%2 == 0){//want the even numbers
-					finalTokens.add(linksTokens[i]);
-				}
-			}
-		}
-		else{
+		else if(!lMatcher.find()){
 			//got all complex categories, now split by simple special chars:
+			System.out.println(token);
 			String[] specialCharSplit = token.split("\\W+");
 			Pattern pattern = Pattern.compile("\\W+");
 			for(int i = 0; i < specialCharSplit.length; i++){
 				Matcher matcher = pattern.matcher(specialCharSplit[i]);
 				if (!matcher.find()){
-					finalTokens.add(specialCharSplit[i]);
+					if(!specialCharSplit[i].isEmpty()){
+						System.out.println("Removed a special char: " + specialCharSplit[i]);
+						finalTokens.add(specialCharSplit[i]);
+					}
 				}
 			}
 		}
@@ -129,7 +122,7 @@ public class Tokenizer {
 				"you're","you've","your","yours","yourself","yourselves"));
 		ArrayList<String> junkwords = new ArrayList<String>(Arrays.asList("wikipedia", "namespace", "http", "org", 
 				"com", "main_page", "mediawiki", "namespaces", "xml", "lang", "en", "siteinfo", "sitename", "deadurl", "gt",
-				"dashbot", "archivedate", "archiveurl", "accessdate"));
+				"dashbot", "archivedate", "archiveurl", "accessdate", "ref", "DASHBot", "deadurl", "quot"));
 		for(int i = 0; i < tokens.size(); i++){
 			//to lowercase
 			String temp = tokens.get(i).substring(0, tokens.get(i).length()).toLowerCase();
@@ -169,7 +162,7 @@ public class Tokenizer {
 		 * 
 		 This runs too slowly :( :( :( :(*/
 		//Pattern pattern = Pattern.compile("(ize\\Z)|(ed\\Z)|(ing\\Z)|s\\Z");
-		Pattern pattern = Pattern.compile("ed\\Z|(ing)\\Z|s\\Z");
+		Pattern pattern = Pattern.compile("ed\\Z|ing\\Z|s\\Z");
 		Matcher matcher = pattern.matcher(token);
 		if(matcher.find()){
 			//System.out.println("token: " + token);
@@ -187,7 +180,7 @@ public class Tokenizer {
 		return token;
 	}
 
-	/*public static void main(String[] args){
+	public static void main(String[] args){
 		//sorry for chunks of nothing here:
 		String totalContent = "";
 		try {
@@ -209,7 +202,7 @@ public class Tokenizer {
 		Tokenizer tokenizer = new Tokenizer();
 		tokenizer.tokenize(totalContent);
 	}
-	*/
+	
 }
 
 
