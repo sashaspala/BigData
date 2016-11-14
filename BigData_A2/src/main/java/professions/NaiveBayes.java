@@ -1,6 +1,7 @@
 package professions;
 
 import java.io.IOException;
+import professions.Classifier;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
@@ -14,14 +15,13 @@ import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
-import org.apache.mahout.classifier.df.mapreduce.Classifier;
 
 import util.StringIntegerList;
 
 public class NaiveBayes {
 	public static class TestMapper extends Mapper<Text, StringIntegerList, Text, ArrayWritable> {
-		private final static Text outputKey = new Text();
-		private final static ArrayWritable outputValue = null;
+		private static Text outputKey = new Text();
+		private static ArrayWritable outputValue = null;
 		private static Classifier classifier;
 
 		@Override
@@ -31,7 +31,7 @@ public class NaiveBayes {
 
 		private static void initClassifier(Context context) throws IOException {
 			if (classifier == null) {
-				synchronized (ClassifierMap.class) {
+				synchronized (TestMapper.class) {
 					if (classifier == null) {
 						classifier = new Classifier(context.getConfiguration());
 					}
@@ -41,7 +41,7 @@ public class NaiveBayes {
 
 		public void TestMap(Text articleId, StringIntegerList lemmas, Context context) throws IOException, InterruptedException {
 			outputKey.set(articleId);
-			String[] bestCategoryIds = classifier.classify(lemmas);
+			String[] bestCategoryIds = classifier.classify(articleId.toString());
 			outputValue = new ArrayWritable(bestCategoryIds);
 			context.write(outputKey, outputValue);
 		}
@@ -67,25 +67,28 @@ public class NaiveBayes {
 		// do not create a new jvm for each task
 		conf.setLong("mapred.job.reuse.jvm.num.tasks", -1);
 	
-		Job job = Job.getInstance(conf, "classifier");
-	
-		job.setOutputKeyClass(Text.class);
-		job.setOutputValueClass(ArrayWritable.class);
-		job.setMapperClass(TestMapper.class);
-	
-		job.setInputFormatClass(TextInputFormat.class);
-		job.setOutputFormatClass(TextOutputFormat.class);
-	
-		FileInputFormat.addInputPath(job, new Path(inputPath));
-		FileOutputFormat.setOutputPath(job, new Path(outputPath));
-	
-		try{
+		Job job;
+		try {
+			job = Job.getInstance(conf, "classifier");
+			job.setOutputKeyClass(Text.class);
+			job.setOutputValueClass(ArrayWritable.class);
+			job.setMapperClass(TestMapper.class);
+		
+			job.setInputFormatClass(TextInputFormat.class);
+			job.setOutputFormatClass(TextOutputFormat.class);
+		
+			FileInputFormat.addInputPath(job, new Path(inputPath));
+			FileOutputFormat.setOutputPath(job, new Path(outputPath));
+			
 			System.exit(job.waitForCompletion(true) ? 0 : 1);
 		}
 		catch (ClassNotFoundException e){
 			e.printStackTrace();
 		}
 		catch (InterruptedException e){
+			e.printStackTrace();
+		}
+		catch (IOException e){
 			e.printStackTrace();
 		}
 	}
