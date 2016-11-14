@@ -2,6 +2,7 @@ package professions;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Scanner;
@@ -27,7 +28,7 @@ import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
 public class ProfessionIndexMapred {
-	public static class TokenizerMapper extends Mapper<Object, Text, Text, IntWritable> {
+	public static class TokenizerMapper extends Mapper<Object, Text, Text, Text> {
 		private final static IntWritable one = new IntWritable(1);
 		final String PROFESSIONS_FILE = "professions.txt";
 		HashMap<String, Vector<String>> nameToProfession;
@@ -45,47 +46,33 @@ public class ProfessionIndexMapred {
 			}
 			
 			for (String token : tokens) {
-				Pattern pat = Pattern.compile("<(\\w+),\\d+>");
-				Matcher mat = pat.matcher(token);
-				while (mat.find()){
-					String matchedToken = mat.group(1);
-					if (nameToProfession.containsKey(matchedToken)) {
-						for (String profession : nameToProfession.get(matchedToken)) {
-							if (value.toString().contains(profession)) {
-								String nameAndProf = matchedToken + ", " + profession;
-								context.write(new Text(nameAndProf), one);
+				Pattern nameP = Pattern.compile("(\\w+ ?\\w\\. \\w+)\t");
+				Pattern lemmasP = Pattern.compile("<(\\w+),(\\d+)>");
+				Matcher nameM = nameP.matcher(token);
+				Matcher lemmasM = lemmasP.matcher(token);
+				int counter = 0;
+				if(nameM.find()){
+					String name = nameM.group(1);
+					String input = nameM.group(0);
+					
+					if (nameToProfession.containsKey(name)){
+						while (lemmasM.find()){
+							String matchedToken = lemmasM.group(1);
+							int freq = Integer.parseInt(lemmasM.group(2));
+							for(int i = 0; i < freq; i++){
+								if(counter == 0){
+									//first set, don't need a space
+									input = input + matchedToken;
+								}
+								else{
+									input = input + " " + matchedToken;
+								}
 							}
 						}
-					}
+						String profession = nameToProfession.get(name).get(0);
+						context.write(new Text(input), new Text(profession));
+					}	
 				}
-			}
-		}
-		
-		public static class IntSumCombiner extends Reducer<Text, IntWritable, Text, IntWritable> {
-			private IntWritable result = new IntWritable();
-
-			public void reduce(Text key, Iterable<IntWritable> values, Context context)
-					throws IOException, InterruptedException {
-				int sum = 0;
-				for (IntWritable val : values) {
-					sum += val.get();
-				}
-				result.set(sum);
-				context.write(key, result);
-			}
-		}
-
-		public static class IntSumReducer extends Reducer<Text, IntWritable, IntWritable, Text> {
-			private IntWritable result = new IntWritable();
-
-			public void reduce(Text key, Iterable<IntWritable> values, Context context)
-					throws IOException, InterruptedException {
-				int sum = 0;
-				for (IntWritable val : values) {
-					sum += val.get();
-				}
-				result.set(sum);
-				context.write(result, key);
 			}
 		}
 
@@ -133,7 +120,6 @@ public class ProfessionIndexMapred {
 		job.setJarByClass(ProcessPeople.class);
 		job.setMapperClass(TokenizerMapper.class);
 		job.setCombinerClass(IntSumCombiner.class);
-		job.setReducerClass(IntSumReducer.class);
 		job.setOutputKeyClass(Text.class);
 		job.setOutputValueClass(IntWritable.class);
 		for (int i = 0; i < args.length - 1; ++i) {
