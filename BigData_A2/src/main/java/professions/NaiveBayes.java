@@ -1,124 +1,93 @@
 package professions;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.StringReader;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Map;
+import java.io.IOException;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.io.ArrayWritable;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
-import org.apache.lucene.analysis.Analyzer;
-import org.apache.lucene.analysis.TokenStream;
-import org.apache.lucene.analysis.standard.StandardAnalyzer;
-import org.apache.lucene.analysis.tokenattributes.CharTermAttribute;
-import org.apache.lucene.util.Version;
-import org.apache.mahout.classifier.naivebayes.BayesUtils;
-import org.apache.mahout.classifier.naivebayes.NaiveBayesModel;
-import org.apache.mahout.classifier.naivebayes.StandardNaiveBayesClassifier;
-import org.apache.mahout.common.Pair;
-import org.apache.mahout.common.iterator.sequencefile.SequenceFileIterable;
-import org.apache.mahout.math.RandomAccessSparseVector;
-import org.apache.mahout.math.Vector;
-import org.apache.mahout.math.Vector.Element;
-import org.apache.mahout.vectorizer.TFIDF;
+import org.apache.hadoop.mapreduce.Job;
+import org.apache.hadoop.mapreduce.Mapper;
+import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
+import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
+import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
+import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
+import org.apache.mahout.classifier.df.mapreduce.Classifier;
 
-import com.google.common.collect.Multiset;
-
-//this is far from done, but I'm tired & going to sleep.
+import util.StringIntegerList;
 
 public class NaiveBayes {
-	
-	public static Map<String, Integer> readDict(Configuration conf, Path dictPath) {
-		//creates a dictionary of 
-		Map<String, Integer> dict = new HashMap<String, Integer>();
-		for (Pair<Text, IntWritable> pair : new SequenceFileIterable<Text, IntWritable>(dictPath, true, conf)) {
-			dict.put(pair.getFirst().toString(), pair.getSecond().get());
+	public static class TestMapper extends Mapper<Text, StringIntegerList, Text, ArrayWritable> {
+		private final static Text outputKey = new Text();
+		private final static ArrayWritable outputValue = null;
+		private static Classifier classifier;
+
+		@Override
+		protected void setup(Context context) throws IOException {
+			initClassifier(context);
 		}
-		return dict;
-	}
-	
-	public static Map<Integer, Long> readDocFreq(Configuration conf, Path docFreqPath){
-		
-		Map<Integer, Long> docFreq = new HashMap<Integer, Long>();
-		for (Pair<IntWritable, LongWritable> pair : new SequenceFileIterable<IntWritable, LongWritable>(docFreqPath, true, conf)) {
-			docFreq.put(pair.getFirst().get(), pair.getSecond().get());
+
+		private static void initClassifier(Context context) throws IOException {
+			if (classifier == null) {
+				synchronized (ClassifierMap.class) {
+					if (classifier == null) {
+						classifier = new Classifier(context.getConfiguration());
+					}
+				}
+			}
 		}
-		return docFreq;
+
+		public void TestMap(Text articleId, StringIntegerList lemmas, Context context) throws IOException, InterruptedException {
+			outputKey.set(articleId);
+			String[] bestCategoryIds = classifier.classify(lemmas);
+			outputValue = new ArrayWritable(bestCategoryIds);
+			context.write(outputKey, outputValue);
+		}
 	}
-	
-	public static void main(String[] args) throws Exception {
-		if (args.length < 4) {
-			System.out.println("Arguments: [model] [label index] [dictionary] [document frequency] [text document path]");
+
+	public static void main(String[] args){
+		if (args.length < 5) {
+			System.out.println("Arguments: [model] [dictionary] [document frequency] [input file] [output directory]");
 			return;
 		}
 		String modelPath = args[0];
-		String labelIndexPath = args[1];
-		String dictPath = args[2];
-		String docFreqPath = args[3];
-		String articlesPath = args[4];
-		
+		String dictionaryPath = args[1];
+		String documentFrequencyPath = args[2];
+		String inputPath = args[3];
+		String outputPath = args[4];
+	
 		Configuration conf = new Configuration();
-
-		// model is a matrix (wordId, labelID) => probability score
-		NaiveBayesModel model = NaiveBayesModel.materialize(new Path(modelPath), conf);
-		
-		StandardNaiveBayesClassifier classifier = new StandardNaiveBayesClassifier(model);
-
-		// labels is a map label => classId
-		Map<Integer, String> labels = BayesUtils.readLabelIndex(conf, new Path(labelIndexPath));
-		Map<String, Integer> dictionary = readDict(conf, new Path(dictPath));
-		Map<Integer, Long> docFreq = readDocFreq(conf, new Path(docFreqPath));
-
-		int labelCount = labels.size();
-		int docCount = docFreq.get(-1).intValue();
-		
-		System.out.println("Number of documents in training set: " + docCount);
-		
-		while(true) {
-			
-			
-			
-			// create vector wordId => weight using tfidf
-			Vector vector = new RandomAccessSparseVector(10000);
-			TFIDF tfidf = new TFIDF();
-			for (Multiset.Entry<String> entry: words.entrySet()) {
-				String word = entry.getElement();
-				int count = entry.getCount();
-				Integer wordId = dictionary.get(word);
-				Long freq = docFreq.get(wordId);
-				double tfIdfValue = tfidf.calculate(count, freq.intValue(), wordCount, docCount);
-				vector.setQuick(wordId, tfIdfValue);
-			}
-			
-			// With the classifier, we get one score for each label 
-			Vector resultVector = classifier.classifyFull(vector);
-			HashMap<Integer, Double> topScores;
-			topScores.put(-1, 0.0);
-			topScores.put(-2, 0.0);
-			topScores.put(-3, 0.0);
-			int bestCategoryId = -1;
-			double minimum;
-			
-			for(Element element: resultVector.all()) {
-				
-				int categoryId = element.index();
-				double score = element.get();
-				
-				if ((minimum = Collections.min(topScores.values())) < score){
-					topScores.put(categoryId, score);
-					topScores.values().remove(minimum);
-				}
-				System.out.print("  " + labels.get(categoryId));
-			}
-			System.out.println(" => " + labels.get(bestCategoryId));
+	
+		conf.setStrings(Classifier.MODEL_PATH_CONF, modelPath);
+		conf.setStrings(Classifier.DICTIONARY_PATH_CONF, dictionaryPath);
+		conf.setStrings(Classifier.DOCUMENT_FREQUENCY_PATH_CONF, documentFrequencyPath);
+	
+		// do not create a new jvm for each task
+		conf.setLong("mapred.job.reuse.jvm.num.tasks", -1);
+	
+		Job job = Job.getInstance(conf, "classifier");
+	
+		job.setOutputKeyClass(Text.class);
+		job.setOutputValueClass(ArrayWritable.class);
+		job.setMapperClass(TestMapper.class);
+	
+		job.setInputFormatClass(TextInputFormat.class);
+		job.setOutputFormatClass(TextOutputFormat.class);
+	
+		FileInputFormat.addInputPath(job, new Path(inputPath));
+		FileOutputFormat.setOutputPath(job, new Path(outputPath));
+	
+		try{
+			System.exit(job.waitForCompletion(true) ? 0 : 1);
 		}
-		analyzer.close();
-		reader.close();
+		catch (ClassNotFoundException e){
+			e.printStackTrace();
+		}
+		catch (InterruptedException e){
+			e.printStackTrace();
+		}
 	}
+	
 }
