@@ -65,16 +65,22 @@ public class NaiveBayes {
 	
 		Configuration conf = new Configuration();
 	
-		conf.setStrings(Classifier.MODEL_PATH_CONF, modelPath);
+		
 	
 		// do not create a new jvm for each task
 		conf.setLong("mapred.job.reuse.jvm.num.tasks", -1);
 		
-		//train model-- doing via command line for now?
+
+		//train model
 		//TrainNaiveBayesJob trainNaiveBayes = new TrainNaiveBayesJob();
 		//trainNaiveBayes.setConf(conf);
 		//trainNaiveBayes.run(new String[] {modelPath, inputPath, tempPath});
+		//NaiveBayesModel naiveBayesModel = NaiveBayesModel.materialize(new Path(outputPath), conf);
 		
+		//Classifier classifier = new Classifier(naiveBayesModel);
+
+		
+		conf.setStrings(Classifier.MODEL_PATH_CONF, modelPath);
 		//test model in distributed fashion
 		Job job;
 		try {
