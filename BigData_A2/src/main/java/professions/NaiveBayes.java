@@ -32,7 +32,6 @@ public class NaiveBayes {
 	public class BayesTestMapper extends Mapper<Text, VectorWritable, Text, VectorWritable> {
 
 		  private final Pattern TAB = Pattern.compile("\t");
-
 		  private Classifier classifier;
 
 		  @Override
@@ -67,7 +66,7 @@ public class NaiveBayes {
 	
 		Configuration conf = new Configuration();
 	
-		conf.setStrings(Classifier.MODEL_PATH_CONF, modelPath);
+		
 	
 		// do not create a new jvm for each task
 		conf.setLong("mapred.job.reuse.jvm.num.tasks", -1);
@@ -76,10 +75,11 @@ public class NaiveBayes {
 		TrainNaiveBayesJob trainNaiveBayes = new TrainNaiveBayesJob();
 		trainNaiveBayes.setConf(conf);
 		trainNaiveBayes.run(new String[] {modelPath, inputPath, tempPath});
-		NaiveBayesModel naiveBayesModel = NaiveBayesModel.materialize(new Path(outputPath), conf);
+		//NaiveBayesModel naiveBayesModel = NaiveBayesModel.materialize(new Path(outputPath), conf);
 		
 		Classifier classifier = new Classifier(naiveBayesModel);
 		
+		conf.setStrings(classifier.MODEL_PATH_CONF, modelPath);
 		//test model in distributed fashion
 		Job job;
 		try {
