@@ -29,10 +29,8 @@ import org.apache.mahout.math.VectorWritable;
 import util.StringIntegerList;
 
 public class NaiveBayes {
-	public class BayesTestMapper extends Mapper<Text, VectorWritable, Text, VectorWritable> {
-
+	public class BayesTestMapper extends Mapper<Text, VectorWritable, Text, ArrayWritable> {
 		  private final Pattern TAB = Pattern.compile("\t");
-
 		  private Classifier classifier;
 
 		  @Override
@@ -49,7 +47,7 @@ public class NaiveBayes {
 
 		  @Override
 		  protected void map(Text key, VectorWritable value, Context context) throws IOException, InterruptedException {
-		    Integer[] result = classifier.classify(value.get());
+		    String[] result = classifier.classify(value.get());
 		    //the key is the expected value
 		    context.write(new Text(TAB.split(key.toString())[0]), new ArrayWritable(result));
 		  }
@@ -57,13 +55,13 @@ public class NaiveBayes {
 
 	public static void main(String[] args) throws Exception{
 		if (args.length < 4) {
-			System.out.println("Arguments: [model] [input file] [output directory] [temporary directory]");
+			System.out.println("Arguments: [model] [input file] [output directory] [label index]");
 			return;
 		}
 		String modelPath = args[0];
 		String inputPath = args[1];
 		String outputPath = args[2];
-		String tempPath = args[3];
+		String labelPath = args[3];
 	
 		Configuration conf = new Configuration();
 	
@@ -72,13 +70,10 @@ public class NaiveBayes {
 		// do not create a new jvm for each task
 		conf.setLong("mapred.job.reuse.jvm.num.tasks", -1);
 		
-		//train model
-		TrainNaiveBayesJob trainNaiveBayes = new TrainNaiveBayesJob();
-		trainNaiveBayes.setConf(conf);
-		trainNaiveBayes.run(new String[] {modelPath, inputPath, tempPath});
-		NaiveBayesModel naiveBayesModel = NaiveBayesModel.materialize(new Path(outputPath), conf);
-		
-		Classifier classifier = new Classifier(naiveBayesModel);
+		//train model-- doing via command line for now?
+		//TrainNaiveBayesJob trainNaiveBayes = new TrainNaiveBayesJob();
+		//trainNaiveBayes.setConf(conf);
+		//trainNaiveBayes.run(new String[] {modelPath, inputPath, tempPath});
 		
 		//test model in distributed fashion
 		Job job;

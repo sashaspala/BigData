@@ -21,20 +21,20 @@ public class Classifier {
 		classifier = new StandardNaiveBayesClassifier(model);
 	}
 	
-	public Integer[] classify(Vector articleVector){
+	public String[] classify(Vector articleVector){
 		
 		// With the classifier, we get one score for each profession
 		// The three professions with the highest scores are what this article should be associated to
 		Vector resultVector = classifier.classifyFull(articleVector);
-		HashMap<Integer, Double> topScores = new HashMap<Integer, Double>();
-		topScores.put(-4, 0.0);
-		topScores.put(-3, 0.0);
-		topScores.put(-2, 0.0);
+		HashMap<String, Double> topScores = new HashMap<String, Double>();
+		topScores.put("error1", 0.0);
+		topScores.put("error2", 0.0);
+		topScores.put("error3", 0.0);
 		double minimum;
 		
 		for(Element element: resultVector.all()) {
 			
-			int categoryId = element.index();
+			String categoryId = Integer.toString(element.index());
 			double score = element.get();
 			
 			if ((minimum = Collections.min(topScores.values())) < score){
@@ -42,7 +42,7 @@ public class Classifier {
 				topScores.values().remove(minimum);
 			}
 		}
-		return topScores.keySet().toArray(new Integer[3]);
+		return topScores.keySet().toArray(new String[3]);
 
 	}	
 		
