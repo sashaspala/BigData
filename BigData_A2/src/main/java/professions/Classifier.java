@@ -17,10 +17,7 @@ public class Classifier {
 	
 	private static StandardNaiveBayesClassifier classifier;
 
-	public Classifier(Configuration configuration) throws IOException {
-		String modelPath = configuration.getStrings(MODEL_PATH_CONF)[0];
-		NaiveBayesModel model = NaiveBayesModel.materialize(new Path(modelPath), configuration);
-		
+	public Classifier(NaiveBayesModel model) throws IOException {
 		classifier = new StandardNaiveBayesClassifier(model);
 	}
 	
