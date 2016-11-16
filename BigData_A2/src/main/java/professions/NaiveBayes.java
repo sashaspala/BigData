@@ -1,56 +1,118 @@
 package professions;
 
+import java.io.File;
 import java.io.IOException;
+import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.Map;
+import java.util.Scanner;
+import java.util.StringTokenizer;
+import java.util.Vector;
+import java.util.jar.JarFile;
 import java.util.regex.Pattern;
 
 import professions.Classifier;
+import mapreduce.ProcessPeople;
+import mapreduce.ProcessPeople.IntSumCombiner;
+import mapreduce.ProcessPeople.IntSumReducer;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.ArrayWritable;
 import org.apache.hadoop.io.IntWritable;
-import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.Mapper;
+import org.apache.hadoop.mapreduce.Reducer;
+import org.apache.hadoop.mapreduce.Reducer.Context;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
-import org.apache.mahout.classifier.naivebayes.AbstractNaiveBayesClassifier;
+import org.apache.mahout.classifier.naivebayes.BayesUtils;
 import org.apache.mahout.classifier.naivebayes.NaiveBayesModel;
-import org.apache.mahout.classifier.naivebayes.StandardNaiveBayesClassifier;
-import org.apache.mahout.classifier.naivebayes.test.TestNaiveBayesDriver;
-import org.apache.mahout.classifier.naivebayes.training.TrainNaiveBayesJob;
 import org.apache.mahout.common.HadoopUtil;
-import org.apache.mahout.math.Vector;
 import org.apache.mahout.math.VectorWritable;
 
-import util.StringIntegerList;
 
 public class NaiveBayes {
-	public class BayesTestMapper extends Mapper<Text, VectorWritable, Text, ArrayWritable> {
+	public class BayesTestMapper extends Mapper<Text, VectorWritable, Text, Text> {
+		final String PROFESSIONS_FILE = "professions.txt";
+		static final String DELIM = ":";
 		  private final Pattern TAB = Pattern.compile("\t");
 		  private Classifier classifier;
-
+		  
+		  private Configuration conf;
+		  private Map<Integer, String> labels;
 		  @Override
 		  protected void setup(Context context) throws IOException, InterruptedException {
 		    
 			  super.setup(context);
-		    Configuration conf = context.getConfiguration();
-		    Path modelPath = HadoopUtil.getSingleCachedFile(conf);
+			 conf = context.getConfiguration();
+		    //Path[] paths = HadoopUtil.getCachedFiles(conf);
+		    //Path modelPath = paths[0];
+		    Path modelPath = new Path(conf.get("modelPath"));
+		    Path labelPath = new Path(conf.get("labelPath"));
 		    
 		    NaiveBayesModel model = NaiveBayesModel.materialize(modelPath, conf);
-		    
+		    labels = BayesUtils.readLabelIndex(conf, labelPath);
 		    classifier = new Classifier(model);
 		  }
 
 		  @Override
 		  protected void map(Text key, VectorWritable value, Context context) throws IOException, InterruptedException {
-		    String[] result = classifier.classify(value.get());
+		    Integer[] result = classifier.classify(value.get());
+		    String finalCategories = "";
+		    for(int i = 0; i < result.length; i++){
+		    	if(labels.containsKey(result[i])){
+		    		//check validity
+		    		if(i == 0){
+		    			finalCategories = finalCategories + ", " + labels.get(result[i]);
+		    		}
+		    		else{
+		    			finalCategories = labels.get(result[i]);
+		    		}
+		    	}
+		    	else{
+		    		if(i == 0){
+		    			finalCategories = "Label not found";
+		    		}
+		    		else{
+		    			finalCategories = finalCategories + ", " + "Label not found";
+		    		}
+		    	}
+		    }
+		   
 		    //the key is the expected value
-		    context.write(new Text(TAB.split(key.toString())[0]), new ArrayWritable(result));
+		    context.write(new Text(TAB.split(key.toString())[0]), new Text(finalCategories));
 		  }
+	}
+	public static class IntSumCombiner extends Reducer<Text, IntWritable, Text, IntWritable> {
+		private IntWritable result = new IntWritable();
+
+		public void reduce(Text key, Iterable<IntWritable> values, Context context)
+				throws IOException, InterruptedException {
+			int sum = 0;
+			for (IntWritable val : values) {
+				sum += val.get();
+			}
+			result.set(sum);
+			context.write(key, result);
+		}
+	}
+
+	public static class IntSumReducer extends Reducer<Text, IntWritable, IntWritable, Text> {
+		private IntWritable result = new IntWritable();
+
+		public void reduce(Text key, Iterable<IntWritable> values, Context context)
+				throws IOException, InterruptedException {
+			int sum = 0;
+			for (IntWritable val : values) {
+				sum += val.get();
+			}
+			result.set(sum);
+			context.write(result, key);
+		}
 	}
 
 	public static void main(String[] args) throws Exception{
@@ -81,6 +143,7 @@ public class NaiveBayes {
 
 		
 		conf.setStrings(Classifier.MODEL_PATH_CONF, modelPath);
+		conf.setStrings(Classifier.LABEL_PATH_CONF, labelPath);
 		//test model in distributed fashion
 		Job job;
 		try {
@@ -88,6 +151,8 @@ public class NaiveBayes {
 			job.setOutputKeyClass(Text.class);
 			job.setOutputValueClass(ArrayWritable.class);
 			job.setMapperClass(BayesTestMapper.class);
+			job.setCombinerClass(IntSumCombiner.class);
+			job.setReducerClass(IntSumReducer.class);
 		
 			job.setInputFormatClass(TextInputFormat.class);
 			job.setOutputFormatClass(TextOutputFormat.class);

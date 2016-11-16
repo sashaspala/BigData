@@ -31,7 +31,7 @@ public class ProfessionIndexMapred {
 	public static class TokenizerMapper extends Mapper<Object, Text, Text, Text> {
 		private final static IntWritable one = new IntWritable(1);
 		final String PROFESSIONS_FILE = "professions.txt";
-		HashMap<String, Vector<String>> nameToProfession;
+		HashMap<String, ArrayList<String>> nameToProfession;
 		static String DELIM = ":";
 
 		public void map(Object key, Text value, Context context) throws IOException, InterruptedException {
@@ -78,7 +78,7 @@ public class ProfessionIndexMapred {
 
 		public void setup(Context context) throws IOException, InterruptedException {
 			ClassLoader cl = ProcessPeople.class.getClassLoader();
-
+			
 			String fileUrl = cl.getResource(PROFESSIONS_FILE).getFile();
 
 			// Get jar path
@@ -89,7 +89,7 @@ public class ProfessionIndexMapred {
 			// Scan the people.txt file inside jar
 			sc = new Scanner(jf.getInputStream(jf.getEntry(PROFESSIONS_FILE)));
 
-			nameToProfession = new HashMap<String, Vector<String>>();
+			nameToProfession = new HashMap<String, ArrayList<String>>();
 
 			// Indexing people's name using their first name
 			while (sc.hasNextLine()) {
@@ -97,15 +97,23 @@ public class ProfessionIndexMapred {
 				StringTokenizer itr = new StringTokenizer(line, DELIM);
 				if (itr.hasMoreTokens()) {
 					String firstname = itr.nextToken();
-					String profession = itr.nextToken();
-					if (!nameToProfession.containsKey(firstname)) {
-						nameToProfession.put(firstname, new Vector<String>());
+					String professions = itr.nextToken();
+					StringTokenizer profItr = new StringTokenizer(professions, ",");
+					ArrayList<String> profArray = new ArrayList<String>();
+					while(profItr.hasMoreTokens()){
+						profArray.add(profItr.nextToken().trim());
 					}
-					if (!nameToProfession.get(firstname).contains(profession))
-						nameToProfession.get(firstname).add(profession);
+					if (!nameToProfession.containsKey(firstname)) {
+						nameToProfession.put(firstname, profArray);
+					}
+					else{
+						ArrayList<String> prevArray = nameToProfession.get(firstname);
+						prevArray.addAll(profArray);
+						nameToProfession.put(firstname, prevArray);
+					}
+						
 				}
 			}
-			
 			sc.close();
 			jf.close();
 
