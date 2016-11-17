@@ -123,6 +123,7 @@ public class ProfessionIndexMapred {
 	public static void main(String[] args) throws Exception {
 
 		Configuration conf = new Configuration();
+		conf.set("mapred.job.queue.name", "hadoop02");
 
 		Job job = Job.getInstance(conf, "process professions");
 		job.setJarByClass(ProcessPeople.class);
