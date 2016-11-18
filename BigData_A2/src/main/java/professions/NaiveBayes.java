@@ -126,7 +126,7 @@ public class NaiveBayes {
 		String labelPath = args[3];
 	
 		Configuration conf = new Configuration();
-	
+		conf.set("mapred.job.queue.name", "hadoop02");
 		
 	
 		// do not create a new jvm for each task
