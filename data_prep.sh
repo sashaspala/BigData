@@ -1,20 +1,17 @@
 #!/bin/bash
 
-inputloc = $1
+# inputloc = $1  <-This was causing problems, so I commented it out for now.
+# I also got rid of the folder system since the output goes to hdfs.
 
-mkdir data
-mkdir data/seqdir
-mkdir data/sparse
-mkdir model
-mkdir model/model
-mkdir model/labelindex
+mahout/bin/mahout seqdirectory -i professions -o seqdir -Dmapred.job.queue.name=hadoop02 #make sure lemma index is the only thing in this directory
+mahout/bin/mahout seq2sparse -i seqdir -o sparse -lnorm -wt tfidf -Dmapred.job.queue.name=hadoop02
 
-./mahout seqdirectory -i $inputloc -o data/seqdir #make sure lemma index is the only thing in this directory
-./mahout seq2sparse -i data/seqdir -o data/sparse -lnorm -wt tfidf
+# Split processed data into training and test sets
+mahout/bin/mahout split -i sparse --trainingOutput train --testOutput test --randomSelectionPct 30 --overwrite --sequenceFiles -xm sequential
 
 #use respective training/testing locs for meghan's classifier bit
 ##training outputs a model based on the training data
 ##testing uses that model to test on the test data
 
-./mahout trainnb -i data/sparse -o model/model -li model/labelindex -ow
+mahout/bin/mahout trainnb -i train -o model -li labelindex -ow -Dmapred.job.queue.name=hadoop02
 #where {Path_to_model} is where we want to store our model for later use
